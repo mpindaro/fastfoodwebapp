@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon"/>
+    <title>Wendy's</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body>
+
+<!-------DROPDOWN MENU --------->
+<ul id="dropdownLogin" class="dropdown-content right">
+    <li><a href="loginClienti.html">Login clienti</a></li>
+    <li><a href="loginRistoratori.html">Login ristoratori</a></li>
+</ul>
+
+<!-------DROPDOWN MENU MOBILE--------->
+<ul id="dropdownLoginMobile" class="dropdown-content right">
+    <li><a href="loginClienti.html">Login clienti</a></li>
+    <li><a href="loginRistoratori.html">Login ristoratori</a></li>
+</ul>
+
+
+<!-----NAVBAR------>
+<nav class="black" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
+        <a href="index.html" class="navbar-brand"><img src="images/icon.ico"></a>
+
+        <ul id="nav" class="right hide-on-med-and-down">
+            <li class="active"><a href="menu.html">Menu</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+            <li class="active"><a href="menu.html">Menu</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+
+<!-- PARALLAX -->
+<div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+        <div class="container">
+
+        </div>
+    </div>
+    <div class="parallax responsive"><img src="images/parallaz.jpeg" ></div>
+</div>
+
+
+
+<!--CONTENUTO-->
+<div class=" flex">
+
+
+    <div class="row">
+        <h3>I nostri ristoranti</h3>
+
+        <div class="col s12">
+            <ul class="collapsible ristorantiCollassanti" id="collapsibleRistoranti">
+
+
+
+            </ul>
+        </div>
+        <br><br><br>
+        <div class="col s12 center-align">
+            <a class="waves-effect waves-light red btn-large" href="menu.html" >Scopri il nostro menu</a>
+        </div>
+
+    </div>
+
+
+</div>
+
+<!-----MODAL----->
+
+<div id="modals">
+
+</div>
+<!--FOOTER-->
+<footer class="page-footer orange lighten-1">
+    <div class="footer-copyright">
+        <div class="container">
+            Progetto di Applicazioni Web e Cloud - Margherita Pindaro 923178
+        </div>
+    </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<script src="js/custom.js"></script>
+
+<script>
+
+
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        checkLogged();
+        $('.parallax').parallax();
+        $('.collapsible').collapsible();
+
+        getRistoranti();
+    })
+
+    function getRistoranti() {
+
+        var xmlhttpRistoranti = new XMLHttpRequest();
+        var urlRistoranti = "https://fastfood-progettowec.herokuapp.com/ristoranti";
+        xmlhttpRistoranti.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                localStorage.setItem('ristoranti', this.responseText);
+                displayRistoranti(JSON.parse(this.responseText));
+            }
+        }
+        xmlhttpRistoranti.open("GET", urlRistoranti, true);
+        xmlhttpRistoranti.send();
+
+    }
+
+    function displayRistoranti(ristoranti) {
+
+        let toPrint="";
+        let toPrintModals="";
+
+        ristoranti=ristoranti.filter(v => v.stato!=0)
+
+
+        ristoranti.forEach(v => toPrint=getStringaCollassabile(v, toPrint, toPrintModals));
+
+        document.getElementById('collapsibleRistoranti').innerHTML=toPrint;
+
+    }
+
+    function getStringaCollassabile(v, s, t) {
+        s+=" <li>\n" +
+            "                    <div class=\"collapsible-header\"><i class=\"material-icons\">place</i>"+v.nome+"</div>\n" +
+            "                    <div class=\"collapsible-body\"><span>"+v.indirizzo+"</span> <br>" +
+            "<a href='tel:"+ v.telefono +"'> " + v.telefono + "</a><br>  <a class=\"waves-effect waves-light  modal-trigger\" href=\"#modal"+v.partitaIva+"\">Recensioni</a>\n" +
+            "</div>\n" +
+            "                </li>";
+        stampaModalRecensioni(t, v)
+        return s;
+    }
+
+    function stampaModalRecensioni(s, v) {
+
+        s+= " <div id=\"modal"+v.partitaIva+"\" class=\"modal\">\n" +
+            "    <div class=\"modal-content\">\n";
+        v.recensioni.forEach( v => s+="<div class=\"row valign-wrapper\"> <div class=\"col s2\">\n" +
+            "                        <h4>"+v.stelle+" <i class=\"material-icons\">star</i></h4>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"col s10\">\n" +
+            "                        <span>\n" + v.testo+
+            "                        </span>\n" +
+            "                    </div> </div>")
+
+        document.getElementById('modals').innerHTML+=s + " </div>\n" +
+            "  </div>";
+
+        $('.modal').modal();
+
+        return
+
+    }
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

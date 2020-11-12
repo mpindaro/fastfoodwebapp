@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon"/>
+    <title>Area Privata</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body>
+
+<!-------DROPDOWN MENU --------->
+<ul id="dropdownLogin" class="dropdown-content right">
+    <li><a href="loginClienti.html">Login clienti</a></li>
+    <li><a href="loginRistoratori.html">Login ristoratori</a></li>
+</ul>
+
+<!-------DROPDOWN MENU MOBILE--------->
+<ul id="dropdownLoginMobile" class="dropdown-content right">
+    <li><a href="loginClienti.html">Login clienti</a></li>
+    <li><a href="loginRistoratori.html">Login ristoratori</a></li>
+</ul>
+
+
+<!-----NAVBAR------>
+<nav class="black" role="navigation">
+    <div class="nav-wrapper container">
+        <a href="index.html" class="navbar-brand"><img src="images/icon.ico"></a>
+
+        <ul id="nav" class="right hide-on-med-and-down">
+            <li class="active"><a href="menu.html">Menu</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+            <li class="active"><a href="menu.html">Menu</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+
+<!--CONTENUTO-->
+<div class="flex">
+        <div class="row">
+
+            <!--------- Side Nav ----------------->
+            <div class="col s3 altissimo" id="navSide">
+            </div>
+            <div class="col s1"></div>
+            <div class="col s7 " id="main">
+                <h3>Statistiche e recensioni</h3>
+                <div class="row">
+                    <div class="col s4">
+
+                        <div class="card">
+                            <div class="card-stacked">
+                                <div class="card-metrics card-metrics-static">
+                                    <div class="card-metric">
+                                        <div class="row">
+                                            <div class="col s12">
+                                                <div class="card-metric-title">Fatturato Lordo</div>
+                                            </div>
+                                            <div class="col s12">
+                                                <div id="fatturatoLordo" class="card-metric-value">11,89 euro</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="card">
+                            <div class="card-stacked">
+                                <div class="card-metrics card-metrics-static">
+                                    <div class="card-metric">
+                                        <div class="row">
+                                            <div class="col s12">
+                                                <div class="card-metric-title">Media Recensioni</div>
+                                            </div>
+                                            <div class="col s12">
+                                                <div id="mediaRecensioni" class="card-metric-value">4,5 <i
+                                                        class="material-icons">star</i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s4">
+
+                        <div class="card">
+                            <div class="card-stacked">
+                                <div class="card-metrics card-metrics-static">
+                                    <div class="card-metric">
+                                        <div class="row">
+                                            <div class="col s12">
+                                                <div class="card-metric-title">Rapporto ordini su ordini totali</div>
+                                            </div>
+                                            <div class="col s12">
+                                                <div id="percentualeOrdini" class="card-metric-value">20%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="recensioni">
+                </div>
+            </div>
+
+            <div class="col s7 nascosto storicoOrdini" id="storicoOrdini">
+                <h3>Storico Ordini</h3>
+                <div class="row" id="storicoOrdiniContent">
+
+                </div>
+            </div>
+
+            <div class="col s7 nascosto" id="modificaDati">
+                <h3>Modifica profilo</h3>
+
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input  id="username" type="text" class="validate">
+                        <label for="username">Username</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input  id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+
+
+                    <div class="input-field col s6">
+                        <input id="telefono" type="text" class="validate">
+                        <label for="telefono">Telefono</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="mail" type="email" class="validate" required>
+                        <label for="mail">Email</label>
+                    </div>
+
+                    <div class="input-field col s6">
+                        <input id="nome" type="text" class="validate" required>
+                        <label for="nome">Nome</label>
+                    </div>
+
+                    <div class="input-field col s6" id="selezioneMenu">
+
+
+
+
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="indirizzo" type="text" class="validate" required>
+                        <label for="indirizzo">Indirizzo</label>
+                    </div>
+                    <div class="col s6 center-align">
+                        <button class="btn waves-effect waves-light" type="submit" onclick="modificaDati()" name="action">Modifica i dati
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col s1"></div>
+
+
+        </div>
+
+
+</div>
+
+<!--FOOTER-->
+<footer class="page-footer orange lighten-1">
+    <div class="footer-copyright">
+        <div class="container">
+            Progetto di Applicazioni Web e Cloud - Margherita Pindaro 923178
+        </div>
+    </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<script src="js/jsvat.js"></script>
+<script src="js/custom.js"></script>
+
+<script>
+
+    let mediaStelle=0;
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        checkLogged();
+
+
+        if (loggedRistorante) {
+            displaySideNav();
+            displayRecensioni();
+            getOrdini();
+            setValuesInputModifica();
+            getRistoranti();
+        } else {
+            document.getElementById('main').innerHTML = "Non sei autorizzato a vedere questa pagina";
+        }
+    })
+
+
+    function displaySideNav() {
+        document.getElementById('navSide').innerHTML = "<ul class=\"menuLaterale altissimo grey lighten-5\">\n" +
+            "                    <li><a class=\"waves-effect\" onclick='selezioneScheda(0)'><i class=\"material-icons\">assessment</i>Statistiche e\n" +
+            "                        Recensioni</a></li>\n" +
+            "                    <li><a class=\"waves-effect\" onclick='selezioneScheda(1)'><i class=\"material-icons\">storage</i>Storico ordini</a></li>\n" +
+            "                    <li>\n" +
+            "                        <div class=\"divider\"></div>\n" +
+            "                    </li>\n" +
+            "                    <li><a class=\"waves-effect\" onclick='selezioneScheda(2)'><i class=\"material-icons\">edit</i>Modifica dati</a></li>\n" +
+            "                    <li><a class=\"waves-effect red-text\" onclick='eliminaUtente()'><i class=\"material-icons\">delete</i>Elimina Profilo</a></li>\n" +
+            "</ul>"
+    }
+
+    function displayRecensioni() {
+
+        let ristorante = JSON.parse(sessionStorage.getItem('ristoranteLoggato'));
+        let recensioni = ristorante.recensioni;
+
+        let toPrint="";
+
+        recensioni.forEach( v => toPrint+=" <div class=\"row valign-wrapper\"> <div class=\"col s2\">\n" +
+            "                        <h4>"+v.stelle+" <i class=\"material-icons\">star</i></h4>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"col s10\">\n" +
+            "                        <span>\n" + v.testo+
+            "                        </span>\n" +
+            "                    </div> </div>")
+
+        document.getElementById('recensioni').innerHTML=toPrint;
+        let somma=0;
+        recensioni.forEach(v => somma +=parseInt(v.stelle));
+
+        mediaStelle=somma/recensioni.length;
+    }
+
+    function displayStatistiche() {
+        let fatturatoLordo=0;
+        let rapportoOrdiniTotale=0;
+        let ristorante = JSON.parse(sessionStorage.getItem('ristoranteLoggato'));
+
+        let ordini;
+        ordini=JSON.parse(localStorage.getItem('ordini'));
+        let ordiniDelRistorante;
+        ordiniDelRistorante=ordini.filter(v => v.ristorante==ristorante.partitaIva);
+
+        rapportoOrdiniTotale = (ordiniDelRistorante.length/ordini.length)*100;
+        ordiniDelRistorante.forEach(v => fatturatoLordo+=v.totale);
+
+        document.getElementById('fatturatoLordo').innerHTML=fatturatoLordo.toFixed(2) + "€";
+        if (!isNaN(mediaStelle))
+            document.getElementById('mediaRecensioni').innerHTML=mediaStelle + "<i class=\"material-icons\">star</i>";
+        else{
+            document.getElementById('mediaRecensioni').innerHTML="Nessuna recensione";
+        }
+        document.getElementById('percentualeOrdini').innerHTML=rapportoOrdiniTotale.toFixed(2) + "%";
+
+    }
+
+    function setValuesInputModifica() {
+
+        let ristorante = JSON.parse(sessionStorage.getItem('ristoranteLoggato'));
+
+        document.getElementById('username').value=ristorante.username;
+        document.getElementById('password').value=ristorante.password;
+        document.getElementById('nome').value=ristorante.nome;
+        document.getElementById('telefono').value=ristorante.telefono;
+        $('#selezioneSelectMenu').val(ristorante.menu);
+        document.getElementById('mail').value=ristorante.mail;
+        document.getElementById('indirizzo').value=ristorante.indirizzo;
+
+        $('label').addClass('active');
+
+    }
+
+    function getOrdini() {
+        var xmlhttpOrdini = new XMLHttpRequest();
+        var urlOrdini = "https://fastfood-progettowec.herokuapp.com/ordini";
+        xmlhttpOrdini.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                localStorage.setItem('ordini', this.responseText);
+                displayStatistiche();
+                getMenu();
+            }
+        }
+        xmlhttpOrdini.open("GET", urlOrdini, true);
+        xmlhttpOrdini.send();
+    }
+
+    function getMenu() {
+        var xmlhttp = new XMLHttpRequest();
+        var url = "https://fastfood-progettowec.herokuapp.com/menu";
+
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                localStorage.setItem('menu', this.responseText)
+                displayOrdini();
+                getSelezioneMenu();
+            }
+        };
+        xmlhttp.open("GET", url, true);
+        xmlhttp.send();
+    }
+
+    function displayOrdini() {
+        let ordini=JSON.parse(localStorage.getItem('ordini'));
+        let ristorante = JSON.parse(sessionStorage.getItem('ristoranteLoggato'));
+        let ordiniDelRistorante;
+        ordiniDelRistorante=ordini.filter(v => v.ristorante==ristorante.partitaIva);
+        let menu=JSON.parse(localStorage.getItem('menu'));
+
+        let toPrint=" <div class='col s12'><table>\n" +
+            "        <thead>\n" +
+            "          <tr>\n" +
+            "              <th>Prodotti</th>\n" +
+            "              <th>Totale</th>\n" +
+            "              <th>Cliente</th>\n" +
+            "              <th>Data</th>\n" +
+            "              <th>Orario</th>\n" +
+            "              <th>Stato</th>\n" +
+            "          </tr>\n" +
+            "        </thead>\n" +
+            "\n" +
+            "        <tbody>"
+
+        ordiniDelRistorante.forEach(v => toPrint+="<tr>\n" +
+            "            <td>"+stringifyPiatto(menu, v.prodotti)+"</td>\n" +
+            "            <td>"+v.totale.toFixed(2)+"€</td>\n" +
+            "            <td>"+v.cliente+"</td>\n" +
+            "            <td>"+v.data+"</td>\n" +
+            "            <td>"+v.ora+"</td>\n" +
+            "            <td>"+stringifyStato(v.stato)+"</td>\n" +
+            "          </tr>")
+
+        toPrint+="</tbody>\n" +
+            "      </table></div>";
+        document.getElementById('storicoOrdiniContent').innerHTML=toPrint;
+
+    }
+
+    function stringifyStato(n) {
+        if (n ==1){
+            return "<p class='red-text'> In preparazione </p>"
+        }else{
+            return "<p class='light-green-text'> Pronto </p>"
+        }
+
+    }
+
+    function stringifyPiatto(menu,prodotti) {
+
+        let toPrint = "";
+
+            for (const prodotto in prodotti) {
+                let id= prodotti[prodotto].id;
+
+                let nome = menu.filter(v => v.ID == id)[0].nome
+                toPrint+=nome + " x " + prodotti[prodotto].qta +" | " ;
+            }
+
+        return toPrint;
+
+    }
+
+    function selezioneScheda(n) {
+        if (n==0){
+            document.getElementById('main').classList.remove("nascosto");
+            document.getElementById('storicoOrdini').classList.add("nascosto");
+            document.getElementById('modificaDati').classList.add("nascosto");
+
+
+        }else if (n==1){
+            document.getElementById('storicoOrdini').classList.remove("nascosto");
+            document.getElementById('main').classList.add("nascosto");
+            document.getElementById('modificaDati').classList.add("nascosto");
+
+
+
+        }else if (n==2){
+            document.getElementById('modificaDati').classList.remove("nascosto");
+            document.getElementById('storicoOrdini').classList.add("nascosto");
+            document.getElementById('main').classList.add("nascosto");
+
+
+        }
+    }
+
+    function checkLogged() {
+        loggedCliente = sessionStorage.getItem('clienteLoggato') != null
+        if (loggedCliente) {
+            document.getElementById('nav').innerHTML += "<li><a href=\"areaPrivataClienti.html\">Area Privata</a></li>"
+            document.getElementById('nav-mobile').innerHTML += "<li><a href=\"areaPrivataClienti.html\">Area Privata</a></li>"
+            document.getElementById('nav').innerHTML += "<li><a onclick='logOut()' >Log out</a></li>"
+            document.getElementById('nav-mobile').innerHTML += "<li><a onclick='logOut()' >Log out</a></li>";
+        } else {
+            loggedRistorante = sessionStorage.getItem('ristoranteLoggato') != null
+            if (loggedRistorante) {
+                document.getElementById('nav').innerHTML += "<li><a href=\"areaPrivataRistoratori.html\">Area Privata</a></li>"
+                document.getElementById('nav-mobile').innerHTML += "<li><a href=\"areaPrivataRistoratori.html\">Area Privata</a></li>"
+                document.getElementById('nav').innerHTML += "<li><a onclick='logOut()' >Log out</a></li>"
+                document.getElementById('nav-mobile').innerHTML += "<li><a onclick='logOut()' >Log out</a></li>";
+            } else {
+                document.getElementById('nav').innerHTML += "<li><a class=\"dropdown-trigger\" href=\"#!\" data-target=\"dropdownLogin\">Login<i class=\"material-icons right\">arrow_drop_down</i></a></li>"
+                document.getElementById('nav-mobile').innerHTML += "<li><a class=\"dropdown-trigger\" href=\"#!\" data-target=\"dropdownLoginMobile\">Login<i class=\"material-icons \">arrow_drop_down</i></a></li>"
+                $(".dropdown-trigger").dropdown();
+            }
+        }
+    }
+
+    function getSelezioneMenu() {
+        menu=JSON.parse(localStorage.getItem('menu'));
+        let stringaSelect="<select id='selezioneSelectMenu' multiple><option value=\"\" disabled>Seleziona gli item</option>"
+        menu.forEach(v => stringaSelect+="<option value='"+v.ID+"' selected>"+v.nome+"</option>");
+        stringaSelect+="</select>\n" +
+            "    <label>Menù offerto</label>"
+        document.getElementById('selezioneMenu').innerHTML=stringaSelect;
+        $('select').formSelect();
+
+    }
+
+    function getRistoranti() {
+
+        var xmlhttpRistoranti = new XMLHttpRequest();
+        var urlRistoranti = "https://fastfood-progettowec.herokuapp.com/ristoranti";
+        xmlhttpRistoranti.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                localStorage.setItem('ristoranti', this.responseText);
+            }
+        }
+        xmlhttpRistoranti.open("GET", urlRistoranti, true);
+        xmlhttpRistoranti.send();
+
+    }
+
+
+    function modificaDati() {
+
+        let username = document.getElementById('username').value;
+        let password = document.getElementById('password').value;
+        let nome = document.getElementById('nome').value;
+        let telefono = document.getElementById('telefono').value;
+        let menuOfferto = $('#selezioneSelectMenu').val();
+        let mail = document.getElementById('mail').value;
+        let indirizzo = document.getElementById('indirizzo').value;
+
+        let ristorante = JSON.parse(sessionStorage.getItem('ristoranteLoggato'));
+
+        menuOfferto=menuOfferto.map(v=> parseInt(v));
+
+
+        //-----controlli
+
+        if (username=="" || password=="" || nome =="" || telefono=="" ||  mail=="" || indirizzo == ""){
+            M.toast({html: 'Inserisci tutti i campi'});
+            return;
+        }
+
+        if (!validateEmail(mail)){
+            M.toast({html: 'Inserisci una mail valida'});
+            return;
+        }
+
+        if (!checkPhonenumber(telefono)){
+            M.toast({html: 'Inserisci un numero di telefono valido'});
+            return;
+        }
+
+
+        let ristoranteToSend = {
+            username: username,
+            password: password,
+            nome: nome,
+            telefono: telefono,
+            partitaIva: ristorante.partitaIva,
+            recensioni:ristorante.recensioni,
+            mail:mail,
+            indirizzo: indirizzo,
+            menu:menuOfferto,
+            stato:1
+        }
+
+
+        //-------invio dati--------
+        var http = new XMLHttpRequest();
+        var url = 'https://fastfood-progettowec.herokuapp.com/modificaristorante';
+        var params = "ristorante=" + JSON.stringify(ristoranteToSend);
+        http.open('POST', url, true);
+
+        http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+        http.onreadystatechange = function() {
+            if(http.readyState == 4 && http.status == 200) {
+
+                sessionStorage.setItem('ristoranteLoggato',JSON.stringify(ristoranteToSend))
+                M.toast({html: 'Dati aggiornati'});
+                let ristoranti=JSON.parse(localStorage.getItem('ristoranti'));
+                ristoranti=ristoranti.filter(v => ristoranteToSend.partitaIva != v.partitaIva);
+                ristoranti.push(ristoranteToSend)
+                localStorage.setItem('ristoranti', JSON.stringify(ristoranti));
+            }
+        }
+        http.send(params);
+
+    }
+
+    function checkPhonenumber(inputtxt){
+        inputtxt=inputtxt.replace(/ /g, '');
+        let phoneno = /^\d{11}$/;
+        let cellphone = /^\d{10}$/;
+        if(inputtxt.match(phoneno) || inputtxt.match(cellphone))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    function validateEmail(email){
+        var re = /\S+@\S+\.\S+/;
+        return re.test(email);
+    }
+
+    function eliminaUtente() {
+
+        let isUtenteSure = confirm("Vuoi davvero eliminare il tuo account?");
+
+        if (isUtenteSure) {
+            //-------invio dati--------
+            var http = new XMLHttpRequest();
+            var url = 'https://fastfood-progettowec.herokuapp.com/modificaristorante';
+
+            let ristorante = JSON.parse(sessionStorage.getItem('ristoranteLoggato'));
+            let ristoranteToSend = {
+                username: ristorante.username,
+                password: ristorante.password,
+                nome: ristorante.nome,
+                telefono: ristorante.nome,
+                partitaIva: ristorante.partitaIva,
+                recensioni:ristorante.recensioni,
+                mail:ristorante.mail,
+                indirizzo: ristorante.indirizzo,
+                menu:ristorante.menu,
+                stato:0
+            }
+
+            var params = "ristorante=" + JSON.stringify(ristoranteToSend);
+            http.open('POST', url, true);
+
+            http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+            http.onreadystatechange = function () {
+                if (http.readyState == 4 && http.status == 200) {
+
+                    let ristorante = JSON.parse(sessionStorage.getItem('ristoranteLoggato'));
+                    let ristoranti = JSON.parse(localStorage.getItem('ristoranti'));
+                    ristoranti=ristoranti.filter(v => v.partitaIva != ristorante.partitaIva)
+                    localStorage.setItem('ristoranti', JSON.stringify(ristoranti));
+
+                    logOut()
+
+                }
+            }
+            http.send(params);
+
+        } else {
+            return;
+        }
+
+    }
+
+
+</script>
+
+</body>
+</html>

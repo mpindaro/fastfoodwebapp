@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <meta charset="UTF-8">
+    <title>Check Out</title>
+    <link rel="icon" href="images/icon.ico" type="image/x-icon"/>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body>
+
+<!-------DROPDOWN MENU --------->
+<ul id="dropdownLogin" class="dropdown-content right">
+    <li><a href="loginClienti.html">Login clienti</a></li>
+    <li><a href="loginRistoratori.html">Login ristoratori</a></li>
+</ul>
+
+<!-------DROPDOWN MENU MOBILE--------->
+<ul id="dropdownLoginMobile" class="dropdown-content right">
+    <li><a href="loginClienti.html">Login clienti</a></li>
+    <li><a href="loginRistoratori.html">Login ristoratori</a></li>
+</ul>
+
+
+<!-----NAVBAR------>
+<nav class="black" role="navigation">
+    <div class="nav-wrapper container">        <a href="index.html" class="navbar-brand"><img src="images/icon.ico"></a>
+
+        <ul id="nav" class="right hide-on-med-and-down">
+            <li class="active"><a href="menu.html">Menu</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+            <li class="active"><a href="menu.html">Menu</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+
+<!--CONTENUTO-->
+<div class="container flex">
+    <div class="section">
+        <h3>Check Out</h3>
+
+        <div id="displayCarrelo">
+
+
+        </div>
+
+    </div>
+    <div class="divider"></div>
+    <div class="section">
+        <div id="dettagliOrdine">
+
+            <div class="row">
+                <div class="col12 right" id="totaleDiv">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s6" id="modPagamento">
+
+                </div>
+                <div class="col s3" id="dataScadenzaCartaDiv">
+
+                </div>
+                <div class="col s3" id="numeroSicurezzaCartaDiv">
+
+                </div>
+            </div>
+
+            <div class="row" id="tempi">
+
+
+            </div>
+
+            <div class="col s12 center-align" id="divBottone">
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!--FOOTER-->
+<footer class="page-footer orange lighten-1">
+    <div class="footer-copyright">
+        <div class="container">
+            Progetto di Applicazioni Web e Cloud - Margherita Pindaro 923178
+        </div>
+    </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<script src="js/custom.js"></script>
+<script>
+
+    let ordinePiazzabile = true;
+    let ordini = {};
+    let tempoPreparazione = 0;
+    let totale;
+    let carrello;
+
+    document.addEventListener('DOMContentLoaded', function () {
+        checkLogged();
+        if (loggedCliente) {
+            getOrdini();
+        }else{
+            document.getElementById('displayCarrelo').innerHTML="Se vuoi fare un ordine devi loggarti come cliente"
+        }
+    });
+
+    function getOrdini() {
+        var xmlhttpOrdini = new XMLHttpRequest();
+        var urlOrdini = "https://fastfood-progettowec.herokuapp.com/ordini";
+        xmlhttpOrdini.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                localStorage.setItem('ordini', this.responseText);
+                getRistoranti();
+            }
+        }
+        xmlhttpOrdini.open("GET", urlOrdini, true);
+        xmlhttpOrdini.send();
+    }
+
+    function getRistoranti() {
+
+        var xmlhttpRistoranti = new XMLHttpRequest();
+        var urlRistoranti = "https://fastfood-progettowec.herokuapp.com/ristoranti";
+        xmlhttpRistoranti.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                localStorage.setItem('ristoranti', this.responseText);
+               carrelloVuoto();
+
+            }
+        }
+        xmlhttpRistoranti.open("GET", urlRistoranti, true);
+        xmlhttpRistoranti.send();
+    }
+
+    function getRistorante(iva) {
+        let ristoranti = JSON.parse(localStorage.getItem('ristoranti'))
+        return ristoranti.filter(v => v.partitaIva == iva)[0]
+    }
+
+    function displayCarrello() {
+        carrello = JSON.parse(localStorage.getItem('carrello'))
+
+        if (carrello==undefined || carrello == null || carrello == ""){
+            document.getElementById('displayCarrelo').innerHTML=("Carrello vuoto :(");
+            ordinePiazzabile=false;
+        }else {
+
+            let toPrint = ""
+
+            carrello.forEach(v => toPrint += "<div class=\"row valign-wrapper\">\n" +
+                "                <div class=\"col s1\" >\n" +
+                "                    <img class=\"responsive-img circle z-depth-1\" src=\"images/" + v.ID + ".jpg\">\n" +
+                "                </div>\n" +
+                "                <div class=\"col s2\">\n" +
+                "                    <b>" + v.nome + "</b>\n" +
+                "                </div>\n" +
+                "\n" +
+                "                <div class=\" input-field col s4\">\n" +
+                "                    <div class=\"input-field col s6\">\n" +
+                "                        <input id=\"" + v.ID + v.ristorante + "\" type=\"number\" value=\"" + v.qta + "\" class=\" quantita validate\">\n" +
+                "                        <label class='active' for=\"qta\">Quantità</label>\n" +
+                "                    </div>\n" +
+                "                </div>\n" +
+                "                <div class=\"col s4\">\n" +
+                "                    " + getRistorante(v.ristorante).nome + "\n" +
+                "                </div>\n" +
+                "                <div class=\"col s1\">\n" +
+                "                    <b>" + v.prezzo + "€ x " + v.qta + "</b>\n" +
+                "                </div>\n" +
+                "\n" +
+                "            </div>");
+
+            document.getElementById('displayCarrelo').innerHTML = toPrint;
+            document.getElementById('divBottone').innerHTML="<a class=\"waves-effect waves-light btn\" onclick=\"inviaOrdine()\">Conferma l'acquisto</a>\n"
+            $('.quantita').change(function () {
+
+                modificaQuantità(this.getAttribute('id'), this);
+
+            });
+        }
+
+    }
+
+    function carrelloVuoto() {
+        if (localStorage.getItem('carrello')!=undefined) {
+            if (JSON.parse(localStorage.getItem('carrello')).length!=0) {
+                dettagliOrdine();
+                displayCarrello();
+            }else{
+                document.getElementById('displayCarrelo').innerHTML="Carrello vuoto!"
+                document.getElementById('dettagliOrdine').innerHTML=""
+            }
+        }else{
+            document.getElementById('displayCarrelo').innerHTML="Carrello vuoto!"
+            document.getElementById('dettagliOrdine').innerHTML=""
+        }
+    }
+
+    function modificaCarrello(carrello, piatto, nuovaQta) {
+        carrello = carrello.filter(v => v != piatto);
+        piatto.qta = nuovaQta;
+        carrello.push(piatto);
+        return carrello;
+    }
+
+    function modificaQuantità(idA, textInput) {
+
+        let idpiatto=idA.slice(0, 5);
+        let iva=idA.slice(5, idA.length);
+
+        let carrello = JSON.parse(localStorage.getItem('carrello'));
+        let piatto;
+        piatto = carrello.filter(v => v.ID==idpiatto && v.ristorante==iva)[0]
+
+        if (textInput.value=="" ||textInput.value<=0){
+            let sure=confirm("Vuoi davvero togliere l'item dal carrello?");
+            if (!sure){
+                textInput.value=piatto.qta;
+                return;
+            }else{
+                carrello=carrello.filter(v => v!=piatto);
+                localStorage.setItem('carrello', JSON.stringify(carrello))
+                if (carrello.length!=0) {
+                    dettagliOrdine();
+                }else{
+                    document.getElementById('dettagliOrdine').innerHTML="";
+                }
+                displayCarrello();
+                return;
+            }
+        }
+
+        let nuovaQta = textInput.value;
+
+        localStorage.setItem('carrello', JSON.stringify(modificaCarrello(carrello, piatto, nuovaQta)));
+        displayCarrello();
+            dettagliOrdine();
+
+
+
+    }
+
+    function parsePrezzoPiatto(v) {
+
+        return nuovoOggetto = {
+            ID: v.ID,
+            calorie: v.calorie,
+            categoria: v.categoria,
+            descrizione: v.descrizione,
+            ingredienti: v.ingredienti,
+            nome: v.nome,
+            prezzo: parseFloat(v.prezzo),
+            qta: v.qta,
+            ristorante: v.ristorante,
+            tempoPreparazione: v.tempoPreparazione
+        }
+
+    }
+
+    function calcolaTotale() {
+        let totCosto = 0;
+
+        carrello.forEach(v => totCosto += v.qta * v.prezzo)
+
+
+        document.getElementById('totaleDiv').innerHTML = "Totale: <b>" + totCosto.toFixed(2) + "</b>€"
+
+       return totCosto
+    }
+
+    function dettagliOrdine() {
+        carrello = JSON.parse(localStorage.getItem('carrello'))
+
+        if (carrello!=undefined) {
+
+            if (carrello.length!=0) {
+
+
+                carrello = carrello.map(v => parsePrezzoPiatto(v))
+
+                //-------------------COSTO TOTALE-----------------
+                 totale=calcolaTotale(carrello);
+
+
+                let cliente = JSON.parse(sessionStorage.getItem('clienteLoggato'))
+                let stringaPagamento = "Modalità pagamento: " + cliente.tipoPagamento + "<br>";
+                document.getElementById('modPagamento').innerHTML = stringaPagamento;
+
+
+                if (cliente.tipoPagamento == "Carta di credito") {
+
+                    document.getElementById('modPagamento').innerHTML += " <b>" + cliente.dettagliPagamento + "</b>"
+
+                    let temp = "<input placeholder=\"MM/YY\" id=\"dataScadenzaCarta\" type=\"text\" class=\"datepicker\">\n" +
+                        "                    <label for=\"dataScadenzaCarta\" maxlength=\"5\">Data Scadenza Carta</label>"
+
+                    document.getElementById('dataScadenzaCartaDiv').innerHTML = temp;
+                    temp = "<input  id=\"numeroSicurezzaCarta\" type=\"text\" maxlength=\"3\" class=\"validate\">\n" +
+                        "                    <label for=\"numeroSicurezzaCarta\" >Numero Sicurezza Carta</label>"
+                    document.getElementById('numeroSicurezzaCartaDiv').innerHTML = temp;
+
+                    $('.datepicker').datepicker({
+                        minDate: new Date(),
+                        format: 'mm/yy',
+                    });
+
+                } else if (cliente.tipoPagamento == "Paypal") {
+                    document.getElementById('modPagamento').innerHTML += " <b>" + cliente.dettagliPagamento + "</b>"
+                }
+
+                let ristorantiScelti = new Set()
+
+                carrello.forEach(v => ristorantiScelti.add(v.ristorante));
+                ordini = {};
+
+
+                for (let ristorante of ristorantiScelti) {
+                    let ordineSingoloRistorante;
+                    ordineSingoloRistorante = carrello.filter(v => v.ristorante == ristorante);
+                    ordini[ristorante] = ordineSingoloRistorante;
+                }
+
+
+                let stringTemp = "";
+
+                for (const ordine in ordini) {
+                    let massimo = 0;
+                    let ristorantee = "";
+                    let maxqta = 0;
+
+                    for (const item in ordini[ordine]) {
+                        if (ordini[ordine][item].tempoPreparazione > massimo) {
+                            massimo = ordini[ordine][item].tempoPreparazione
+                            maxqta = ordini[ordine][item].qta
+                        }
+                        ristorantee = ordini[ordine][item].ristorante;
+                    }
+
+                    tempoPreparazione = massimo * maxqta;
+
+                    let attese = {}
+
+                    for (const ristorante of ristorantiScelti) {
+                        let ordiniSingoloRistoranteFatti = JSON.parse(localStorage.getItem('ordini')).filter(v => v.ristorante == ristorante);
+                        let somma = 0;
+
+                        for (const ordine in ordiniSingoloRistoranteFatti) {
+                            if (ordiniSingoloRistoranteFatti[ordine].stato == 1)
+                                somma += ordiniSingoloRistoranteFatti[ordine].tempoPreparazione
+                        }
+
+                        attese[ristorante] = somma;
+                    }
+
+                    stringTemp += "<div class=\"col s12\" id=\"tempoAttesa" + ristorantee + "\">" + "Per " + getRistorante(ristorantee).nome + ", all'indirizzo " + getRistorante(ristorantee).indirizzo + ", c'è un tempo di attesa di <b>" + attese[ristorantee] + " minuti</b>  e il tempo di preparazione dell'ordine sarà di <b>" + tempoPreparazione + "</b> minuti </div> ";
+                }
+
+                document.getElementById('tempi').innerHTML = stringTemp;
+            }
+        }
+
+    }
+
+    function inviaOrdine() {
+
+        let numeroCarta;
+        let dataScadenza;
+
+
+        if (JSON.parse(sessionStorage.getItem('clienteLoggato')).tipoPagamento=="Carta di credito") {
+            numeroCarta = document.getElementById('numeroSicurezzaCarta').value;
+            dataScadenza = document.getElementById('dataScadenzaCarta').value;
+
+            if (!isCardValid(numeroCarta, dataScadenza)) {
+                M.toast({html: 'Dati incompleti o sbagliati'})
+                return
+            }
+        }
+
+
+        var today = new Date();
+        var dd = String(today.getDate());
+        var mm = String(today.getMonth() + 1);
+        var yyyy = today.getFullYear();
+
+        for (const ordine in ordini) {
+
+            let prodotti = getProdottiInOrdine(ordini[ordine])
+
+            let veroTotale =getTotale(ordini[ordine]);
+
+            let toSend = {
+                prodotti: prodotti,
+                ristorante: ordini[ordine][0].ristorante,
+                cliente: JSON.parse(sessionStorage.getItem('clienteLoggato')).mail,
+                tempoPreparazione: tempoPreparazione,
+                data: dd + '/' + mm + '/' + yyyy,
+                ora: today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(),
+                stato: 1,
+                totale: veroTotale
+            }
+
+
+            var http = new XMLHttpRequest();
+            var url = 'https://fastfood-progettowec.herokuapp.com/nuovoordine';
+            var params = "ordine=" + JSON.stringify(toSend);
+            http.open('POST', url, true);
+
+            http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+            http.onreadystatechange = function () {
+                if (http.readyState == 4 && http.status == 200) {
+
+
+                    M.toast({html: 'Ordine effettuato, grazie :)'});
+
+                }
+            }
+            http.send(params);
+
+            aggiungereAElementoInLocalStorage(toSend, 'ordini');
+
+
+        }
+
+        svuotaCarrello();
+
+
+
+    }
+
+
+    function svuotaCarrello() {
+        localStorage.removeItem('carrello')
+    }
+
+    function isCardValid(numeroCarta, dataScadenza) {
+
+        if (numeroCarta == "" || dataScadenza == "") {
+            return false
+        }
+
+        if (isNaN(numeroCarta)) {
+            return false
+        }
+
+        if (numeroCarta < 3) {
+            return false
+        }
+
+        return true
+
+    }
+
+
+    function getTotale(ordinee) {
+
+
+        let tot=0;
+        ordinee.forEach(v=> tot += parseFloat(v.prezzo)*v.qta);
+
+        return tot;
+
+    }
+
+    function getProdottiInOrdine(ordine) {
+        let ids = [];
+
+        ordine.forEach(v => ids.push({id: v.ID, qta: v.qta}))
+
+        return ids;
+
+    }
+
+
+</script>
+
+</body>
+</html>

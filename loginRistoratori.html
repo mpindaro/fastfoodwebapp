@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <link rel="icon" href="images/icon.ico" type="image/x-icon"/>
+    <title>Accesso area riservata</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body>
+
+<!-------DROPDOWN MENU --------->
+<ul id="dropdownLogin" class="dropdown-content right">
+    <li><a href="loginClienti.html">Login clienti</a></li>
+    <li><a href="loginRistoratori.html">Login ristoratori</a></li>
+</ul>
+
+<!-------DROPDOWN MENU MOBILE--------->
+<ul id="dropdownLoginMobile" class="dropdown-content right">
+    <li><a href="loginClienti.html">Login clienti</a></li>
+    <li><a href="loginRistoratori.html">Login ristoratori</a></li>
+</ul>
+
+
+<nav class="black" role="navigation">
+    <div class="nav-wrapper container">        <a href="index.html" class="navbar-brand"><img src="images/icon.ico"></a>
+
+        <ul id="nav" class="right hide-on-med-and-down">
+            <li class="active"><a href="menu.html">Menu</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+            <li class="active"><a href="menu.html">Menu</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+
+
+
+<div class="container" id="boop">
+    <div class="section">
+        <div class="row">
+            <div class="switch col s12 center">
+                <label>
+                    Login
+                    <input id="op" type="checkbox">
+                    <span class="lever"></span>
+                    Registrazione
+                </label>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section flex" id="login">
+            <div class="row">
+
+                <div class="input-field col s4">
+                    <input id="usernameLogin" type="text" class="validate" required>
+                    <label for="usernameLogin">Username</label>
+                </div>
+
+                <div class="input-field col s4">
+                    <input id="passwordLogin" type="password" class="validate" required>
+                    <label for="passwordLogin">Password</label>
+                </div>
+
+                <div class="input-field col s4">
+                    <button class="btn waves-effect waves-light" onclick="login()"  name="action">Login
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+
+
+            </div>
+    </div>
+
+    <div class="section flex" id="registrazione" style="display:none">
+            <div class="row">
+
+                <div class="input-field col s6">
+                    <input id="usernameSignIn" type="text" class="validate" required>
+                    <label for="usernameSignIn">Username</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <input id="passwordSignIn" type="password" class="validate" required>
+                    <label for="passwordSignIn">Password</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <input id="nome" type="text" class="validate" required>
+                    <label for="nome">Nome Ristorante</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <input id="telefono" type="text" class="validate" required>
+                    <label for="telefono">Telefono</label>
+                </div>
+
+
+                <div class="input-field col s6">
+                    <input id="pIVA" type="text" class="validate" required>
+                    <label for="pIVA">Partita IVA</label>
+                </div>
+
+                <div class="input-field col s6" id="selezioneMenu">
+
+                </div>
+
+                <div class="input-field col s6">
+                    <input id="indirizzo" type="text" class="validate" required>
+                    <label for="indirizzo">Indirizzo</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="mail" type="email" class="validate" required>
+                    <label for="mail">Email</label>
+                </div>
+
+            <br>
+            <br>
+            <br>
+                <div class="col s12 center-align">
+                    <button class="btn waves-effect waves-light" type="submit" onclick="registrazione()" name="action">Registrati
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </div>
+
+    </div>
+
+
+
+
+</div>
+<!--FOOTER-->
+<footer class="page-footer orange lighten-1">
+    <div class="footer-copyright">
+        <div class="container">
+            Progetto di Applicazioni Web e Cloud - Margherita Pindaro 923178
+        </div>
+    </div>
+</footer>
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<script src="js/jsvat.js"></script>
+<script src="js/custom.js"></script>
+
+<script>
+
+    let operazione;
+
+
+    $(document).ready(function () {
+        $('.modal').modal();
+
+        checkLogged()
+
+
+        if(loggedCliente || loggedRistorante){
+            document.getElementById('boop').innerHTML="<br> <br> <br>Ti sei già loggato, perche non vai nell'area privata?";
+            document.getElementById('boop').classList.add("flex");
+        }else {
+
+            getRistoranti();
+
+            $("#op").change(function () {
+                if ($(this).is(":checked")) {
+                    operazione = "registrazione"
+                    document.getElementById("registrazione").style.display = 'block';
+                    document.getElementById("login").style.display = 'none';
+
+
+                } else {
+
+                    operazione = "login"
+                    document.getElementById("registrazione").style.display = 'none';
+                    document.getElementById("login").style.display = 'block';
+
+                }
+            })
+
+
+        }
+    });
+
+    function getRistoranti() {
+
+        var xmlhttpRistoranti = new XMLHttpRequest();
+        var urlRistoranti = "https://fastfood-progettowec.herokuapp.com/ristoranti";
+        xmlhttpRistoranti.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                localStorage.setItem('ristoranti', this.responseText);
+                getMenu();
+            }
+        }
+        xmlhttpRistoranti.open("GET", urlRistoranti, true);
+        xmlhttpRistoranti.send();
+
+    }
+
+    function getMenu() {
+        var xmlhttp = new XMLHttpRequest();
+        var url = "https://fastfood-progettowec.herokuapp.com/menu";
+
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                localStorage.setItem('menu', this.responseText)
+                getSelezioneMenu();
+            }
+        };
+        xmlhttp.open("GET", url, true);
+        xmlhttp.send();
+    }
+
+    function getSelezioneMenu() {
+        menu=JSON.parse(localStorage.getItem('menu'));
+        let stringaSelect="<select id='selezioneSelectMenu' multiple><option value=\"\" disabled>Seleziona gli item</option>"
+        menu.forEach(v => stringaSelect+="<option value='"+v.ID+"' selected>"+v.nome+"</option>");
+        stringaSelect+="</select>\n" +
+            "    <label>Menù offerto</label>"
+        document.getElementById('selezioneMenu').innerHTML=stringaSelect;
+        $('select').formSelect();
+
+    }
+
+    function validateEmail(email){
+        var re = /\S+@\S+\.\S+/;
+        return re.test(email);
+    }
+
+    function registrazione() {
+        let username = document.getElementById('usernameSignIn').value;
+        let password = document.getElementById('passwordSignIn').value;
+        let nome = document.getElementById('nome').value;
+        let telefono = document.getElementById('telefono').value;
+        let partitaIVA= document.getElementById('pIVA').value;
+        let menuOfferto = $('#selezioneSelectMenu').val();
+        let indirizzo = document.getElementById('indirizzo').value;
+        let mail = document.getElementById('mail').value;
+
+
+
+        //-----controlli
+
+
+        if (username=="" || password=="" || nome =="" || telefono=="" || partitaIVA=="" || mail=="" || indirizzo == ""){
+            M.toast({html: 'Inserisci tutti i campi'});
+            return;
+        }
+
+        if (!validateEmail(mail)){
+            M.toast({html: 'Inserisci una mail valida'});
+            return;
+        }
+
+        if (!checkPhonenumber(telefono)){
+            M.toast({html: 'Inserisci un numero di telefono valido'});
+            return;
+        }
+
+
+        if (!checkVATNumber(partitaIVA)){
+            M.toast({html: 'Inserisci una partita IVA valida'});
+            return;
+        }
+
+        ristoranti = JSON.parse(localStorage.getItem('ristoranti'));
+        let checkEsistente=ristoranti.filter(v => v.partitaIva == partitaIVA);
+        if (checkEsistente.length!=0){
+            M.toast({html: 'Esiste già un ristorante registrato con quella partita IVA'});
+            return;
+        }
+
+
+        menuOfferto=menuOfferto.map(v=> parseInt(v));
+
+
+
+        //-----fine controlli
+
+
+        let ristorante = {
+            username: username,
+            password: password,
+            nome: nome,
+            mail: mail,
+            indirizzo: indirizzo,
+            telefono: telefono,
+            partitaIva: partitaIVA,
+            recensioni:[],
+            menu:menuOfferto,
+            stato: 1
+        }
+
+
+        //-------invio dati--------
+        var http = new XMLHttpRequest();
+        var url = 'https://fastfood-progettowec.herokuapp.com/nuovoristorante';
+        var params = "ristorante=" + JSON.stringify(ristorante);
+        http.open('POST', url, true);
+
+        http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+        http.onreadystatechange = function() {
+            if(http.readyState == 4 && http.status == 200) {
+
+                sessionStorage.setItem('ristoranteLoggato',JSON.stringify(ristorante))
+                aggiungereAElementoInLocalStorage(ristorante,'ristoranti')
+                window.location.href = 'areaPrivataRistoratori.html';
+
+            }
+        }
+        http.send(params);
+
+    }
+
+    function checkPhonenumber(inputtxt) {
+        inputtxt=inputtxt.replace(/ /g, '');
+        let phoneno = /^\d{11}$/;
+        let cellphone = /^\d{10}$/;
+        if(inputtxt.match(phoneno) || inputtxt.match(cellphone))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    function login() {
+        let username = document.getElementById('usernameLogin').value;
+        let password = document.getElementById('passwordLogin').value;
+
+        if (username=="" || password==""){
+            M.toast({html: 'Inserisci tutti i campi'})
+            return
+        }
+
+        let ristoranti = JSON.parse(localStorage.getItem('ristoranti'));
+
+        let checkEsistente=ristoranti.filter(v => v.username == username && v.stato==1);
+        if (checkEsistente.length==0){
+            M.toast({html: 'Utente inesistente! Forse volevi registrarti?'})
+        } else {
+            let ristorante=ristoranti.filter(v=>v.username==username && v.password==password)[0]
+            if (ristorante == null){
+                M.toast({html: 'Password Errata'})
+            }else{
+                sessionStorage.setItem('ristoranteLoggato',JSON.stringify(ristorante))
+                window.location.href = 'areaPrivataRistoratori.html';
+
+
+            }
+        }
+
+
+    }
+
+</script>
+</body>
+</html>

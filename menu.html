@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="images/icon.ico" type="image/x-icon"/>
+    <title>Menù</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/custom.css" media="screen,projection"/>
+    <meta charset="utf-8"/>
+
+</head>
+<body>
+
+<!-------DROPDOWN MENU --------->
+<ul id="dropdownLogin" class="dropdown-content right">
+    <li><a href="loginClienti.html">Login clienti</a></li>
+    <li><a href="loginRistoratori.html">Login ristoratori</a></li>
+</ul>
+
+<!-------DROPDOWN MENU MOBILE--------->
+<ul id="dropdownLoginMobile" class="dropdown-content right">
+    <li><a href="loginClienti.html">Login clienti</a></li>
+    <li><a href="loginRistoratori.html">Login ristoratori</a></li>
+</ul>
+
+
+<!--NavBar-->
+<nav class="black" role="navigation">
+    <div class="nav-wrapper container">        <a href="index.html" class="navbar-brand"><img src="images/icon.ico"></a>
+
+        <ul id="nav" class="right hide-on-med-and-down">
+            <li class="active"><a href="menu.html">Menu</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+            <li class="active"><a href="menu.html">Menu</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+
+
+<!--CONTENUTO-->
+<div class="container">
+    <div class="section">
+
+        <!-----FILTRI------->
+        <div class="row">
+
+
+            <!-----prezzo------->
+            <div class="col s2">
+                <div class="input-field ">
+                    <input placeholder="0.00" id="prezzoMin" type="text" class="validate">
+                    <label for="prezzoMin">Prezzo minimo</label>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="input-field ">
+                    <input placeholder="14.50" id="prezzoMax" type="text" class="validate">
+                    <label for="prezzoMax">Prezzo massimo</label>
+
+                </div>
+            </div>
+
+            <!-------- categoria ------------->
+            <div class="input-field col s3" id="categorieScelte">
+
+            </div>
+
+            <!-------------Ristoranti------------->
+            <div class="input-field col s3" id="ristorantiScelti">
+
+            </div>
+
+
+            <!------------filtra----------->
+            <div class="col s2">
+                <a class="waves-effect waves-light btn" onclick="filtra()">Filtra</a>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="input-field col s10">
+                <i class="material-icons prefix">search</i>
+                <input id="ricerca" type="text" class="validate">
+                <label for="ricerca">Cerca un prodotto</label>
+            </div>
+            <div class="col s2">
+                <input class="waves-effect waves-light btn" type="submit" value="cerca" onclick="search()">
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-----------------Menu----------------->
+    <div class="section">
+        <div>
+            <div class="row" id="displaymenu"></div>
+        </div>
+
+    </div>
+
+    <div id="displayModals"></div>
+
+</div>
+
+<!---FLOATING BUTTON--->
+<div style="display: none" id="goToCarrello" class="fixed-action-btn">
+    <a onclick="vaiAlCarrello()" class="btn-floating btn-large red">
+        <i class="large material-icons">shopping_cart</i>
+    </a>
+</div>
+
+<!--FOOTER-->
+<footer class="page-footer orange lighten-1">
+    <div class="footer-copyright">
+        <div class="container">
+            Progetto di Applicazioni Web e Cloud - Margherita Pindaro 923178
+        </div>
+    </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<script src="js/custom.js"></script>
+
+<script type="text/javascript">
+
+
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        let elems = document.querySelectorAll('.tooltipped');
+        let instances = M.Tooltip.init(elems, {});
+        getIngredienti();
+
+        checkLogged();
+        $('.modal').modal();
+        $(".dropdown-trigger").dropdown();
+
+
+    });
+
+
+    function mostraBottoneCarrello() {
+        if (localStorage.getItem('carrello') != undefined && loggedCliente) {
+            if (JSON.parse(localStorage.getItem('carrello')).length != 0) {
+                document.getElementById('goToCarrello').style.display = "block";
+            }
+        }
+    }
+
+    function getMenu() {
+        var xmlhttp = new XMLHttpRequest();
+        var url = "https://fastfood-progettowec.herokuapp.com/menu";
+
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                localStorage.setItem('menu', this.responseText)
+
+
+                let menu = JSON.parse(this.responseText)
+                getCategorie()
+                const oggPrezzoMax = menu.reduce((precedente, corrente) => (precedente.prezzo > corrente.prezzo) ? precedente : corrente);
+                document.getElementById('prezzoMax').placeholder = oggPrezzoMax.prezzo;
+
+                menu=menu.filter(v => getRistoranteFromIva(document.getElementById('ristorantiFiltro').value).menu.includes(v.ID))
+
+                localStorage.setItem('displayedMenu', JSON.stringify(menu));
+
+
+                displayMenu(menu);
+                mostraBottoneCarrello();
+
+
+            }
+        };
+        xmlhttp.open("GET", url, true);
+        xmlhttp.send();
+    }
+
+    function getRistoranteFromIva(iva) {
+        let ristoranti = JSON.parse(localStorage.getItem('ristoranti'))
+        return ristoranti.filter(v => v.partitaIva == iva)[0]
+    }
+
+    function search() {
+        let testo = document.getElementById('ricerca').value;
+
+        var menu = JSON.parse(localStorage.getItem('displayedMenu'))
+        var nuovoMenu = menu.filter(v => v.nome.toLowerCase().includes(testo.toLowerCase()))
+        displayMenu(nuovoMenu)
+
+    }
+
+    function getCategorie() {
+
+        menu = JSON.parse(localStorage.getItem('menu'))
+        var set = new Set()
+
+        menu.forEach(v => set.add(v['categoria']))
+        var parteSelect = "<select id='categorieFiltro' multiple>\n";
+
+        set.forEach(v => parteSelect += "<option selected value='" + v + "'>" + v + "</option>\n ")
+
+        document.getElementById('categorieScelte').innerHTML = parteSelect + "</select> <label>Categoria</label>"
+        $('select').formSelect();
+
+        const temp = [...set]
+
+        localStorage.setItem('categorie', JSON.stringify(temp));
+
+
+    }
+
+    function displayMenu(menu) {
+        var menuStringHTML = "";
+        var modals = "";
+        menu.forEach(v => menuStringHTML += " <div class='col s3  altezza-row'> " +
+            "<div class='card sticky-action big altezza-carta'>" +
+            "<div class='card-image waves-effect waves-block waves-light'>" +
+            "<img class='activator' src='images/" + v.ID + ".jpg'></div>" +
+            "<div class='card-content'>" +
+            "<span class='card-title activator grey-text text-darken-4'>" + v.nome + "<i class='material-icons right'>more_vert</i></span>" +
+            "<span> " + v.calorie + "</<span> </div><div class='card-reveal'>" +
+            "<span class='card-title grey-text text-darken-4'>" + v.nome + "<i class='material-icons right'>close</i></span>" +
+            "<p>" + v.descrizione + "</p>" + " <a class='modal-trigger' href='#modal" + v.ID + "'> Ingredienti</a>" +
+            "</div>" +
+            "<div class='card-action'>" +
+            "<div class='row'> " + "<div class='col s9'> <span> " + v.prezzo + "€</span> </div> " +
+            "<div class='col s3'>" +
+            "<a class='tooltipped' onclick='aggiungiAlCarrello(" + v.ID + ")' data-tooltip='Aggiungi al carrello'><i class='material-icons teal-text'> add_shopping_cart</i></a>" +
+            "</div> " +
+            "</div>" +
+            "</div>   " +
+            " </div>   " +
+            "</div>");
+
+
+        menu.forEach(v => modals += "<div id='modal" + v.ID + "' class='modal modal-fixed-footer'>\n" +
+            "    <div class='modal-content'>\n" +
+            "      <h4> Ingredienti di " + v.nome + "</h4>\n" +
+            "      <p>" + getIngredientiInUnProdotto(v.ingredienti) + "</p>\n" +
+            "    </div>\n" +
+            "    <div class='modal-footer'>\n" +
+            "      <a href='#!' class='modal-close waves-effect waves-green btn-flat'>Ok</a>\n" +
+            "    </div>\n" +
+            "  </div>")
+
+
+        document.getElementById('displaymenu').innerHTML = menuStringHTML;
+        document.getElementById('displayModals').innerHTML = modals
+        $('.modal').modal();
+
+
+    }
+
+    function getIngredienti() {
+        var xmlhttpIngrdienti = new XMLHttpRequest();
+        var urlIngredienti = "https://fastfood-progettowec.herokuapp.com/ingredienti";
+        xmlhttpIngrdienti.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                localStorage.setItem('ingredienti', this.responseText);
+                getRistoranti();
+            }
+        }
+        xmlhttpIngrdienti.open("GET", urlIngredienti, true);
+        xmlhttpIngrdienti.send();
+
+    }
+
+    function getRistoranti() {
+
+        var xmlhttpRistoranti = new XMLHttpRequest();
+        var urlRistoranti = "https://fastfood-progettowec.herokuapp.com/ristoranti";
+        xmlhttpRistoranti.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                localStorage.setItem('ristoranti', this.responseText);
+                let ristoranti = JSON.parse(this.responseText);
+                ristoranti=ristoranti.filter(v => v.stato!=0)
+
+                let parteSelect = "<select id='ristorantiFiltro' >\n";
+
+                ristoranti.forEach(v => parteSelect += "<option value='" + v.partitaIva + "'>" + v.nome + "</option>\n ")
+
+                document.getElementById('ristorantiScelti').innerHTML = parteSelect + "</select> <label>Ristoranti</label>"
+                $('select').formSelect();
+                getMenu();
+
+
+            }
+        }
+        xmlhttpRistoranti.open("GET", urlRistoranti, true);
+        xmlhttpRistoranti.send();
+    }
+
+    function getIngredientiInUnProdotto(ingredienti) {
+
+        let ingredientiToPrint = JSON.parse(localStorage.getItem('ingredienti')).filter(v => ingredienti.includes(v.ID));
+        let s = "";
+        ingredientiToPrint.forEach(v => s += "<b>" + v.nome + "</b>: " + v.descrizione + "<br><br>");
+        return s
+
+    }
+
+    function filtra() {
+
+        const prezzoMinimo = document.getElementById('prezzoMin').value;
+        const prezzoMassimo = document.getElementById('prezzoMax').value;
+
+        const ristoranteIva = document.getElementById('ristorantiFiltro').value;
+        const categorie = $('#categorieFiltro').val();
+
+        const ristorante = JSON.parse(localStorage.getItem('ristoranti')).filter(v => v.partitaIva === ristoranteIva)[0];
+
+        let menu = JSON.parse(localStorage.getItem('menu'));
+
+        menu = menu.filter(v => ristorante.menu.includes(v.ID))
+
+        menu = menu.filter(v => categorie.includes(v.categoria))
+
+
+        if (prezzoMinimo != "") {
+            let isNumber = /^\d+\.\d+$/.test(prezzoMinimo)|| /^\d+$/.test(prezzoMinimo);
+            isNumber ? menu = menu.filter(v => v.prezzo >= prezzoMinimo) : M.toast({html: 'Il prezzo minimo deve essere un numero intero'});
+
+        }
+
+        document.getElementById('ricerca').value="";
+
+        if (prezzoMassimo != "") {
+            let isNumber = /^\d+\.\d+$/.test(prezzoMassimo) || /^\d+$/.test(prezzoMassimo);
+            isNumber ? menu = menu.filter(v => v.prezzo <= prezzoMassimo) : M.toast({html: 'Il prezzo massimo deve essere un numero intero'});
+        }
+
+        localStorage.setItem('displayedMenu', JSON.stringify(menu));
+
+        displayMenu(menu);
+
+
+    }
+
+    function aggiungiAlCarrello(id) {
+
+        let piatto = JSON.parse(localStorage.getItem('menu')).filter(v => v.ID == id)[0];
+
+        if (!loggedCliente && !loggedRistorante) {
+            M.toast({html: 'Per fare un ordine devi loggarti!'})
+        } else if (loggedRistorante) {
+            M.toast({html: 'Se vuoi fare un ordine loggarti come cliente :)'})
+        } else {
+
+            let carrello = JSON.parse(localStorage.getItem('carrello'));
+            let ristorante = document.getElementById('ristorantiFiltro').value;
+            piatto.ristorante = ristorante
+            piatto.qta=1
+
+            if (carrello == undefined) {
+                carrello = []
+            }
+
+            for (let i = 0; i < carrello.length; i++) {
+                if (carrello[i].ID==piatto.ID && carrello[i].ristorante==piatto.ristorante){
+                    carrello[i].qta++
+                    localStorage.setItem('carrello', JSON.stringify(carrello));
+                    M.toast({html: piatto.nome + ' aggiunto al carrello'})
+                    return
+                }
+            }
+
+
+            carrello.push(piatto)
+            localStorage.setItem('carrello', JSON.stringify(carrello));
+            M.toast({html: piatto.nome + ' aggiunto al carrello'})
+
+            document.getElementById('goToCarrello').style.display = "block";
+
+
+        }
+
+    }
+
+    function vaiAlCarrello() {
+        window.location = "carrello.html";
+    }
+
+</script>
+
+</body>
+</html>

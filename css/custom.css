@@ -1,0 +1,156 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;  /*or use calc(100vh - header_height)*/
+}
+
+.larghezza-media{
+  width:300px
+}
+
+.another-row{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+.another-row{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.altezza{
+    max-height:10% !important;
+}
+
+/*.dropdown-content{
+    width: max-content !important;
+    height:auto !important;
+}*/
+
+.menuLaterale {
+    left: 0;
+
+    height: 100%;
+    height: calc(100% + 60px);
+    height: -moz-calc(100%);
+    padding-bottom: 60px;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+
+.menuLaterale li > a > i,
+.menuLaterale li > a > [class^="mdi-"], .menuLaterale li > a li > a > [class*="mdi-"],
+.menuLaterale li > a > i.material-icons {
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 32px 0 0;
+    width: 24px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.menuLaterale li > a {
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+}
+
+.menuLaterale li > a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.menuLaterale li > a.btn, .menuLaterale li > a.btn-large, .menuLaterale li > a.btn-small, .menuLaterale li > a.btn-large, .menuLaterale li > a.btn-flat, .menuLaterale li > a.btn-floating {
+    margin: 10px 15px;
+}
+
+.menuLaterale li > a.btn, .menuLaterale li > a.btn-large, .menuLaterale li > a.btn-small, .menuLaterale li > a.btn-large, .menuLaterale li > a.btn-floating {
+    color: #fff;
+}
+
+.menuLaterale li > a.btn-flat {
+    color: #343434;
+}
+
+.menuLaterale li > a.btn:hover, .menuLaterale li > a.btn-large:hover, .menuLaterale li > a.btn-small:hover, .menuLaterale li > a.btn-large:hover {
+    background-color: #2bbbad;
+}
+
+.menuLaterale li > a.btn-floating:hover {
+    background-color: #26a69a;
+}
+
+
+.card-metric{
+    display: flex;
+    max-height:130px;
+    min-height:130px;
+}
+
+.card .card-metrics.card-metrics-static .card-metric {
+    cursor: default;
+}
+
+.card .card-metrics .card-metric {
+    cursor: pointer;
+    padding: 20px;
+}
+
+.card .card-metrics .card-metric .card-metric-value {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+
+.nascosto{
+    display:none
+}
+
+.altissimo{
+    min-height: 100vh;
+
+}
+.altezza-carta{
+    min-height: 470px;
+    max-height: 490px;
+    overflow: hidden;
+}
+
+.altezza-row{
+    height: 500px;
+}
+@media only screen and (max-width : 992px) {
+    .parallax img {
+        max-height: 130%; /* or a little bit higher */
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .parallax img {
+        max-height: 170%; /* or higher percentages. It's up to your taste */
+    }
+}
+
+.ristorantiCollassanti{
+    width: 700px;
+}
+
+.navbar-brand {
+
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 64px;
+    padding: 0px;
+    width: auto;
+}
+
+
+.storicoOrdini{
+}

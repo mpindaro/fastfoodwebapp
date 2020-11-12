@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon"/>
+    <title>Area Privata</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body>
+
+<!-------DROPDOWN MENU --------->
+<ul id="dropdownLogin" class="dropdown-content right">
+    <li><a href="loginClienti.html">Login clienti</a></li>
+    <li><a href="loginRistoratori.html">Login ristoratori</a></li>
+</ul>
+
+<!-------DROPDOWN MENU MOBILE--------->
+<ul id="dropdownLoginMobile" class="dropdown-content right">
+    <li><a href="loginClienti.html">Login clienti</a></li>
+    <li><a href="loginRistoratori.html">Login ristoratori</a></li>
+</ul>
+
+
+<!-----NAVBAR------>
+<nav class="black" role="navigation">
+    <div class="nav-wrapper container"><a href="index.html" class="navbar-brand"><img src="images/icon.ico"></a>
+
+        <ul id="nav" class="right hide-on-med-and-down">
+            <li class="active"><a href="menu.html">Menu</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+            <li class="active"><a href="menu.html">Menu</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+
+<!--CONTENUTO-->
+<div class="flex">
+    <div class="row">
+
+        <!--------- Side Nav ----------------->
+        <div class="col s3 altissimo" id="navSide">
+        </div>
+        <div class="col s1"></div>
+        <div class="col s7 " id="main">
+
+
+        </div>
+
+        <div class="col s7 nascosto storicoOrdini" id="storicoOrdini">
+            <h3>Storico Ordini</h3>
+            <div class="row" id="storicoOrdiniContent">
+
+            </div>
+        </div>
+
+        <div class="col s7 nascosto" id="modificaDati">
+            <h3>Modifica profilo</h3>
+
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="nome" type="text" class="validate">
+                    <label for="nome">Nome</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="cognome" type="text" class="validate">
+                    <label for="cognome">Cognome</label>
+                </div>
+
+
+                <div class="input-field col s6">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
+
+
+                <div class="input-field col s6">
+                    <select id="metodoPagamento" onchange="setParametroPagamento()">
+                        <option value="" disabled selected>Scegli un metodo di pagamento</option>
+                        <option id="sCarta" value="1">Carta di credito/debito</option>
+                        <option id="sContanti" value="2">Contanti</option>
+                        <option id="sPaypal" value="3">PayPal</option>
+                    </select>
+                </div>
+
+                <div class="input-field col s6" id="parametriPagamento">
+
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s6">
+                        <label>
+                            <input id="persoalizzazione" type="checkbox"/>
+                            <span>Acconsento alla <a class="waves-effect waves-light  modal-trigger"
+                                                     href="#modalPersonalizzazione"> personalizzazione dei servizi</a></span>
+                        </label>
+                    </div>
+
+
+                    <div class="input-field col s6">
+                        <label>
+                            <input id="newsletter" type="checkbox"/>
+                            <span>Mi voglio iscrivere alla newsletter</span>
+                        </label>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+
+
+                <div class="col s6 center-align">
+                    <button class="btn waves-effect waves-light" type="submit" onclick="modificaDati()" name="action">
+                        Modifica i dati
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col s1"></div>
+
+
+    </div>
+
+
+</div>
+
+<div id="modalPersonalizzazione" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4>Autorizzazione alla personalizzazione dei servizi</h4>
+        <p>I dati vengono qui raccolti e trattati:
+            a) senza consenso espresso (cfr. art. 6 GDPR), per le seguenti finalità di Servizio:
+
+            • concludere i contratti per i servizi del Titolare;
+            • adempiere agli obblighi precontrattuali, contrattuali e fiscali derivanti da rapporti in essere con
+            l’interessato;
+            • adempiere agli obblighi previsti dalla legge, da un regolamento, dalla normativa comunitaria o da un
+            ordine dell’Autorità;
+            • prevenire o scoprire attività fraudolente o abusi dannosi per il sito web;
+            • esercitare i diritti del Titolare, ad esempio il diritto di difesa in giudizio.
+
+            b) solo previo specifico e distinto consenso (cfr. art. 7 GDPR), per le seguenti finalità di Marketing:
+
+            • inviare via e-mail, posta e/o sms e/o contatti telefonici, newsletter, comunicazioni commerciali e/o
+            materiale pubblicitario su prodotti o servizi offerti dal Titolare e rilevazione del grado di
+            soddisfazione sulla qualità dei servizi offerti, segnalando che, ove l’interessato fosse già nostro
+            cliente, potremo inviare comunicazioni commerciali relative a servizi e prodotti del Titolare analoghi a
+            quelli di cui l’interessato ha già usufruito, salvo opposizione (cfr. art. 21 GDPR);
+            • inviare a mezzo e-mail, posta e/o sms e/o contatti telefonici, comunicazioni commerciali e/o
+            promozionali di soggetti terzi (ad esempio: business partner, compagnie assicurative, etc.);
+
+
+            Precisazioni in ordine al trattamento per “Finalità di Marketing” e di “Profilazione”
+
+            A beneficio dell’interessato, si precisa quanto segue:
+
+            A. I dati personali raccolti saranno trattati anche per perseguire finalità di promozione commerciale,
+            comunicazione pubblicitaria, sollecitazione a comportamenti di acquisto, ricerche di mercato, sondaggi
+            (anche telefonici, on-line o mediante formulari), elaborazioni statistiche (in forma identificativa),
+            altre ricerche campionarie di marketing in senso lato di prodotti e/o servizi riferibili alla Società
+            (di seguito, complessivamente, “Trattamento per Finalità di Marketing”) sia attraverso marketing
+            “generico” sia “profilato” conseguente cioè all’ “attività di profilazione”(cfr. definizione
+            “Profilazione” – art. 4.4 “Definizioni”: “qualsiasi forma di trattamento automatizzato di dati personali
+            consistente nell’utilizzo di tali dati personali per valutare determinati aspetti personali relativi a
+            una persona fisica […]”) e consistente nella raccolta di dati relativi, ad esempio, all’anagrafica del
+            cliente, al suo indirizzo postale ed e-mail, alla sua professione, alle preferenze rispetto alle
+            informazioni commerciali che desidera ricevere, alla registrazione dei suoi acquisti e nella
+            realizzazione ed offerta di compagne di marketing mirate, di servizi personalizzati e benefit aggiuntivi
+            per tutti coloro che verranno registrati in apposito Customer Relationship Management (CRM);
+
+            B. Per massima trasparenza finalizzata alla prestazione di un consenso consapevole da parte
+            dell’interessato, specifichiamo che la registrazione al sito, da intendersi, anche, quale condizione per
+            poter scaricare la versione (DEMO) di VTENEXT, deve intendersi finalizzata a poter ricevere
+            comunicazioni promozionali o pubblicitarie da parte del Titolare e, quindi, all’utilizzo dei dati
+            dell’interessato anche per Finalità di Marketing e di eventuale “Profilazione” laddove prestato apposito
+            consenso, anche, in quest’ultimo senso. Conseguentemente, l’utente che intenderà registrarsi dovrà
+            necessariamente fornire il proprio consenso al trattamento dei dati da parte del titolare per le
+            predette medesime “Finalità di Marketing”.
+
+            C. Se l’utente non intende prestare il consenso al “Trattamento per Finalità di Marketing” egli non
+            dovrà (né potrà) registrarsi, né scaricare la versione (DEMO) di vtenext, salva la possibilità di
+            navigare e visualizzare i contenuti del Sito come utente non registrato.
+
+            D. L’accesso e la navigazione del sito sono liberi, ma la possibilità di ricevere le comunicazioni
+            marketing è consentita solo previa registrazione dell’interessato. Il processo di registrazione consiste
+            nella compilazione di un modulo on line nel quale è richiesto di indicare taluni dati personali per
+            l’attivazione di credenziali di autenticazione (login + password) con le quali l’interessato accederà a
+            tutte le funzionalità riservate agli utenti registrati per gestire la ricezione delle comunicazioni
+            marketing e le relative modifiche (revoca o modifica dei consensi incluse). Quindi ulteriori finalità
+            primarie del trattamento sono rappresentate dalla necessità di consentire l’espletamento delle richieste
+            procedure di previa registrazione on-line e la creazione di un account nonché di consentire ai gestori
+            del sito la generazione e la successiva gestione tecnica e amministrativa (ivi incluse le finalità di
+            fornire supporto e assistenza tecnica su richiesta) dell’account, dei Client ID, dei codici di
+            attivazione, delle password e similari credenziali di autenticazione così come creati dall’interessato
+            nell’ambito del processo di registrazione.
+
+            E. Mediante il conferimento del consenso al “Trattamento per Finalità di Marketing” e di “Profilazione”
+            l’interessato prende specificatamente atto delle finalità promozionali, commerciali e di marketing in
+            senso lato del trattamento (incluse le attività gestionali e amministrative conseguenti) e autorizza
+            espressamente detto trattamento sia mediante telefono con operatore o altri mezzi non elettronici, non
+            telematici o non supportati da meccanismi e/o procedure automatiche, elettroniche o telematiche, sia a
+            mezzo posta elettronica, fax, sms, mms, sistemi automatici senza intervento di operatore e similari,
+            incluse piattaforme elettroniche e altri mezzi telematici, sia – infine – ai sensi dell’art. 6, comma 1,
+            lettera (a) del GDPR. Prestando, dunque, il consenso opzionale, l’interessato prende specificatamente
+            atto ed autorizza tali trattamenti e/o trattamenti che perseguono scopi similari.
+
+            F. In ogni caso, anche laddove l’interessato abbia prestato il consenso, resterà comunque libero in ogni
+            momento di revocarlo, modificando le impostazioni dei consensi nell’area dedicata tramite verifica
+            preventiva ricevuta via email. A seguito della ricezione di tale richiesta di opt-out, il Titolare del
+            Trattamento procederà tempestivamente alla rimozione e cancellazione dei dati dai database utilizzati
+            per il “Trattamento per Finalità di Marketing” e di “Profilazione” e informerà per le medesime finalità
+            di cancellazione eventuali terzi cui i dati siano stati comunicati.
+
+            G. Nel caso sia richiesta – per le finalità sopra illustrate – l’indicazione del numero di utenza
+            telefonica dell’interessato e questi abbia prestato il consenso opzionale e specifico (che copre anche
+            il trattamento di tale dato personale) per le finalità di promozione commerciale, di marketing e di
+            profilazione sopra illustrate, il Titolare del Trattamento informa l’interessato che potrà legalmente
+            trattare l’utenza telefonica per scopi marketing e di profilazione anche se essa risulti iscritta al
+            Registro Pubblico delle Opposizioni, in quanto tratta da fonte diversa dagli elenchi telefonici pubblici
+            e coperta da specifico consenso, salvo il diritto di opposizione successiva al trattamento ove sia
+            formalmente revocato il consenso.
+
+            H. Si informa specificatamente e separatamente, come richiesto dall’art. 21 del GDPR che l’interessato
+            ha il diritto di opporsi in qualsiasi momento al trattamento dei dati personali che lo riguardano
+            effettuato per tali finalità e che qualora l’interessato si opponga al trattamento per finalità di
+            marketing diretto e profilazione, i dati personali non potranno più essere oggetto di trattamento per
+            tali finalità.
+
+            I. Il Titolare informa l’interessato che i dati potrebbero essere altresì comunicati a terzi partner
+            commerciali. Il consenso al “Trattamento per Finalità di Marketing” e di “Profilazione” – ove prestato
+            dall’interessato – non copre anche il diverso e ulteriore trattamento marketing rappresentato dalla
+            comunicazione a terzi dei dati per le medesime finalità. Per procedere a tale comunicazione all’esterno
+            è obbligatorio acquisire dall’interessato un consenso informato ulteriore, separato, aggiuntivo,
+            documentato, espresso e del tutto facoltativo.
+
+            J. I dati personali oggetto di “Trattamento per Finalità di Marketing” non saranno oggetto di
+            diffusione. I dati personali oggetto di “Profilazione” non saranno oggetto di comunicazione a terzi né
+            di diffusione.
+
+
+            Eventuali destinatari e/o categoria di destinatari dei dati personali
+
+            I dati personali potranno essere comunicati: a dipendenti e/o collaboratori di VTENEXT SRL che, a loro
+            volta, potranno trattarli sempre e comunque nel pieno rispetto dei principi regolanti il trattamento
+            stesso e nei limiti e per le finalità già indicate. Potranno, altresì, essere comunicati a società /
+            studio professionali che prestano attività di assistenza, consulenza o collaborazione al Titolare del
+            trattamento, in materia contabile, amministrativa, fiscale, legale, tributaria e finanziaria, a
+            Pubbliche Amministrazioni per lo svolgimento delle funzioni istituzionali nei limiti stabiliti dalla
+            legge o dai regolamenti e a terzi fornitori di servizi cui la comunicazione sia necessaria per
+            l’adempimento delle prestazioni oggetto del contratto. I dati personali non saranno oggetto di
+            diffusione. Inoltre, senza necessità di espresso consenso il Titolare potrà comunicare i dati
+            dell’interessato per le finalità di cui alla lettera A) del succitato paragrafo titolato “Finalità del
+            trattamento a cui sono destinati i dati personali”, a Organismi di Vigilanza, Autorità Giudiziarie,
+            nonché a tutti gli altri soggetti a cui la comunicazione sia obbligatoria per legge per l’espletamento
+            delle predette finalità.
+
+
+            Eventuale trasferimento dati:
+
+            La gestione e la conservazione dei dati personali avverrà su server ubicati all’interno dell’Unione
+            Europea del Titolare e/o di società terze incaricate e debitamente nominate quali Responsabili del
+            trattamento. Attualmente il provider di riferimento è Aruba, i cui server sono situati all’interno della
+            Comunità Europea. I dati non saranno oggetto di trasferimento al di fuori dell’Unione Europea. Resta in
+            ogni caso inteso che il Titolare, ove si rendesse necessario, avrà facoltà di spostare l’ubicazione dei
+            server in Italia e/o Unione Europea e/o Paesi extra-UE. Il Titolare assicura sin d’ora che il
+            trasferimento dei dati extra-UE avverrà in conformità alle disposizioni di legge applicabili stipulando,
+            se necessario, accordi che garantiscano un livello di protezione adeguato e/o adottando le clausole
+            contrattuali standard previste dalla Commissione Europea.
+
+
+            Periodo di conservazione dei dati personali:
+
+            I dati personali verranno conservati per il periodo strettamente necessario al perseguimento delle
+            finalità sottese al loro trattamento e/o fino ad eventuale revoca del consenso specifico da parte
+            dell’interessato. In ogni caso i dati verranno conservati per non oltre 10 (dieci) anni dalla cessazione
+            del rapporto di erogazione del servizio e/o di fornitura del prodotto.
+
+
+            Diritti dell’interessato:
+
+            In conformità a quanto previsto dal GDPR l’interessato potrà esercitare i seguenti diritti:
+
+            • chiedere al titolare del trattamento l’accesso ai dati personali onde poter avere conferma che sia o
+            meno in corso un trattamento di dati personali che lo riguardano e in tal caso, ottenere tutte le
+            necessarie informazioni secondo quanto meglio previsto e disciplinato dall’articolo 15 “Diritto di
+            accesso dell’interessato” GDPR;
+            • chiedere al titolare del trattamento la rettifica dei dati personali inesatti che lo riguardano come
+            anche l’integrazione di quelli incompleti secondo quanto meglio previsto e disciplinato dall’articolo 16
+            “Diritto di rettifica”;
+            • chiedere al titolare del trattamento la cancellazione dei dati personali che lo riguardano
+            nell’eventualità in cui i dati non sono più necessari rispetto alle finalità per le quali sono stati
+            raccolti o altrimenti trattati (lettera A); l’interessato abbia revocato il consenso o non sussiste
+            fondamento giuridico per il trattamento (lettera B); l’interessato si sia opposto al trattamento ex art.
+            21, paragrafi 1 o 2, e non sussistano motivi prevalenti per procedere, comunque, al trattamento (lettera
+            c); il trattamento sia illecito (lettera d); la cancellazione dei dati costituisca adempimento di
+            obbligo legale a cui è soggetto il titolare del trattamento (lettera e); laddove sussista l’ipotesi
+            prevista dall’articolo 8, paragrafo 1 (lettera f), il tutto – in ogni caso – secondo quanto meglio
+            previsto e disciplinato dall’articolo 17 “Diritto alla cancellazione (“diritto all’oblio”) GDPR;
+            • ottenere dal titolare del trattamento la limitazione del trattamento stesso allorquando: l’interessato
+            contesti l’esattezza dei dati personali (in questo caso nei limiti del tempo necessario a verificare
+            l’esattezza di tali dati – lettera a); in ipotesi di trattamento illecito, l’interessato si opponga –
+            però – alla cancellazione dei dati chiedendo, invece, che ne sia limitato l’utilizzo (lettera b); a
+            prescindere dal fatto che il titolare del trattamento non ne abbia più bisogno per i fini del
+            trattamento stesso, l’interessato abbia necessità di mantenere il dato per finalità di accertamento,
+            esercizio o difesa in sede giudiziaria (lettera c); l’interessato si sia opposto al trattamento ex art.
+            21, paragrafo 1, in attesa della verifica sull’eventuale prevalenza dei motivi legittimi del titolare
+            rispetto a quelli dell’interessato (lettera d), il tutto – in ogni caso – secondo quanto meglio previsto
+            e disciplinate all’articolo 18 “Diritto di limitazione di trattamento”;
+            • in qualsiasi momento, per motivi connessi alla sua particolare situazione, opporsi al trattamento dei
+            dati personali che lo riguardano, ai sensi dell’articolo 6, paragrafo 1, lettere e) o f), compresa la
+            profilazione sulla base di tali disposizioni, oltre che nel caso di trattamento dei dati per finalità di
+            marketing compresa, anche, in questo caso la profilazione nella misura in cui sia connessa a tale
+            marketing diretto. Il tutto, in ogni caso, secondo quanto meglio previsto e disciplinato all’articolo 21
+            “Diritto di opposizione” GDPR;
+            • ottenere la portabilità dei dati secondo quanto meglio previsto e disciplinate all’articolo 20
+            “Diritto alla portabilità dei dati”;
+            • in qualsiasi momento, revocare il proprio consenso al trattamento dei dati senza che ciò possa
+            pregiudicare le liceità del trattamento basato sul consenso prima della revoca. Il tutto, in ogni caso,
+            secondo quanto meglio previsto e disciplinato dall’articolo 7 “Condizioni per il consenso”;
+            • proporre reclamo ad una Autorità di controllo con il compito di sorvegliare l’applicazione del GDPR al
+            fine di tutelare i diritti e le libertà fondamenti delle persone fisiche con riguardo al trattamento dei
+            dati personali. Il tutto, in ogni caso, secondo quanto meglio previsto e disciplinato dagli articoli 51
+            e segg. “Autorità di controllo”.
+
+
+            Facoltatività della comunicazione dei dati personali
+
+            L’utente è libero di fornire i propri dati personali consapevole del fatto che la loro mancata
+            comunicazione comporterà l’impossibilità di ottenere il servizio richiesto.
+        </p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Ok</a>
+    </div>
+</div>
+
+
+<!--FOOTER-->
+<footer class="page-footer orange lighten-1">
+    <div class="footer-copyright">
+        <div class="container">
+            Progetto di Applicazioni Web e Cloud - Margherita Pindaro 923178
+        </div>
+    </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<script src="js/creditcard.js"></script>
+<script src="js/jsvat.js"></script>
+<script src="js/custom.js"></script>
+
+<script>
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        checkLogged();
+        $('.modal').modal();
+        $('select').formSelect();
+
+        if (loggedCliente) {
+            displaySideNav();
+            getOrdini();
+            setValuesInputModifica();
+        } else {
+            document.getElementById('main').innerHTML = "Non sei autorizzato a vedere questa pagina";
+        }
+    })
+
+    function displaySideNav() {
+        document.getElementById('navSide').innerHTML = "<ul class=\"menuLaterale altissimo grey lighten-5\">\n" +
+            "                    <li><a class=\"waves-effect\" onclick='selezioneScheda(0)'><i class=\"material-icons\">storage</i>Storico ordini</a></li>\n" +
+            "                    <li>\n" +
+            "                        <div class=\"divider\"></div>\n" +
+            "                    </li>\n" +
+            "                    <li><a class=\"waves-effect\" onclick='selezioneScheda(1)'><i class=\"material-icons\">edit</i>Modifica dati</a></li>\n" +
+            "                    <li><a class=\"waves-effect red-text\" onclick='eliminaUtente()'><i class=\"material-icons\">delete</i>Elimina Profilo</a></li>\n" +
+            "                </ul>"
+        document.getElementById('main').classList.add("nascosto");
+        document.getElementById('storicoOrdini').classList.remove("nascosto");
+    }
+
+    function setValuesInputModifica() {
+
+        let cliente = JSON.parse(sessionStorage.getItem('clienteLoggato'));
+
+        document.getElementById('nome').value = cliente.nome;
+        document.getElementById('cognome').value = cliente.cognome;
+        document.getElementById('password').value = cliente.password;
+
+
+        if (cliente.tipoPagamento == "Paypal") {
+            document.getElementById('sPaypal').selected = true
+            setParametroPagamento();
+            document.getElementById('mailPaypal').value = cliente.dettagliPagamento
+        } else if (cliente.tipoPagamento == "Carta di credito") {
+            document.getElementById('sCarta').selected = true
+            setParametroPagamento();
+            document.getElementById('numeroCarta').value = cliente.dettagliPagamento
+        } else {
+            document.getElementById('sContanti').selected = true
+            setParametroPagamento();
+        }
+
+
+        if (cliente.preferenzePrivacy.personalizzazione == 1) {
+            $("#persoalizzazione").prop('checked', true);
+        }
+
+        if (cliente.preferenzePrivacy.newsletter == 1) {
+            $("#newsletter").prop('checked', true);
+        }
+
+        $('select').formSelect();
+
+
+        $('label').addClass('active');
+
+    }
+
+    function getOrdini() {
+        var xmlhttpOrdini = new XMLHttpRequest();
+        var urlOrdini = "https://fastfood-progettowec.herokuapp.com/ordini";
+        xmlhttpOrdini.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                localStorage.setItem('ordini', this.responseText);
+                getMenu();
+            }
+        }
+        xmlhttpOrdini.open("GET", urlOrdini, true);
+        xmlhttpOrdini.send();
+    }
+
+    function getMenu() {
+        var xmlhttp = new XMLHttpRequest();
+        var url = "https://fastfood-progettowec.herokuapp.com/menu";
+
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                localStorage.setItem('menu', this.responseText)
+                getRistoranti();
+            }
+        };
+        xmlhttp.open("GET", url, true);
+        xmlhttp.send();
+    }
+
+    function displayOrdini() {
+        let ordini = JSON.parse(localStorage.getItem('ordini'));
+        let cliente = JSON.parse(sessionStorage.getItem('clienteLoggato'));
+        let ordiniDelRistorante;
+        ordiniDelRistorante = ordini.filter(v => v.cliente == cliente.mail);
+        let menu = JSON.parse(localStorage.getItem('menu'));
+
+        let toPrint = " <div class='col s12'><table>\n" +
+            "        <thead>\n" +
+            "          <tr>\n" +
+            "              <th>Prodotti</th>\n" +
+            "              <th>Totale</th>\n" +
+            "              <th>Ristorante</th>\n" +
+            "              <th>Data</th>\n" +
+            "              <th>Orario</th>\n" +
+            "              <th>Stato</th>\n" +
+            "          </tr>\n" +
+            "        </thead>\n" +
+            "\n" +
+            "        <tbody>"
+
+        ordiniDelRistorante.forEach(v => toPrint += "<tr>\n" +
+            "            <td>" + stringifyPiatto(menu, v.prodotti) + "</td>\n" +
+            "            <td>" + v.totale.toFixed(2) + "€</td>\n" +
+            "            <td>" + getRistoranteFromIva(v.ristorante).nome + "</td>\n" +
+            "            <td>" + v.data + "</td>\n" +
+            "            <td>" + v.ora + "</td>\n" +
+            "            <td>" + stringifyStato(v.stato) + "</td>\n" +
+            "          </tr>")
+
+        toPrint += "</tbody>\n" +
+            "      </table></div>";
+        document.getElementById('storicoOrdiniContent').innerHTML = toPrint;
+
+    }
+
+    function getRistoranti() {
+
+        var xmlhttpRistoranti = new XMLHttpRequest();
+        var urlRistoranti = "https://fastfood-progettowec.herokuapp.com/ristoranti";
+        xmlhttpRistoranti.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                localStorage.setItem('ristoranti', this.responseText);
+                displayOrdini();
+
+            }
+        }
+        xmlhttpRistoranti.open("GET", urlRistoranti, true);
+        xmlhttpRistoranti.send();
+    }
+
+    function getRistoranteFromIva(iva) {
+        let ristoranti = JSON.parse(localStorage.getItem('ristoranti'))
+        return ristoranti.filter(v => v.partitaIva == iva)[0]
+    }
+
+    function stringifyStato(n) {
+        if (n == 1) {
+            return "<p class='red-text'> In preparazione </p>"
+        } else {
+            return "<p class='light-green-text'> Pronto </p>"
+        }
+
+    }
+
+    function stringifyPiatto(menu, prodotti) {
+
+        let toPrint = "";
+
+        for (const prodotto in prodotti) {
+            let id = prodotti[prodotto].id;
+
+            let nome = menu.filter(v => v.ID == id)[0].nome
+            toPrint += nome + " x " + prodotti[prodotto].qta + " | ";
+        }
+
+        return toPrint;
+
+    }
+
+    function selezioneScheda(n) {
+        if (n == 0) {
+            document.getElementById('storicoOrdini').classList.remove("nascosto");
+            document.getElementById('modificaDati').classList.add("nascosto");
+        } else if (n == 1) {
+            document.getElementById('storicoOrdini').classList.add("nascosto");
+            document.getElementById('modificaDati').classList.remove("nascosto");
+        }
+    }
+
+    function checkLogged() {
+        loggedCliente = sessionStorage.getItem('clienteLoggato') != null
+        if (loggedCliente) {
+            document.getElementById('nav').innerHTML += "<li><a href=\"areaPrivataClienti.html\">Area Privata</a></li>"
+            document.getElementById('nav-mobile').innerHTML += "<li><a href=\"areaPrivataClienti.html\">Area Privata</a></li>"
+            document.getElementById('nav').innerHTML += "<li><a onclick='logOut()' >Log out</a></li>"
+            document.getElementById('nav-mobile').innerHTML += "<li><a onclick='logOut()' >Log out</a></li>";
+        } else {
+            loggedRistorante = sessionStorage.getItem('ristoranteLoggato') != null
+            if (loggedRistorante) {
+                document.getElementById('nav').innerHTML += "<li><a href=\"areaPrivataRistoratori.html\">Area Privata</a></li>"
+                document.getElementById('nav-mobile').innerHTML += "<li><a href=\"areaPrivataRistoratori.html\">Area Privata</a></li>"
+                document.getElementById('nav').innerHTML += "<li><a onclick='logOut()' >Log out</a></li>"
+                document.getElementById('nav-mobile').innerHTML += "<li><a onclick='logOut()' >Log out</a></li>";
+            } else {
+                document.getElementById('nav').innerHTML += "<li><a class=\"dropdown-trigger\" href=\"#!\" data-target=\"dropdownLogin\">Login<i class=\"material-icons right\">arrow_drop_down</i></a></li>"
+                document.getElementById('nav-mobile').innerHTML += "<li><a class=\"dropdown-trigger\" href=\"#!\" data-target=\"dropdownLoginMobile\">Login<i class=\"material-icons \">arrow_drop_down</i></a></li>"
+                $(".dropdown-trigger").dropdown();
+            }
+        }
+    }
+
+    function setParametroPagamento() {
+        let pagamento = document.getElementById('metodoPagamento').value;
+        if (pagamento == 1) {
+            document.getElementById('parametriPagamento').innerHTML = " <div>\n" +
+                "                        <input id=\"numeroCarta\" type=\"text\" class=\"validate\" required>\n" +
+                "                        <label for=\"numeroCarta\">Numero Carta</label>\n" +
+                "                    </div>";
+        } else if (pagamento == 3) {
+            document.getElementById('parametriPagamento').innerHTML = " <div>\n" +
+                "                        <input id=\"mailPaypal\" type=\"text\" class=\"validate\" required>\n" +
+                "                        <label for=\"mailPaypal\">Mail Paypal</label>\n" +
+                "                    </div>";
+        } else {
+            document.getElementById('parametriPagamento').innerHTML = ""
+        }
+
+    }
+
+    function eliminaUtente() {
+
+        let isUtenteSure = confirm("Vuoi davvero eliminare il tuo account?");
+
+        if (isUtenteSure) {
+            //-------invio dati--------
+            var http = new XMLHttpRequest();
+            var url = 'https://fastfood-progettowec.herokuapp.com/eliminacliente';
+            var params = "cliente=" + sessionStorage.getItem('clienteLoggato');
+            http.open('POST', url, true);
+
+            http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+            http.onreadystatechange = function () {
+                if (http.readyState == 4 && http.status == 200) {
+
+
+                    let cliente = JSON.parse(sessionStorage.getItem('clienteLoggato'));
+                    let clienti = JSON.parse(localStorage.getItem('clienti'));
+                    clienti=clienti.filter(v => v.mail != cliente.mail)
+                    localStorage.setItem('clienti', JSON.stringify(clienti));
+
+                    logOut()
+
+
+                }
+            }
+            http.send(params);
+
+        } else {
+            return;
+        }
+
+    }
+
+    function modificaDati() {
+
+        let password = document.getElementById('password').value;
+        let nome = document.getElementById('nome').value;
+        let cognome = document.getElementById('cognome').value;
+
+        let cliente = JSON.parse(sessionStorage.getItem('clienteLoggato'));
+
+        let personalizzazione = document.getElementById('persoalizzazione').checked;
+        let newsletter = document.getElementById('newsletter').checked;
+
+        let pagamento = document.getElementById('metodoPagamento').value;
+        let metodoPagamento = "";
+        let parametriPagamento = "";
+        if (pagamento == 1) {
+            metodoPagamento = "Carta di credito";
+            parametriPagamento = document.getElementById('numeroCarta').value
+        } else if (pagamento == 3) {
+            metodoPagamento = "Paypal";
+            parametriPagamento = document.getElementById('mailPaypal').value
+        } else {
+            metodoPagamento = "Contanti";
+            parametriPagamento = "";
+        }
+
+        //-----controlli
+
+        if (password == "" || nome == "" || cognome == "" || metodoPagamento == "" || (parametriPagamento == "" && (pagamento == 1 || pagamento == 3))) {
+            M.toast({html: 'Inserisci tutti i campi'});
+            return;
+        }
+
+
+        if (metodoPagamento == "Carta di credito") {
+            let circuiti = ["American Express", "Carte Blanche", "Discover", "Diners Club", "enRoute", "JCB", "MasterCard", "Solo", "Switch", "Visa", "Laser"];
+            let validità = false;
+            validità = circuiti.some(function (v) {
+                if (checkCreditCard(parametriPagamento, v)) {
+                    return true
+                }
+            });
+
+            if (!validità) {
+                M.toast({html: 'Inserisci un numero di carta valido'});
+                return;
+            }
+        }
+
+        if (metodoPagamento == "Paypal") {
+            if (!validateEmail(parametriPagamento)) {
+                M.toast({html: 'Inserisci una mail valida'});
+                return;
+            }
+        }
+
+
+        let clienteToSend = {
+            mail: cliente.mail,
+            password: password,
+            nome: nome,
+            cognome: cognome,
+            tipoPagamento: metodoPagamento,
+            dettagliPagamento: parametriPagamento,
+            preferenzePrivacy: {
+                trattamento: 1,
+                personalizzazione: +personalizzazione,
+                newsletter: +newsletter
+            }
+        }
+
+
+        //-------invio dati--------
+        var http = new XMLHttpRequest();
+        var url = 'https://fastfood-progettowec.herokuapp.com/modificacliente';
+        var params = "cliente=" + JSON.stringify(clienteToSend);
+        http.open('POST', url, true);
+
+        http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+        http.onreadystatechange = function () {
+            if (http.readyState == 4 && http.status == 200) {
+                sessionStorage.setItem('clienteLoggato', JSON.stringify(clienteToSend))
+                M.toast({html: 'Dati aggiornati'});
+
+                let clienti = JSON.parse(localStorage.getItem('clienti'));
+                clienti=clienti.filter(v => v.mail != clienteToSend.mail)
+                clienti.push(clienteToSend);
+                localStorage.setItem('clienti', JSON.stringify(clienti));
+
+            }
+        }
+        http.send(params);
+
+    }
+
+    function validateEmail(email) {
+        var re = /\S+@\S+\.\S+/;
+        return re.test(email);
+    }
+
+
+</script>
+
+</body>
+</html>

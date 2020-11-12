@@ -1,0 +1,132 @@
+[
+ {
+  "mail": "Stanislao.Calabrese@gmail.com",
+  "password": "pippo",
+  "nome": "Stanislao",
+  "cognome": "Calabrese",
+  "tipoPagamento": "Contanti",
+  "dettagliPagamento": "",
+  "preferenzePrivacy": {
+   "trattamento": 1,
+   "personalizzazione": 0,
+   "newsletter": 0
+  }
+ },
+ {
+  "mail": "Sandra.Ricci@gmail.com",
+  "password": "ricciolidoro",
+  "nome": "Sandra",
+  "cognome": "Ricci",
+  "tipoPagamento": "Carta di credito",
+  "dettagliPagamento": "4916 4825 6039 9128",
+  "preferenzePrivacy": {
+   "trattamento": 1,
+   "personalizzazione": 1,
+   "newsletter": 0
+  }
+ },
+ {
+  "mail": "Gloria.Mancini@gmail.com",
+  "password": "provolazza",
+  "nome": "Gloria",
+  "cognome": "Mancini",
+  "tipoPagamento": "Carta di credito",
+  "dettagliPagamento": "5227 9612 8038 1236",
+  "preferenzePrivacy": {
+   "trattamento": 1,
+   "personalizzazione": 1,
+   "newsletter": 1
+  }
+ },
+ {
+  "mail": "Paolo.Bellucci@gmail.com",
+  "password": "carotino",
+  "nome": "Paolo",
+  "cognome": "Bellucci",
+  "tipoPagamento": "Contanti",
+  "dettagliPagamento": "",
+  "preferenzePrivacy": {
+   "trattamento": 1,
+   "personalizzazione": 0,
+   "newsletter": 1
+  }
+ },
+ {
+  "mail": "Anselmo.Beneventi@gmail.com",
+  "password": "1234",
+  "nome": "Anselmo",
+  "cognome": "Beneventi",
+  "tipoPagamento": "Paypal",
+  "dettagliPagamento": "anselmo.beneventi@gmail.com",
+  "preferenzePrivacy": {
+   "trattamento": 1,
+   "personalizzazione": 1,
+   "newsletter": 1
+  }
+ },
+ {
+  "mail": "Giorgio.Sagese@gmail.com",
+  "password": "frizzantino",
+  "nome": "Giorgio",
+  "cognome": "Sagese",
+  "tipoPagamento": "Carta di credito",
+  "dettagliPagamento": "4716 6853 3236 9904",
+  "preferenzePrivacy": {
+   "trattamento": 1,
+   "personalizzazione": 1,
+   "newsletter": 0
+  }
+ },
+ {
+  "mail": "Renata.Siciliani@gmail.com",
+  "password": "ponyta",
+  "nome": "Renata",
+  "cognome": "Siciliani",
+  "tipoPagamento": "Paypal",
+  "dettagliPagamento": "mario.fiorentini@gmail.com",
+  "preferenzePrivacy": {
+   "trattamento": 1,
+   "personalizzazione": 1,
+   "newsletter": 0
+  }
+ },
+ {
+  "mail": "Piero.Russo@gmail.com",
+  "password": "ferrarilover95",
+  "nome": "Piero",
+  "cognome": "Russo",
+  "tipoPagamento": "Paypal",
+  "dettagliPagamento": "salvatore.russo@gmail.com",
+  "preferenzePrivacy": {
+   "trattamento": 1,
+   "personalizzazione": 1,
+   "newsletter": 1
+  }
+ },
+ {
+  "mail": "Nicola.Loduca@gmail.com",
+  "password": "avadakedavra51",
+  "nome": "Nicola",
+  "cognome": "Loduca",
+  "tipoPagamento": "Carta di credito",
+  "dettagliPagamento": "4916 4760 7759 4999",
+  "preferenzePrivacy": {
+   "trattamento": 1,
+   "personalizzazione": 0,
+   "newsletter": 0
+  }
+ },
+ {
+  "mail": "Giordana.Mazzetti@gmail.com",
+  "password": "farnesina",
+  "nome": "Giordana",
+  "cognome": "Mazzetti",
+  "tipoPagamento": "Carta di credito",
+  "dettagliPagamento": "4539 0051 8946 3749",
+  "preferenzePrivacy": {
+   "trattamento": 1,
+   "personalizzazione": 0,
+   "newsletter": 0
+  }
+ }
+]

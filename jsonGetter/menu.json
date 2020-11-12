@@ -1,0 +1,1539 @@
+[
+ {
+  "ID": 30000,
+  "descrizione": "A quarter-pound* of fresh beef, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun \u2014 just the way Dave intended.",
+  "nome": "Dave's Single\u00ae",
+  "calorie": "570 cal",
+  "prezzo": "$3.49",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70197,
+   70214,
+   70215,
+   71567,
+   71570,
+   71569,
+   71571,
+   71539,
+   70222
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30001,
+  "descrizione": "A half-pound* of fresh beef, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun. More meat means more to love.  ",
+  "nome": "Dave's Double\u00ae",
+  "calorie": "810 cal",
+  "prezzo": "$4.59",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70197,
+   70214,
+   70215,
+   71567,
+   71570,
+   71569,
+   71571,
+   71539,
+   71151
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30002,
+  "descrizione": "Three quarters of a pound* of fresh, never frozen beef, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun. Use both hands!",
+  "nome": "Dave's Triple\u00ae",
+  "calorie": "1,100 cal",
+  "prezzo": "$5.49",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70197,
+   70214,
+   70215,
+   71567,
+   71569,
+   71571,
+   71570,
+   71557,
+   71152
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30003,
+  "descrizione": "A half-pound* of fresh beef, American cheese, 6 pieces of crispy Applewood smoked bacon, ketchup, and mayo. Carnivores rejoice!",
+  "nome": "Baconator\u00ae",
+  "calorie": "920 cal",
+  "prezzo": "$5.89",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70197,
+   70214,
+   70215,
+   71151,
+   71179,
+   71539
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30004,
+  "descrizione": "A quarter-pound of fresh beef, American cheese, plenty of Applewood smoked bacon, ketchup, and mayo. Like Baconator\u00ae, like Son. ",
+  "nome": "Son of Baconator\u00ae",
+  "calorie": "630 cal",
+  "prezzo": "$4.19",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70197,
+   70214,
+   70215,
+   71539,
+   71156,
+   71565
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30005,
+  "descrizione": "Two patties of fresh, never frozen beef with cheese, ketchup, mustard, pickle, and onion. It\u2019s double the fresh beef, stacked with deliciousness.",
+  "nome": "Double Stack\u2122",
+  "calorie": "390 cal",
+  "prezzo": "$1.79",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70201,
+   70205,
+   71530,
+   71527,
+   71610,
+   71611,
+   71156
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30006,
+  "descrizione": "Fresh beef, Applewood smoked bacon, American cheese, crisp lettuce, tomato, and mayo. It\u2019s a favorite of bacon lovers everywhere.",
+  "nome": "Jr. Bacon Cheeseburger",
+  "calorie": "380 cal",
+  "prezzo": "$1.60",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70201,
+   70205,
+   71526,
+   71609,
+   71612,
+   71154,
+   71048
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30007,
+  "descrizione": "Fresh beef topped with cheese, pickles, onions, tomatoes, crisp lettuce, ketchup, and mayo. It\u2019s big flavor at a junior price. ",
+  "nome": "Jr. Cheeseburger Deluxe",
+  "calorie": "340 cal",
+  "prezzo": "$1.19",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70201,
+   70205,
+   71530,
+   71526,
+   71609,
+   71610,
+   71611,
+   71612,
+   71048
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30008,
+  "descrizione": "Fresh beef topped with cheese, pickles, onion, ketchup, and mustard on a toasted bun. It\u2019s done just right, and just the right size.",
+  "nome": "Jr. Cheeseburger",
+  "calorie": "280 cal",
+  "prezzo": "$0.99",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70201,
+   70205,
+   71530,
+   71527,
+   71610,
+   71611,
+   71048
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30009,
+  "descrizione": "Fresh beef topped with pickles, onion, ketchup, and mustard on a toasted bun. It\u2019s done just right, and just the right size.",
+  "nome": "Jr. Hamburger",
+  "calorie": "240 cal",
+  "prezzo": "$0.99",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70201,
+   71530,
+   71527,
+   71610,
+   71611,
+   71048
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30010,
+  "descrizione": "A sizzling chicken breast grilled to perfection, with thick Applewood smoked bacon, Asiago cheese, creamy ranch sauce, crisp lettuce, and tomato, all on a toasted bun. Go grilled. Go home happy.",
+  "nome": "Grilled Asiago Ranch Club",
+  "calorie": "500 cal",
+  "prezzo": "$4.79",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   70197,
+   70206,
+   70217,
+   71567,
+   71571,
+   71032,
+   71507
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30011,
+  "descrizione": "A juicy, lightly breaded chicken breast taken over the top with thick Applewood smoked bacon, Asiago cheese, creamy ranch sauce, crisp lettuce, and tomato, all on a toasted bun. A club favorite that\u2019s anything but boring.",
+  "nome": "Homestyle Asiago Ranch Chicken Club",
+  "calorie": "640 cal",
+  "prezzo": "$4.82",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   70197,
+   70206,
+   70217,
+   71567,
+   71571,
+   71032,
+   71508
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30012,
+  "descrizione": "A juicy chicken breast marinated and breaded in our unique, fiery blend of peppers and spices to deliver more flavor inside and out, topped with thick Applewood smoked bacon, Asiago cheese, creamy ranch sauce, crisp lettuce, and tomato, all on a toasted bun. So hot you\u2019ll wanna give your mouth a heads up. ",
+  "nome": "Spicy Asiago Ranch Club",
+  "calorie": "630 cal",
+  "prezzo": "$4.79",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   70197,
+   70206,
+   70217,
+   71567,
+   71571,
+   71032,
+   71620
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30013,
+  "descrizione": "A juicy chicken breast marinated and breaded in our unique, fiery blend of peppers and spices to deliver more flavor inside and out, cooled down with crisp lettuce, tomato, and mayo. It\u2019s the original spicy chicken sandwich, and the one you crave.",
+  "nome": "Spicy Chicken Sandwich",
+  "calorie": "500 cal",
+  "prezzo": "$4.39",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   70197,
+   70215,
+   71567,
+   71571,
+   71620
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30014,
+  "descrizione": "A juicy, lightly-breaded chicken breast, crisp lettuce and tomato, and just enough mayo, all on a toasted bun. It\u2019s extra comfy comfort food.",
+  "nome": "Homestyle Chicken Sandwich",
+  "calorie": "500 cal",
+  "prezzo": "$4.39",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   70197,
+   70215,
+   71567,
+   71571,
+   71508
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30016,
+  "descrizione": "Juicy white meat, lightly breaded and seasoned, topped with crisp lettuce, and mayo. More than delicious, and just the right size.",
+  "nome": "Crispy Chicken Sandwich",
+  "calorie": "330 cal",
+  "prezzo": "$0.99",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   70201,
+   71526,
+   71609,
+   71050
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30021,
+  "descrizione": "100% white-meat chicken breaded and marinated in our unique, fiery blend of peppers and spices. Served with your choice of six dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard or Side of S\u2019Awesome\u00ae. The Internet icon is back for a hot minute.",
+  "nome": "4 PC. Spicy Chicken Nuggets",
+  "calorie": "190 cal",
+  "prezzo": "$0.99",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   72115
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30023,
+  "descrizione": "100% white-meat chicken breaded and marinated in our unique, fiery blend of peppers and spices. Served with your choice of six dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard or Side of S\u2019Awesome\u00ae. The Internet icon is back for a hot minute.",
+  "nome": "6 PC. Spicy Chicken Nuggets",
+  "calorie": "280 cal",
+  "prezzo": "$1.49",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   71158
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30024,
+  "descrizione": "100% white-meat chicken breaded to crispy perfection and served with your choice of 6 dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard, or Side of S\u2019Awesome\u00ae. They\u2019re trending in our restaurants and Twitter feed alike.",
+  "nome": "10 PC. Crispy Chicken Nuggets",
+  "calorie": "420 cal",
+  "prezzo": "$4.69",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   71160
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30027,
+  "descrizione": "Made fresh daily with Wendy\u2019s signature lettuce blend, crisp red and green apples, dried cranberries, roasted pecans, crumbled blue cheese, and grilled chicken breast hot off the grill, all topped with Marzetti\u00ae Simply Dressed\u00ae Pomegranate Vinaigrette. An unbeatable pick.\r\n\r\nNutrition and allergen information is inclusive of all ingredients in this salad including two packets of dressing on the full-size salad and one packet on the half, which come on the side.\r\n",
+  "nome": "Apple Pecan Chicken Salad",
+  "calorie": "340/570 cal",
+  "prezzo": "$4.09/$6.09",
+  "categoria": "Fresh-Made Salads",
+  "ingredienti": [
+   71045,
+   70739,
+   71172,
+   71555,
+   70953
+  ],
+  "tempoPreparazione": 6
+ },
+ {
+  "ID": 30028,
+  "descrizione": "Made fresh daily with romaine lettuce, grilled chicken breast, Italian cheeses, crunchy Parmesan crisps, and creamy Caesar dressing. One bite will tell you why it\u2019s king of more than just the Romaines.",
+  "nome": "Parmesan Caesar Chicken Salad",
+  "calorie": "310/560 cal",
+  "prezzo": "$4.79/$6.79",
+  "categoria": "Fresh-Made Salads",
+  "ingredienti": [
+   71555,
+   71150,
+   71865,
+   71877
+  ],
+  "tempoPreparazione": 6
+ },
+ {
+  "ID": 30032,
+  "descrizione": "Natural-cut, skin-on, sea-salted fries served hot and crispy. The world loves them for a reason.",
+  "nome": "French Fries",
+  "calorie": "220-480 cal",
+  "prezzo": "$0.99-$1.99",
+  "categoria": "Fries & Sides",
+  "ingredienti": [
+   71183,
+   71662
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30036,
+  "descrizione": "Perfectly seasoned and positively irresistible. Red\u2019s kind of our thing, you know.",
+  "nome": "Chili",
+  "calorie": "240/330 cal",
+  "prezzo": "$1.79/$2.49",
+  "categoria": "Fries & Sides",
+  "ingredienti": [
+   71187
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30038,
+  "descrizione": "Strawberries served ripe and chilled. It\u2019s a burst of summer flavor whenever you want them.",
+  "nome": "Strawberries",
+  "calorie": "20 cal",
+  "prezzo": "$1.79",
+  "categoria": "Fries & Sides",
+  "ingredienti": [
+   71763
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30039,
+  "descrizione": "Our natural-cut, skin-on, sea-salted fries topped with warm, creamy cheese sauce, shredded cheddar, and crispy Applewood smoked bacon. The only fries worthy of the Baconator name.",
+  "nome": "Baconator Fries",
+  "calorie": "470 cal",
+  "prezzo": "$1.99",
+  "categoria": "Fries & Sides",
+  "ingredienti": [
+   70382,
+   70380,
+   70381,
+   71543
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30047,
+  "descrizione": "A blend of 100% Arabica beans from central and south America, medium-roasted to bring out all the best flavors.",
+  "nome": "Fresh Brewed Coffee",
+  "calorie": "5 cal",
+  "prezzo": "$0.99/$1.29",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71844
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30048,
+  "descrizione": "Brewed to be rich and smooth without the caffeine. ",
+  "nome": "Fresh Brewed Decaffeinated Coffee",
+  "calorie": "0 cal",
+  "prezzo": "$0.99/$1.29",
+  "fk": 40445,
+  "categoria": "Beverages",
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30050,
+  "descrizione": "1% milk with 30% of the daily calcium requirement.",
+  "nome": "Milk",
+  "calorie": "90 cal",
+  "prezzo": "$1.29",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71798
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30051,
+  "descrizione": "A favorite since forever with 25% the daily calcium requirement.",
+  "nome": "Chocolate Milk",
+  "calorie": "140 cal",
+  "prezzo": "$1.29",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71799
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30053,
+  "descrizione": "The Chocolate Frosty\u00ae was born out of Dave\u2019s desire for a signature dessert to go with his vision of the perfect meal. Thick enough to use a spoon, smooth enough to use a straw, and perfect when enjoyed on the end of a fry. ",
+  "nome": "Classic Chocolate Frosty\u00ae",
+  "calorie": "200-590 cal",
+  "prezzo": "$0.89-$1.89",
+  "categoria": "Frosty",
+  "ingredienti": [
+   71702
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30054,
+  "descrizione": "The vanilla version of our signature frozen dessert. Cool and creamy don\u2019t do it justice. This is the smooth, thick, sweet dessert masterpiece that goes with everything on our menu. You deserve a dessert this good, so go ahead.",
+  "nome": "Vanilla Frosty\u00ae",
+  "calorie": "190-570 cal",
+  "prezzo": "$0.89-$1.89",
+  "categoria": "Frosty",
+  "ingredienti": [
+   71698
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30057,
+  "descrizione": "Give yourself a wholesome start to the day with our Fresh Baked Oatmeal Bar made with whole oats, sweet blueberries and tart cranberries.\r\n",
+  "nome": "Oatmeal Bar",
+  "calorie": "270 cal",
+  "prezzo": "$1.39",
+  "categoria": "Bakery",
+  "ingredienti": [
+   71837
+  ],
+  "tempoPreparazione": 1.5
+ },
+ {
+  "ID": 30058,
+  "descrizione": "A rich, soft, fresh-baked cookie full of semi-sweet chunks of chocolate, baked in-house. Grandma would love them.",
+  "nome": "Chocolate Chunk Cookie",
+  "calorie": "330 cal",
+  "prezzo": "$1.39",
+  "categoria": "Bakery",
+  "ingredienti": [
+   71715
+  ],
+  "tempoPreparazione": 1.5
+ },
+ {
+  "ID": 30059,
+  "descrizione": "The traditional favorite. Soft, fresh-baked, simple, and perfect.",
+  "nome": "Sugar Cookie",
+  "calorie": "330 cal",
+  "prezzo": "$1.39",
+  "categoria": "Bakery",
+  "ingredienti": [
+   71716
+  ],
+  "tempoPreparazione": 1.5
+ },
+ {
+  "ID": 30060,
+  "descrizione": "A soft, fresh-baked chocolate cookie with chocolate chunks, baked in-house. Chocolate and chocolate, together at last.",
+  "nome": "Double Chocolate Chip Cookie",
+  "calorie": "290 cal",
+  "prezzo": "$1.39",
+  "categoria": "Bakery",
+  "ingredienti": [
+   71714
+  ],
+  "tempoPreparazione": 1.5
+ },
+ {
+  "ID": 30095,
+  "descrizione": "100% white-meat chicken breaded and marinated in our unique, fiery blend of peppers and spices. Served with your choice of six dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard or Side of S\u2019Awesome\u00ae. The Internet icon is back for a hot minute.",
+  "nome": "10 PC. Spicy Chicken Nugget",
+  "calorie": "470 cal",
+  "prezzo": "$4.69",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   71157
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30104,
+  "descrizione": "Hot and fluffy potato topped with creamy cheese sauce, shredded cheese, and Applewood smoked bacon. Because nothing goes with a potato like cheese, more cheese, and also bacon.",
+  "nome": "Bacon Cheese Baked Potato",
+  "calorie": "440 cal",
+  "prezzo": "$2.60",
+  "categoria": "Fries & Sides",
+  "ingredienti": [
+   70404,
+   70403,
+   71178,
+   70401
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30105,
+  "descrizione": "Hot and fluffy potato with shredded cheddar cheese and rich, creamy cheese sauce on top. It\u2019s savory and delicious no matter how you skin it. ",
+  "nome": "Cheese Baked Potato",
+  "calorie": "450 cal",
+  "prezzo": "$2.50",
+  "categoria": "Fries & Sides",
+  "ingredienti": [
+   70403,
+   70401,
+   71178
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30106,
+  "descrizione": "Hot and fluffy potato topped with Wendy\u2019s signature meaty, flavorful chili, rich, creamy cheese sauce, and shredded cheddar. This spud\u2019s your best bud. ",
+  "nome": "Chili & Cheese Baked Potato",
+  "calorie": "500 cal",
+  "prezzo": "$2.60",
+  "categoria": "Fries & Sides",
+  "ingredienti": [
+   70403,
+   70402,
+   70401,
+   71178
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30107,
+  "descrizione": "A hot, fluffy potato topped with the classic combination of chives, and sour cream. It\u2019s a side, it\u2019s a meal, it\u2019s a potato\u2019s potato. Potato. ",
+  "nome": "Sour Cream and Chive Baked Potato",
+  "calorie": "310 cal",
+  "prezzo": "$0.99",
+  "categoria": "Fries & Sides",
+  "ingredienti": [
+   70398,
+   71178,
+   70396
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30277,
+  "descrizione": "The cold, refreshing, sparkling classic that America loves. ",
+  "nome": "Coca-Cola\u00ae",
+  "calorie": "200-400 cal",
+  "prezzo": "$1.59-$1.99",
+  "fk": 40365,
+  "categoria": "Beverages",
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30278,
+  "descrizione": "The great taste of Coca-Cola\u00ae with zero calories.",
+  "nome": "Diet Coke\u00ae",
+  "calorie": "0 cal",
+  "prezzo": "$1.59-$1.99",
+  "fk": 40369,
+  "categoria": "Beverages",
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30279,
+  "descrizione": "A signature blend of 23 flavors makes it truly unique.",
+  "nome": "Dr Pepper\u00ae",
+  "calorie": "120-240 cal",
+  "prezzo": "$1.59-$1.99",
+  "fk": 40373,
+  "categoria": "Beverages",
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30280,
+  "descrizione": "The cold, refreshing flavors of lemon and lime, perfectly blended.",
+  "nome": "Sprite\u00ae",
+  "calorie": "200-390 cal",
+  "prezzo": "$1.59-$1.99",
+  "fk": 40377,
+  "categoria": "Beverages",
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30281,
+  "descrizione": "Change up your routine with the bright, bubbly, fruity flavor of Fanta\u00ae Orange.",
+  "nome": "Fanta\u00ae Orange",
+  "calorie": "210-430 cal",
+  "prezzo": "$1.59-$1.99",
+  "fk": 40381,
+  "categoria": "Beverages",
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30282,
+  "descrizione": "Explosive fruit flavors and 100% of the vitamin C your body needs.",
+  "nome": "Hi-C\u00ae Flashin' Fruit Punch\u00ae",
+  "calorie": "210-420 cal",
+  "prezzo": "$1.59-$1.99",
+  "fk": 40385,
+  "categoria": "Beverages",
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30283,
+  "descrizione": "Real lemonade with no artificial ingredients or preservatives.",
+  "nome": "All-Natural Lemonade",
+  "calorie": "190-380 cal",
+  "prezzo": "$1.79-$2.49",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71664
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30284,
+  "descrizione": "A lighter take on the sweet, tart American classic.",
+  "nome": "Minute Maid\u00ae Light Lemonade",
+  "calorie": "5-15 cal",
+  "prezzo": "$1.59-$1.99",
+  "fk": 40393,
+  "categoria": "Beverages",
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30285,
+  "descrizione": "Brewed to perfection, cool and refreshing any time.",
+  "nome": "Iced Tea",
+  "calorie": "0-5 cal",
+  "prezzo": "$1.59-$1.99",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71849
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30286,
+  "descrizione": "Brewed perfectly and sweetened just the way you like it.",
+  "nome": "Sweet Iced Tea",
+  "calorie": "160-300 cal",
+  "prezzo": "$1.59-$1.99",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71853
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30287,
+  "descrizione": "Our all-natural lemonade flavored with real strawberries.",
+  "nome": "Strawberry Lemonade",
+  "calorie": "230-480 cal",
+  "prezzo": "$2.09-$2.99",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71680
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30343,
+  "descrizione": "Natural, pure, refreshing, and delicious.",
+  "nome": "Nestl\u00e9\u00ae Pure Life\u00ae Bottled Water",
+  "calorie": "0 cal",
+  "prezzo": "$1.39",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71795
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30374,
+  "descrizione": "Juicy white meat, lightly breaded and seasoned, topped with Applewood smoked bacon, crisp lettuce, tomato, cheese, and mayo. A classic taste, perfectly reinvented.",
+  "nome": "Crispy Chicken BLT",
+  "calorie": "420 cal",
+  "prezzo": "$1.69",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   70201,
+   70205,
+   71526,
+   71609,
+   71612,
+   71632,
+   71050
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30403,
+  "descrizione": "Herb-marinated grilled chicken breast topped with smoky honey mustard, crisp spring mix, and tomato, served on a warm toasted bun. See if it isn\u2019t the best chicken sandwich you\u2019ve ever had.",
+  "nome": "Grilled Chicken Sandwich",
+  "calorie": "370 cal",
+  "prezzo": "$4.59",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   70218,
+   71568,
+   71571,
+   71507,
+   70197
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30450,
+  "descrizione": "Made fresh daily with Wendy\u2019s signature lettuce blend, shredded cheddar cheese, diced tomatoes, salsa, sour cream, tortilla chips, and our famous, hearty chili. A fresh take on tacos perfect for Tuesdays, Wednesdays, or any other days for that matter.\r\n\r\nNutrition and allergen information is inclusive of all ingredients in this salad.\r\n",
+  "nome": "Taco Salad",
+  "calorie": "480/690 cal",
+  "prezzo": "$3.99/$5.99",
+  "categoria": "Fresh-Made Salads",
+  "ingredienti": [
+   71594,
+   70396,
+   71593,
+   71627,
+   71628
+  ],
+  "tempoPreparazione": 6
+ },
+ {
+  "ID": 30469,
+  "descrizione": "The satisfying simplicity of good, honest, hot, fluffy baked potato perfection. Ingredients: Potato.",
+  "nome": "Plain Baked Potato",
+  "calorie": "270 cal",
+  "prezzo": "$0.99",
+  "categoria": "Fries & Sides",
+  "ingredienti": [
+   71178
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30473,
+  "descrizione": "Made fresh daily with Wendy\u2019s signature lettuce blend, pepper jack cheese, diced tomatoes, cool, creamy avocado, Applewood smoked bacon, and grilled chicken breast hot off the grill, all topped with Marzetti\u00ae Simply Dressed\u00ae Southwest Ranch Dressing. It\u2019s zesty and Southwesty!\r\n\r\nNutrition and allergen information is inclusive of all ingredients in this salad including two packets of dressing on the full-size salad and one packet on the half, which come on the side.\r\n",
+  "nome": "Southwest Avocado Chicken Salad",
+  "calorie": "300/610 cal",
+  "prezzo": "$4.69/$6.69",
+  "categoria": "Fresh-Made Salads",
+  "ingredienti": [
+   71616,
+   71555,
+   71723,
+   71615,
+   71741
+  ],
+  "tempoPreparazione": 6
+ },
+ {
+"ID": 30474,
+"descrizione": "The same great taste as Coke Classic® but with zero calories.",
+"nome": "Coca-Cola® Zero Sugar",
+"calorie": "0 cal",
+"prezzo": "$1.59-$1.99",
+"categoria":"Beverages",
+"fk": 40749
+},
+ {
+  "ID": 30476,
+  "descrizione": "A sweet, spiced favorite that\u2019s stood the test of time. ",
+  "nome": "Barq's\u00ae Root Beer",
+  "calorie": "220-450 cal",
+  "prezzo": "$1.59-$1.99",
+  "fk": 40754,
+  "categoria": "Beverages",
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30515,
+  "descrizione": "A selection of crisp, juicy sliced apple pieces, perfect as a snack or a side. Great pick!",
+  "nome": "Apple Bites",
+  "calorie": "35 cal",
+  "prezzo": "$0.99",
+  "categoria": "Fries & Sides",
+  "ingredienti": [
+   71712
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30611,
+  "descrizione": "Our natural-cut, skin-on, sea-salted fries topped with our hearty chili and rich, creamy cheese sauce. Easy to love. Hard to beat.",
+  "nome": "Chili Cheese Fries",
+  "calorie": "530 cal",
+  "prezzo": "$2.49",
+  "categoria": "Fries & Sides",
+  "ingredienti": [
+   71183,
+   70408,
+   71695,
+   70381
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30634,
+  "descrizione": "100% white-meat chicken breaded to crispy perfection and served with your choice of 6 dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard, or Side of S\u2019Awesome\u00ae. They\u2019re trending in our restaurants and Twitter feed alike.",
+  "nome": "6 PC. Crispy Chicken Nuggets",
+  "calorie": "250 cal",
+  "prezzo": "$1.49",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   71161
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30635,
+  "descrizione": "100% white-meat chicken breaded to crispy perfection and served with your choice of 6 dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard, or Side of S\u2019Awesome\u00ae. They\u2019re trending in our restaurants and Twitter feed alike.",
+  "nome": "4 PC. Crispy Chicken Nuggets",
+  "calorie": "170 cal",
+  "prezzo": "$0.99",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   71162
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30700,
+  "descrizione": "A fluffy buttermilk biscuit smothered in white pepper gravy and grilled breakfast sausage. It\u2019s what southern hospitality tastes like.",
+  "nome": "Sausage Gravy & Biscuit",
+  "calorie": "450 cal",
+  "prezzo": "$2.19",
+  "categoria": "Biscuits",
+  "ingredienti": [
+   71818,
+   72340
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30701,
+  "descrizione": "A fresh-cracked grade A egg on a fluffy buttermilk biscuit with Applewood smoked bacon and melted American cheese. Rise and shine with a hearty favorite.",
+  "nome": "Bacon, Egg & Cheese Biscuit",
+  "calorie": "420 cal",
+  "prezzo": "$2.59",
+  "categoria": "Biscuits",
+  "ingredienti": [
+   71783,
+   70205,
+   71786,
+   72340
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30702,
+  "descrizione": "A fresh-cracked grade A egg on a fluffy buttermilk biscuit with grilled sausage and melted American cheese. Meet your new morning favorite.",
+  "nome": "Sausage, Egg & Cheese Biscuit",
+  "calorie": "610 cal",
+  "prezzo": "$2.59",
+  "categoria": "Biscuits",
+  "ingredienti": [
+   71781,
+   71783,
+   70205,
+   72340
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30703,
+  "descrizione": "A crispy, chicken fillet, perfectly seasoned and topped with maple honey butter on a fluffy buttermilk biscuit. It\u2019s sweet, it\u2019s savory, and it\u2019s a great reason to get out of bed in the morning.",
+  "nome": "Honey Butter Chicken Biscuit",
+  "calorie": "500 cal",
+  "prezzo": "$2.59",
+  "categoria": "Biscuits",
+  "ingredienti": [
+   71784,
+   71780,
+   72340
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30709,
+  "descrizione": "Natural-cut, skin-on potatoes cooked to perfection and seasoned with cracked black pepper and garlic powder.",
+  "nome": "Seasoned Potatoes",
+  "calorie": "230-410 cal",
+  "prezzo": "$1.29-$1.79",
+  "categoria": "Sides & More",
+  "ingredienti": [
+   71832
+  ],
+  "tempoPreparazione": 1
+ },
+ {
+  "ID": 30711,
+  "descrizione": "Grilled, breakfast sausage on a soft buttermilk biscuit. Simple breakfast perfection.",
+  "nome": "Sausage Biscuit",
+  "calorie": "470 cal",
+  "prezzo": "$0.99",
+  "categoria": "Biscuits",
+  "ingredienti": [
+   71781,
+   72340
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30723,
+  "descrizione": "Vanilla Frosty\u00ae topped with Chocolate Chunk Cookie bites and Ghirardelli\u00ae Chocolate Sauce.\r\n",
+  "nome": "Frosty\u00ae Cookie Sundae",
+  "calorie": "380/400 cal",
+  "prezzo": "$1.99",
+  "categoria": "Frosty",
+  "ingredienti": [
+   71731,
+   71732,
+   71736
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30737,
+  "descrizione": "A quarter-pound* of fresh beef, crispy fried onions and American cheese, covered in sweet and smoky barbecue sauce all on a toasted bun.\u00a0 This stampede of flavor is the best barbecue hamburger in the west\u2013or north or south or east for that matter.",
+  "nome": "Barbecue Cheeseburger",
+  "calorie": "630 cal",
+  "prezzo": "$4.39",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70197,
+   71772,
+   71539,
+   70222,
+   71634,
+   71570
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30757,
+  "descrizione": "Slow steeped, to be extra rich and super-smooth, then served over ice to be extra refreshing and invigorating.",
+  "nome": "Cold Brew Iced Coffee",
+  "calorie": "15/25 cal",
+  "prezzo": "$2.29/$2.59",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71824
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30758,
+  "descrizione": "Smooth, cold-brewed coffee swirled with our legendary vanilla Frosty mix and served over ice. ",
+  "nome": "Vanilla Frosty\u00ae-ccino",
+  "calorie": "210/310 cal",
+  "prezzo": "$2.49/$2.79",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71825
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30759,
+  "descrizione": "Smooth, cold-brewed coffee swirled with our legendary chocolate Frosty mix and served over ice. ",
+  "nome": "Chocolate Frosty\u00ae-ccino",
+  "calorie": "220/310 cal",
+  "prezzo": "$2.49/$2.79",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71826
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30794,
+  "descrizione": "Grape, strawberry, and watermelon juices unite for a delicious, organic juice.",
+  "nome": "Honest Kids\u00ae Fruit Punch",
+  "calorie": "35 cal",
+  "prezzo": "$0.99",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71800
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30805,
+  "descrizione": "A fresh-cracked grade A egg, Applewood-smoked bacon, and melted American cheese on a warm breakfast roll. A tried and true reason to rise. ",
+  "nome": "Classic Bacon, Egg & Cheese Sandwich ",
+  "calorie": "320 cal",
+  "prezzo": "$3.49",
+  "categoria": "Classics",
+  "ingredienti": [
+   71786,
+   71783,
+   70205,
+   72341
+  ],
+  "tempoPreparazione": 4
+ },
+ {
+  "ID": 30806,
+  "descrizione": "A fresh-cracked grade A egg, grilled sausage and melted American cheese on a warm breakfast roll. It\u2019s how mornings were meant to begin.",
+  "nome": "Classic Sausage, Egg & Cheese Sandwich",
+  "calorie": "500 cal",
+  "prezzo": "$3.49",
+  "categoria": "Classics",
+  "ingredienti": [
+   71781,
+   71783,
+   70205,
+   72341
+  ],
+  "tempoPreparazione": 4
+ },
+ {
+  "ID": 30813,
+  "descrizione": "Herb-marinated grilled chicken breast, Applewood smoked bacon, lettuce, tomato, muenster cheese, cool buttermilk ranch and creamy avocado. It\u2019s the best thing to happen to the BLT since abbreviations.",
+  "nome": "Grilled Avocado BLT Chicken Sandwich",
+  "calorie": "590 cal",
+  "prezzo": "$5.69",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   70765,
+   71507,
+   70197,
+   71600,
+   71726,
+   71567,
+   71571,
+   70217
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30815,
+  "descrizione": "A juicy, lightly breaded chicken breast marinated and breaded in our unique, fiery blend of peppers and spices topped with crispy onions, muenster cheese, pickles, and covered in a sweet and smoky BBQ sauce. There are reasons the west was wild, and this sandwich is as rowdy as any of them.",
+  "nome": "Spicy Barbecue Chicken Sandwich",
+  "calorie": "650 cal",
+  "prezzo": "$5.19",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   70197,
+   71600,
+   71634,
+   71570,
+   71620,
+   71772
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30827,
+  "descrizione": "A half-pound* of fresh beef, crispy fried onions and American cheese, covered in sweet and smoky barbecue sauce all on a toasted bun.\u00a0 This stampede of flavor is the best barbecue hamburger in the west\u2013or north or south or east for that matter.",
+  "nome": "Barbecue Cheeseburger Double",
+  "calorie": "870 cal",
+  "prezzo": "$5.39",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70197,
+   71772,
+   71539,
+   71151,
+   71634,
+   71570
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30828,
+  "descrizione": "Three quarters of a pound* of fresh, never-frozen beef, crispy fried onions and American cheese, covered in sweet and smoky barbecue sauce all on a toasted bun.\u00a0 This stampede of flavor is the best barbecue hamburger in the west\u2013or north or south or east for that matter.",
+  "nome": "Barbecue Cheeseburger Triple",
+  "calorie": "1,160 cal",
+  "prezzo": "$6.39",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70197,
+   71772,
+   71557,
+   71152,
+   71634,
+   71570
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30855,
+  "descrizione": "A fresh-cracked grade A egg and Applewood smoked bacon covered in creamy swiss cheese sauce on a flaky croissant bun. Breakfast basics worth waking up early for.",
+  "nome": "Bacon, Egg & Swiss Croissant ",
+  "calorie": "410 cal",
+  "prezzo": "$3.59",
+  "categoria": "Croissants",
+  "ingredienti": [
+   71860,
+   71783,
+   71858,
+   72339
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30856,
+  "descrizione": "A fresh-cracked grade A egg and grilled sausage covered in creamy swiss cheese sauce on a flaky croissant bun. There\u2019s a lot going on in this simple sandwich and it\u2019s all delicious. ",
+  "nome": "Sausage, Egg & Swiss Croissant ",
+  "calorie": "600 cal",
+  "prezzo": "$3.59",
+  "categoria": "Croissants",
+  "ingredienti": [
+   71859,
+   71783,
+   71858,
+   72339
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30857,
+  "descrizione": "A juicy chicken breast, Applewood smoked bacon, and maple butter on a flaky croissant bun. A little sweet. A little savory. A lot good.",
+  "nome": "Maple Bacon Chicken Croissant",
+  "calorie": "560 cal",
+  "prezzo": "$3.99",
+  "categoria": "Croissants",
+  "ingredienti": [
+   71784,
+   71860,
+   71861,
+   72339
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30858,
+  "descrizione": "Scrambled eggs, melty cheese, and perfectly seasoned breakfast sausage wrapped in a warm, soft, flour tortilla. Conveniently delicious, and deliciously convenient.",
+  "nome": "Sausage, Egg & Cheese Burrito ",
+  "calorie": "340 cal",
+  "prezzo": "$1.39",
+  "categoria": "Sides & More",
+  "ingredienti": [
+   71836
+  ],
+  "tempoPreparazione": 1
+ },
+ {
+  "ID": 30860,
+  "descrizione": "Grilled sausage, American cheese, Applewood smoked bacon, a fresh-cracked grade A egg, (deep breath) more cheese and more bacon all covered in swiss cheese sauce. Don\u2019t just break your fast. Destroy it. ",
+  "nome": "Breakfast Baconator\u2122",
+  "calorie": "730 cal",
+  "prezzo": "$3.99",
+  "categoria": "Classics",
+  "ingredienti": [
+   71787,
+   71858,
+   71539,
+   72345,
+   71781,
+   71783
+  ],
+  "tempoPreparazione": 4
+ },
+ {
+  "ID": 30861,
+  "descrizione": "100% Pure squeezed pasteurized orange juice. A delicious orange juice with a taste that\u2019s the next best thing to fresh squeezed.",
+  "nome": "Simply Orange\u00ae Juice",
+  "calorie": "160 cal",
+  "prezzo": "$2.39",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71864
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30862,
+  "descrizione": "Fluffy buttermilk biscuit spread with maple honey butter. The kind of down-home breakfast that melts in your mouth and makes you reminisce about the farm, even if you\u2019re from the city.",
+  "nome": "Honey Butter Biscuit",
+  "calorie": "310 cal",
+  "prezzo": "$1.09",
+  "categoria": "Biscuits",
+  "ingredienti": [
+   71784
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30863,
+  "descrizione": "Our all-natural lemonade mixed with real peach puree. \r\n",
+  "nome": "Peach Lemonade",
+  "calorie": "220-440 cal",
+  "prezzo": "$2.29-$2.99",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71717
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30864,
+  "descrizione": "Our all-natural lemonade mixed with beachy flavors like strawberries, dragon fruit and passion fruit.\u00a0 ",
+  "nome": "Tropical Berry Lemonade",
+  "calorie": "230-460 cal",
+  "prezzo": "$2.29-$2.99",
+  "categoria": "Beverages",
+  "ingredienti": [
+   71720
+  ],
+  "tempoPreparazione": 0
+ },
+ {
+  "ID": 30884,
+  "descrizione": "A juicy, lightly breaded chicken breast, crispy onions, muenster cheese, pickles, and covered in a sweet and smoky BBQ sauce. There are reasons the west was wild, and this sandwich is as rowdy as any of them.",
+  "nome": "Homestyle Barbecue Chicken Sandwich",
+  "calorie": "650 cal",
+  "prezzo": "$5.19",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   71508,
+   70197,
+   71772,
+   71600,
+   71634,
+   71570
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30885,
+  "descrizione": "Herb-marinated grilled chicken breast, crispy onions, muenster cheese, pickles, and covered in a sweet and smoky BBQ sauce. There are reasons the west was wild, and this sandwich is as rowdy as any of them.",
+  "nome": "Grilled Barbecue Chicken Sandwich",
+  "calorie": "520 cal",
+  "prezzo": "$5.19",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   71507,
+   70197,
+   71772,
+   71600,
+   71570,
+   71634
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30888,
+  "descrizione": "A juicy, lightly breaded chicken breast marinated and breaded in our unique, fiery blend of peppers and spices topped with Applewood smoked bacon, lettuce, tomato, muenster cheese, cool buttermilk ranch and creamy avocado. It\u2019s the best thing to happen to the BLT since abbreviations.",
+  "nome": "Spicy Avocado BLT Chicken Sandwich ",
+  "calorie": "720 cal",
+  "prezzo": "$5.69",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   70197,
+   71600,
+   71726,
+   71567,
+   71571,
+   71032,
+   71620,
+   70217
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30889,
+  "descrizione": "A juicy, lightly breaded chicken breast, Applewood smoked bacon, lettuce, tomato, muenster cheese, cool buttermilk ranch and creamy avocado. It\u2019s the best thing to happen to the BLT since abbreviations.",
+  "nome": "Homestyle Avocado BLT Chicken Sandwich",
+  "calorie": "720 cal",
+  "prezzo": "$5.69",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   71032,
+   71508,
+   70197,
+   70217,
+   71600,
+   71726,
+   71571,
+   71567
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30921,
+  "descrizione": "A quarter-pound* of fresh beef topped with pickled jalape\u00f1os, Applewood smoked bacon, American cheese, crispy fried onions, a savory cheese sauce and a smoky jalape\u00f1o sauce. It\u2019s too hot to not.",
+  "nome": "Bacon Jalape\u00f1o Cheeseburger",
+  "calorie": "740 cal",
+  "prezzo": "$4.99",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70197,
+   71886,
+   71147,
+   70222,
+   71887,
+   71634,
+   71539,
+   71888
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30922,
+  "descrizione": "A half-pound* of fresh beef topped with pickled jalape\u00f1os, Applewood smoked bacon, American cheese, crispy fried onions, a savory cheese sauce and a smoky jalape\u00f1o sauce. Only for those serious about spice.",
+  "nome": "Bacon Jalape\u00f1o Cheeseburger Double ",
+  "calorie": "980 cal",
+  "prezzo": "$5.99",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70197,
+   71886,
+   71539,
+   71888,
+   71151,
+   71147,
+   71887,
+   71634
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30923,
+  "descrizione": "Three quarters of a pound* of fresh, never-frozen beef topped with pickled jalape\u00f1os, Applewood smoked bacon, American cheese, crispy fried onions, a savory cheese sauce and a smoky jalape\u00f1o sauce. It\u2019s a whole lotta heat to eat.",
+  "nome": "Bacon Jalape\u00f1o Cheeseburger Triple",
+  "calorie": "1,260 cal",
+  "prezzo": "$6.99",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70197,
+   71886,
+   71557,
+   71888,
+   71152,
+   71147,
+   71887,
+   71634
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 30927,
+  "descrizione": "Kick your fries up a notch with jalapenos, shredded cheddar, Applewood smoked bacon, and warm cheddar cheese sauce drizzled over natural cut, sea salt fries.\r\n",
+  "nome": "Bacon Jalape\u00f1o Cheese Fries",
+  "calorie": "540 cal",
+  "prezzo": "$2.69",
+  "categoria": "Fries & Sides",
+  "ingredienti": [
+   71709,
+   70382,
+   70408,
+   70381,
+   71887,
+   71889,
+   71662
+  ],
+  "tempoPreparazione": 2
+ },
+ {
+  "ID": 30944,
+  "descrizione": "A juicy chicken breast marinated and breaded in our unique, fiery blend of peppers and spices taken to the next level with pickled jalape\u00f1os, Applewood smoked bacon, American cheese, crispy fried onions, a savory cheese sauce and a smoky jalape\u00f1o sauce. Eat the heat.",
+  "nome": "Bacon Jalape\u00f1o Chicken",
+  "calorie": "720 cal",
+  "prezzo": "$4.99",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   70197,
+   71886,
+   71887,
+   71634,
+   70765,
+   71620,
+   70205,
+   71888
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30946,
+  "descrizione": "A juicy chicken breast marinated and breaded in our unique, fiery blend of peppers and spices taken to the next level with pickled jalape\u00f1os, Applewood smoked bacon, American cheese, crispy fried onions, a savory cheese sauce and a smoky jalape\u00f1o sauce. Eat the heat.",
+  "nome": "Homestyle Bacon Jalape\u00f1o Chicken",
+  "calorie": "720 cal",
+  "prezzo": "$4.99",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   70765,
+   71508,
+   70197,
+   71886,
+   71887,
+   71634,
+   70205,
+   71888
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 30947,
+  "descrizione": "A juicy chicken breast marinated and breaded in our unique, fiery blend of peppers and spices taken to the next level with pickled jalape\u00f1os, Applewood smoked bacon, American cheese, crispy fried onions, a savory cheese sauce and a smoky jalape\u00f1o sauce. Eat the heat.",
+  "nome": "Grilled Bacon Jalape\u00f1o Chicken",
+  "calorie": "590 cal",
+  "prezzo": "$4.99",
+  "categoria": "Chicken, Wraps & More",
+  "ingredienti": [
+   70765,
+   71507,
+   70197,
+   71886,
+   71887,
+   71634,
+   70205,
+   71888
+  ],
+  "tempoPreparazione": 3
+ },
+ {
+  "ID": 31071,
+  "descrizione": "A quarter-pound* of fresh beef, Applewood smoked bacon, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun. It\u2019s big. It\u2019s classic. It\u2019s got bacon.\r\n",
+  "nome": "Big Bacon Classic",
+  "calorie": "630 cal",
+  "prezzo": "$3.99",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70197,
+   70214,
+   70215,
+   71539,
+   71147,
+   70222,
+   71567,
+   71570,
+   71569,
+   71571
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 31076,
+  "descrizione": "A half-pound* of fresh beef, Applewood smoked bacon, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun. It\u2019s big. It\u2019s classic. It\u2019s got bacon.",
+  "nome": "Big Bacon Classic Double",
+  "calorie": "870 cal",
+  "prezzo": "$5.99",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70197,
+   70214,
+   70215,
+   71539,
+   71147,
+   71567,
+   71570,
+   71569,
+   71571,
+   71151
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 31077,
+  "descrizione": "Three quarters of a pound* of fresh, never-frozen beef, Applewood smoked bacon, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun. It\u2019s big. It\u2019s classic. It\u2019s got bacon.\r\n",
+  "nome": "Big Bacon Classic Triple",
+  "calorie": "1,150 cal",
+  "prezzo": "$6.99",
+  "categoria": "Cheeseburgers",
+  "ingredienti": [
+   70197,
+   70214,
+   70215,
+   71557,
+   71152,
+   71147,
+   71567,
+   71570,
+   71569,
+   71571
+  ],
+  "tempoPreparazione": 3.5
+ },
+ {
+  "ID": 31184,
+  "descrizione": "Made fresh daily with our Wendy\u2019s signature lettuce blend, herb-marinated grilled chicken breast, a three-cheese blend of Parmesan, Asiago, and Fontina, Applewood smoked bacon, and, of course, strawberries. All topped with candied almonds and Marzetti\u00ae\u00bf Simply Dressed\u00ae Champagne Vinaigrette. Raise a glass because this tasty of a salad deserves a toast.",
+  "nome": "Summer Strawberry Salad",
+  "calorie": "290/530 cal",
+  "prezzo": "$5.19/$7.19",
+  "categoria": "Fresh-Made Salads",
+  "ingredienti": [
+   71551,
+   71553,
+   71885,
+   71555,
+   71741
+  ],
+  "tempoPreparazione": 6
+ }
+]

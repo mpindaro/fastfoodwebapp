@@ -1,0 +1,1622 @@
+[
+ {
+  "ID": 70197,
+  "nome": "Premium Bun",
+  "descrizione": "Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup and/or Sugar, Yeast, Soybean Oil, Contains less than 2% of each of the following: Ascorbic Acid (Vitamin C), Calcium Peroxide, Calcium Propionate (Added as a Preservative), Calcium Sulfate, Canola Oil, Citric Acid, Corn Starch, Dextrose, Enzymes, Maltodextrins, Modified Food Starch, Monocalcium Phosphate, Monoglycerides, Salt, Sodium Stearoyl Lactylate (SSL), Starch, Sunflower Oil, Vegetable Oil, Vegetable Proteins (Pea, Potato, Fava Bean), Wheat Dextrose, Wheat Flour, Wheat Gluten, Wheat Maltodextrins. CONTAINS: WHEAT. BUNS ARE TOASTED IN A COMMON TOASTER WITH PRODUCTS THAT CONTAIN WHEAT, EGG, SOY, AND MILK. "
+ },
+ {
+  "ID": 70201,
+  "nome": "Sandwich Bun",
+  "descrizione": "Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup and/or Sugar, Wheat Gluten, Soybean Oil, Yeast, Salt, Yellow Corn Flower, Colors (Annatto and Turmeric), Contains less than 2% of each of the following: Calcium Propionate (Added as a Preservative), Cultured Wheat Flour, Dextrin, Dough Conditioners (Contains One or More of the Following: Ascorbic Acid [Vitamin C], Calcium Iodate, Calcium Peroxide, Calcium Stearoyl Lactylate, Calcium Sulfate, Datem, Distilled Monoglycerides, Enzymes, Ethoxylated Monoglycerides and Diglycerides, Monoglycerides and/or Diglycerides, Sodium Stearoyl Lactylate [SSL]), Maltodextrin, Natural Flavor, Wheat Flour, Whole Grain Corn Flour, Yeast Foods (Contains One or More of the Following: Ammonium Sulfate, Calcium Carbonate, Monocalcium Phosphate). CONTAINS WHEAT."
+ },
+ {
+  "ID": 70205,
+  "nome": "American Cheese Slice",
+  "descrizione": "Milk, Water, Cream, Sodium Citrate, Salt, Contains Less than 2%: Annatto (Color), Apocarotenal and Beta Carotene (Color), Cheese Culture, Citric Acid, Enzymes, Lactic Acid, Oleoresin Paprika (Color), Sorbic Acid (Preservative), Soy Lecithin, and Sunflower Lecithin. CONTAINS: MILK, SOY."
+ },
+ {
+  "ID": 70206,
+  "nome": "Asiago Cheese",
+  "descrizione": "Pasteurized Milk, Cheese Culture, Salt, Enzymes. CONTAINS: MILK."
+ },
+ {
+  "ID": 70214,
+  "nome": "Ketchup",
+  "descrizione": "Tomato Concentrate from Red Ripe Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Salt, Natural Flavoring, Spices, Onion Powder. CONTAINS EGG."
+ },
+ {
+  "ID": 70215,
+  "nome": "Mayonnaise",
+  "descrizione": "Soybean Oil, Water, Egg Yolks, Corn Syrup, Distilled Vinegar, Salt, Mustard Seed, Calcium Disodium Edta (To Protect Flavor). CONTAINS: EGG"
+ },
+ {
+  "ID": 70216,
+  "nome": "Mustard",
+  "descrizione": "Water, Distilled Vinegar, Mustard Seed, Salt, Turmeric (Color), Paprika, Spice."
+ },
+ {
+  "ID": 70217,
+  "nome": "Ranch Sauce",
+  "descrizione": "Soybean Oil, Buttermilk, Water, Egg Yolk, Distilled Vinegar, Salt, Garlic Juice, Sugar, Natural Flavor (Contains Mustard), Dehydrated Garlic, Dehydrated Onion, Xanthan Gum, Lactic Acid, Yeast Extract, Spice. CONTAINS: EGG, MILK."
+ },
+ {
+  "ID": 70218,
+  "nome": "Smoky Honey Mustard  ",
+  "descrizione": "Soybean Oil, Dijon Mustard (Water, Vinegar, Mustard Seed, Salt, White Wine, Fruit Pectin, Tartaric Acid, Citric Acid, Sugar, Spice), Water, Sugar, Honey, Tomato Paste, Brown Sugar, Apple Cider Vinegar, Egg Yolk, Distilled Vinegar, Salt, Mustard Seed, Corn Syrup, Dehydrated Garlic, Natural Smoke Flavor, Xanthan Gum, Dehydrated Onion, Oleoresin Rosemary, Soy Lecithin, Natural Flavor, Spice, Tamarind, Oleoresin Turmeric. CONTAINS: EGG, SOY. "
+ },
+ {
+  "ID": 70222,
+  "nome": "Hamburger Patty",
+  "descrizione": "Ground Beef, Salt. HAMBURGER PATTIES ARE COOKED ON THE SAME GRILL AS AND MAY COME IN CONTACT WITH INGREDIENTS THAT CONTAIN MILK AND SOY."
+ },
+ {
+  "ID": 70373,
+  "nome": "Ketchup",
+  "descrizione": "Tomato Concentrate from Red Ripe Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Salt, Natural Flavoring, Spices, Onion Powder."
+ },
+ {
+  "ID": 70374,
+  "nome": "Cheddar Cheese Sauce",
+  "descrizione": "Water, Cheddar Cheese (Pasteurized Milk, Salt, Cultures, Enzymes), Milk, Modified Corn Starch, Butter (Cream, Salt), Canola Oil, Natural Flavor, Salt, Sodium Citrate, Whey Protein Concentrate, Tomato Concentrate, Xanthan Gum, Konjac, Annatto (Color), Citric Acid, Onion Juice Concentrate, Oleoresin Paprika (Paprika Extract, Sunflower Oil), Soy Lecithin. CONTAINS: MILK, SOY"
+ },
+ {
+  "ID": 70375,
+  "nome": "Barbecue Sauce",
+  "descrizione": "Water, Sugar, Tomato Paste, Distilled Vinegar, Food-Starch Modified, Worcestershire Sauce (Distilled Vinegar, Corn Syrup, Water, Salt, Garlic Powder, Spices, Celery Seed, Tamarind, Natural Flavor), Molasses, Salt, Natural Smoke Flavor, Chili Powder (Chili Pepper, Spices, Salt, Garlic Powder), Sodium Benzoate and Potassium Sorbate (Preservatives), Spices, Natural Flavor, Mustard Flour, Paprika, Onion Powder, Ground Turmeric, Granulated Garlic."
+ },
+ {
+  "ID": 70376,
+  "nome": "Buttermilk Ranch Sauce",
+  "descrizione": "Soybean Oil, Water, Cultured Buttermilk (Nonfat Milk Solids, Culture), Corn Syrup, Distilled Vinegar, Egg Yolks, Sugar, Salt, Food Starch-Modified, Dried Torula Yeast, Lactic Acid, Garlic Powder, Disodium Inosinate and Disodium Guanylate, Polysorbate 60, Potassium Sorbate and Sodium Benzoate (Preservatives), Onion Powder, Xanthan Gum, Natural Flavor, Spice, Dried Parsley, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG, MILK."
+ },
+ {
+  "ID": 70377,
+  "nome": "Creamy Sriracha Dipping Sauce",
+  "descrizione": "Soybean Oil, Water, Sriracha Sauce (Red Chili Peppers, Distilled Vinegar, Sugar, Garlic, Salt, Oleoresin Capsicum), Distilled Vinegar, Egg Yolks, Sugar, Salt, Dijon Mustard (Distilled Vinegar, Mustard Seed, Water, Salt, White Wine, Citric Acid, Tartaric Acid, Spices), Garlic, Food Starch-Modified, Lemon Juice Concentrate, Garlic Powder, Xanthan Gum, Spices, Natural Flavors, Potassium Sorbate and Sodium Benzoate (Preservatives), Onion Powder, Yeast Extract, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG."
+ },
+ {
+  "ID": 70378,
+  "nome": "Honey Mustard Dipping Sauce",
+  "descrizione": "Water, Soybean Oil, High Fructose Corn Syrup, Dijon Mustard (Distilled Vinegar, Mustard Seed, Water, Salt, White Wine, Citric Acid, Tartaric Acid, Spices), Distilled Vinegar, Honey, Egg Yolks, Sugar, Food-Starch Modified, Salt, Xanthan Gum, Spices, Sodium Benzoate (Preservative), Natural Flavor, Paprika, Extractives of Turmeric, Extractives of Paprika, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG."
+ },
+ {
+  "ID": 70379,
+  "nome": "Sweet and Sour Sauce",
+  "descrizione": "High Fructose Corn Syrup, Water, Distilled Vinegar, Pineapple Juice Concentrate, Food-Starch Modified, Salt, Potassium Sorbate and Sodium Benzoate (Preservatives), Dried Green and Red Bell Peppers, Citric Acid, Soybean Oil, Spices, Extractives of Paprika."
+ },
+ {
+  "ID": 70380,
+  "nome": "Cheddar Cheese Sauce",
+  "descrizione": "Water, cheddar cheese (pasteurized milk, cheese culture, salt, enzymes), milk, cream cheese spread (pasteurized milk and cream, cheese culture, salt, carob bean gum), modified cornstarch, non-fat dry milk, soybean oil, palm oil, whey, sodium phosphate, cream, cheese culture, milk fat, sea salt, salt,  parmesan cheese (pasteurized part-skim milk, cheese cultures, salt, enzyme),  butter, sodium alginate, carob bean gum, mono & diglycerides, annatto and apocarotenal (for color), lactic acid, soy lecithin. CONTAINS: MILK, SOY."
+ },
+ {
+  "ID": 70381,
+  "nome": "Shredded Cheddar Cheese",
+  "descrizione": "Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto [Vegetable Color]), Anti-Caking Blend (Potato Starch, Powdered Cellulose, Corn Starch, Calcium Sulfate), Natamycin (A Natural Mold Inhibitor). CONTAINS: MILK."
+ },
+ {
+  "ID": 70382,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite). "
+ },
+ {
+  "ID": 70389,
+  "nome": "Ranch Dressing",
+  "descrizione": "Buttermilk, Soybean Oil, Water, Distilled Vinegar, Extra Virgin Olive Oil, Egg Yolk, Sugar, Salt, Dehydrated Garlic, Modified Cornstarch, Yeast Extract, Spice, Dehydrated Onion, Natural Flavor, Xanthan Gum, Lactic Acid. CONTAINS: EGG, MILK"
+ },
+ {
+  "ID": 70390,
+  "nome": "Pomegranate Vinaigrette Dressing",
+  "descrizione": "Water, Sugar, Pomegranate Juice Concentrate, White Wine Vinegar, Soybean Oil, Orange Juice Concentrate, Balsamic Vinegar, Distilled Vinegar, Salt, Extra Virgin Olive Oil, Orange Flavedo (Orange Peel, Sugar, Orange Oil), Shallots, Xanthan Gum, Natural Flavor, Spice."
+ },
+ {
+  "ID": 70394,
+  "nome": "Cheddar Cheese, shredded",
+  "descrizione": "Cultured Pasteurized Milk, Salt, Enzymes, Annatto Color, Potato Starch and Powdered Cellulose (to prevent caking), Natamycin (natural mold inhibitor). CONTAINS: MILK.   "
+ },
+ {
+  "ID": 70395,
+  "nome": "Sweet Onion",
+  "descrizione": "Onion."
+ },
+ {
+  "ID": 70396,
+  "nome": "Light Sour Cream",
+  "descrizione": "Cultured Milk And Cream, Corn Starch, Xanthan Gum, Potassium Sorbate, Vitamin A Palmitate Added. CONTAINS: MILK. "
+ },
+ {
+  "ID": 70397,
+  "nome": "Hot Sauce",
+  "descrizione": "Tomato Puree (Water, Tomato Paste), Water, Onions (Contains Vinegar, Salt), Jalapeno Peppers (Contains Vinegar, Salt, Acetic Acid), Green Peppers, Onions, White Distilled Vinegar, Contains 2% Or Less Of Iodized Salt, Onions*, Citric Acid, Garlic*, Potassium Sorbate (Preservative), Sodium Benzoate (Preservative), Xanthan Gum, Calcium Disodium Edta Added To Protect Flavor. *Dehydrated."
+ },
+ {
+  "ID": 70398,
+  "nome": "Chives",
+  "descrizione": "Chives."
+ },
+ {
+  "ID": 70401,
+  "nome": "Cheddar Cheese, Shredded",
+  "descrizione": "CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES, ANNATTO (VEGETABLE COLOR), POTATO STARCH AND POWDERED CELLULOSE (TO PREVENT CAKING), NATAMYCIN (NATURAL MOLD INHIBITOR). CONTAINS: MILK.\r\n"
+ },
+ {
+  "ID": 70402,
+  "nome": "Chili",
+  "descrizione": "Chili Base (Chili Sauce [Water, Tomato Paste, Tomatoes (Tomatoes, Tomato Juice, Calcium Chloride), Sugar, Modified Corn Starch, Salt, Chili Pepper, Spices, Flavor Enhancer (Dextrose, Salt, Yeast Extract, Modified Corn Starch), Citric Acid, Garlic Powder, Disodium Inosinate and Disodium Guanylate, Onion Powder, Xanthan Gum], Onions, Celery, Green Peppers), Water, Ground Beef (Beef, Salt), Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans), Soy Lecithin. CONTAINS: MILK AND SOY. "
+ },
+ {
+  "ID": 70403,
+  "nome": "Cheddar Cheese Sauce",
+  "descrizione": "Water, Cheddar Cheese (Pasteurized Milk, Salt, Cultures, Enzymes), Milk, Modified Corn Starch, Butter (Cream, Salt), Canola Oil, Natural Flavor, Salt, Sodium Citrate, Whey Protein Concentrate, Tomato Concentrate, Xanthan Gum, Konjac, Annatto (Color), Citric Acid, Onion Juice Concentrate, Oleoresin Paprika (Paprika Extract, Sunflower Oil), Soy Lecithin. CONTAINS: MILK, SOY"
+ },
+ {
+  "ID": 70404,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite). "
+ },
+ {
+  "ID": 70405,
+  "nome": "Sweet Onion",
+  "descrizione": "Onion."
+ },
+ {
+  "ID": 70406,
+  "nome": "Ketchup",
+  "descrizione": "Tomato Concentrate from Red Ripe Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Salt, Natural Flavoring, Spices, Onion Powder. CONTAINS EGG."
+ },
+ {
+  "ID": 70407,
+  "nome": "Mayonnaise",
+  "descrizione": "Soybean Oil, Water, Egg Yolks, Corn Syrup, Distilled Vinegar, Salt, Mustard Seed, Calcium Disodium Edta (To Protect Flavor). CONTAINS: EGG"
+ },
+ {
+  "ID": 70408,
+  "nome": "Cheddar Cheese Sauce",
+  "descrizione": "Water, Cheddar Cheese (Pasteurized Milk, Salt, Cultures, Enzymes), Milk, Modified Corn Starch, Butter (Cream, Salt), Canola Oil, Natural Flavor, Salt, Sodium Citrate, Whey Protein Concentrate, Tomato Concentrate, Xanthan Gum, Konjac, Annatto (Color), Citric Acid, Onion Juice Concentrate, Oleoresin Paprika (Paprika Extract, Sunflower Oil), Soy Lecithin. CONTAINS: MILK, SOY."
+ },
+ {
+  "ID": 70739,
+  "nome": "Blue Cheese Crumbles",
+  "descrizione": "Blue Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes, Penicillium Roqueforti), Anti-Caking Blend (Powdered Cellulose, Natamycin). CONTAINS: MILK"
+ },
+ {
+  "ID": 70742,
+  "nome": "Shredded Cheddar Cheese",
+  "descrizione": "Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto [Vegetable Color]), Anti-Caking Blend (Potato Starch, Powdered Cellulose, Corn Starch, Calcium Sulfate), Natamycin (A Natural Mold Inhibitor). CONTAINS: MILK."
+ },
+ {
+  "ID": 70765,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite). "
+ },
+ {
+  "ID": 70813,
+  "nome": "Asiago Cheese",
+  "descrizione": "Pasteurized Milk, Cheese Culture, Salt, Enzymes. CONTAINS: MILK."
+ },
+ {
+  "ID": 70826,
+  "nome": "American Cheese Slice",
+  "descrizione": "Milk, Water, Cream, Sodium Citrate, Salt, Contains Less than 2%: Annatto (Color), Apocarotenal and Beta Carotene (Color), Cheese Culture, Citric Acid, Enzymes, Lactic Acid, Oleoresin Paprika (Color), Sorbic Acid (Preservative), Soy Lecithin, and Sunflower Lecithin. CONTAINS: MILK, SOY."
+ },
+ {
+  "ID": 70953,
+  "nome": "Roasted Pecans",
+  "descrizione": "Pecans, Sugar, Honey, Corn Starch, Calcium Stearate (Anti-Caking Agent), Soy Lecithin, Maltodextrin, Lactose (From Milk), Xanthan Gum, Soybean Oil, Sea Salt, Cayenne Pepper. CONTAINS: MILK, SOY, TREE NUTS (PECANS)"
+ },
+ {
+  "ID": 71032,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite). "
+ },
+ {
+  "ID": 71035,
+  "nome": "Spicy Chicken Breast",
+  "descrizione": "Chicken Breast Fillets with Rib Meat, Water, Seasoning [Salt, Sodium Phosphates, Modified Potato Starch, Spice (Including Celery Seed and Mustard), Gum Arabic, Spice Extractives, Paprika, Extractives of Paprika, and Extractives of Turmeric].  Breaded With:  Wheat Flour, Water, Modified Corn Starch, Salt, Lentil Flour, Spice, Wheat Gluten, Yellow Corn Flour, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate), Spice Extractives and Extractives of Paprika.  Breading set in Vegetable Oil. Cooked in Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One or More of the Following: Canola, Corn, or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). CONTAINS: WHEAT. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK,  AND FISH. GRILLED, HOMESTYLE, AND SPICY CHICKEN BREASTS ARE CUT ON A COMMON CUTTING BOARD, WHICH RESULTS IN CROSS-CONTACT WITH WHEAT AND SOY ALLERGENS."
+ },
+ {
+  "ID": 71036,
+  "nome": "Homestyle Chicken Breast",
+  "descrizione": "Chicken Breast, Water, Seasoning (Salt, Autolyzed Yeast Extract, Natural Flavors, Sugar, Flavor, Chicken, Corn Syrup Solids, Maltodextrin, Gum Arabic, Silicon Dioxide, Lactic Acid, Sunflower Oil, Canola Oil, Dextrose, Spice, Medium Chain Triglycerides, Grill Flavor [From Canola Oil], Citric Acid), Modified Food Starch, Sodium Phosphates.  Breaded With:  Wheat Flour, Water, Sugar, Salt, Modified Corn Starch, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate), Spice, Onion Powder, Garlic Powder, Autolyzed Yeast Extract, Natural Flavor, Lactic Acid, Extractives Of Turmeric, Extractives Of Paprika.  Breading Set In Vegetable Oil. Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: WHEAT."
+ },
+ {
+  "ID": 71043,
+  "nome": "Ranch Dressing",
+  "descrizione": "Buttermilk, Soybean Oil, Water, Distilled Vinegar, Extra Virgin Olive Oil, Egg Yolk, Sugar, Salt, Dehydrated Garlic, Modified Cornstarch, Yeast Extract, Spice, Dehydrated Onion, Natural Flavor, Xanthan Gum, Lactic Acid. CONTAINS: EGG, MILK"
+ },
+ {
+  "ID": 71045,
+  "nome": "Pomegranate Vinaigrette Dressing",
+  "descrizione": "Water, Sugar, Pomegranate Juice Concentrate, White Wine Vinegar, Soybean Oil, Orange Juice Concentrate, Balsamic Vinegar, Distilled Vinegar, Salt, Extra Virgin Olive Oil, Orange Flavedo (Orange Peel, Sugar, Orange Oil), Shallots, Xanthan Gum, Natural Flavor, Spice."
+ },
+ {
+  "ID": 71048,
+  "nome": "Jr. Hamburger Patty",
+  "descrizione": "Ground Beef, Salt. HAMBURGER PATTIES ARE COOKED ON THE SAME GRILL AS AND MAY COME IN CONTACT WITH INGREDIENTS THAT CONTAIN MILK AND SOY."
+ },
+ {
+  "ID": 71050,
+  "nome": "Crispy Chicken Patty",
+  "descrizione": "Chicken Breast With Rib Meat, Water, Salt, Sodium Phosphates. Breaded With: Wheat Flour, Water, Bleached Wheat Flour, Rice Flour, Salt, Modified Corn Starch, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate, Sodium Aluminum Phosphate), Spices, Garlic Powder, Onion Powder, Yeast, Spice Extractives, Extractives Of Paprika, And Extractives Of Celery. Breading Set In Vegetable Oil, Cooked In Vegetable Oil (Soybean, Canola, Corn Or Cottonseed), Hydrogenated Soybean Oil And Dimethylpolysiloxane (Anti-Foaming Agent).  COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: WHEAT"
+ },
+ {
+  "ID": 71051,
+  "nome": "Ketchup",
+  "descrizione": "Tomato Concentrate from Red Ripe Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Salt, Natural Flavoring, Spices, Onion Powder."
+ },
+ {
+  "ID": 71053,
+  "nome": "Honey Mustard Dipping Sauce",
+  "descrizione": "Water, Soybean Oil, High Fructose Corn Syrup, Dijon Mustard (Distilled Vinegar, Mustard Seed, Water, Salt, White Wine, Citric Acid, Tartaric Acid, Spices), Distilled Vinegar, Honey, Egg Yolks, Sugar, Food-Starch Modified, Salt, Xanthan Gum, Spices, Sodium Benzoate (Preservative), Natural Flavor, Paprika, Extractives of Turmeric, Extractives of Paprika, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG."
+ },
+ {
+  "ID": 71054,
+  "nome": "Creamy Sriracha Dipping Sauce",
+  "descrizione": "Soybean Oil, Water, Sriracha Sauce (Red Chili Peppers, Distilled Vinegar, Sugar, Garlic, Salt, Oleoresin Capsicum), Distilled Vinegar, Egg Yolks, Sugar, Salt, Dijon Mustard (Distilled Vinegar, Mustard Seed, Water, Salt, White Wine, Citric Acid, Tartaric Acid, Spices), Garlic, Food Starch-Modified, Lemon Juice Concentrate, Garlic Powder, Xanthan Gum, Spices, Natural Flavors, Potassium Sorbate and Sodium Benzoate (Preservatives), Onion Powder, Yeast Extract, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG."
+ },
+ {
+  "ID": 71055,
+  "nome": "Buttermilk Ranch Sauce",
+  "descrizione": "Soybean Oil, Water, Cultured Buttermilk (Nonfat Milk Solids, Culture), Corn Syrup, Distilled Vinegar, Egg Yolks, Sugar, Salt, Food Starch-Modified, Dried Torula Yeast, Lactic Acid, Garlic Powder, Disodium Inosinate and Disodium Guanylate, Polysorbate 60, Potassium Sorbate and Sodium Benzoate (Preservatives), Onion Powder, Xanthan Gum, Natural Flavor, Spice, Dried Parsley, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG, MILK."
+ },
+ {
+  "ID": 71056,
+  "nome": "Barbecue Sauce",
+  "descrizione": "Water, Sugar, Tomato Paste, Distilled Vinegar, Food-Starch Modified, Worcestershire Sauce (Distilled Vinegar, Corn Syrup, Water, Salt, Garlic Powder, Spices, Celery Seed, Tamarind, Natural Flavor), Molasses, Salt, Natural Smoke Flavor, Chili Powder (Chili Pepper, Spices, Salt, Garlic Powder), Sodium Benzoate and Potassium Sorbate (Preservatives), Spices, Natural Flavor, Mustard Flour, Paprika, Onion Powder, Ground Turmeric, Granulated Garlic."
+ },
+ {
+  "ID": 71057,
+  "nome": "Sweet and Sour Sauce",
+  "descrizione": "High Fructose Corn Syrup, Water, Distilled Vinegar, Pineapple Juice Concentrate, Food-Starch Modified, Salt, Potassium Sorbate and Sodium Benzoate (Preservatives), Dried Green and Red Bell Peppers, Citric Acid, Soybean Oil, Spices, Extractives of Paprika."
+ },
+ {
+  "ID": 71058,
+  "nome": "Spicy Chicken Breast",
+  "descrizione": "Chicken Breast Fillets with Rib Meat, Water, Seasoning [Salt, Sodium Phosphates, Modified Potato Starch, Spice (Including Celery Seed and Mustard), Gum Arabic, Spice Extractives, Paprika, Extractives of Paprika, and Extractives of Turmeric].  Breaded With:  Wheat Flour, Water, Modified Corn Starch, Salt, Lentil Flour, Spice, Wheat Gluten, Yellow Corn Flour, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate), Spice Extractives and Extractives of Paprika.  Breading set in Vegetable Oil. Cooked in Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One or More of the Following: Canola, Corn, or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). CONTAINS: WHEAT. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. GRILLED, HOMESTYLE, AND SPICY CHICKEN BREASTS ARE CUT ON A COMMON CUTTING BOARD, WHICH RESULTS IN CROSS-CONTACT WITH WHEAT AND SOY ALLERGENS."
+ },
+ {
+  "ID": 71059,
+  "nome": "Homestyle Chicken Breast",
+  "descrizione": "Chicken Breast, Water, Seasoning (Salt, Autolyzed Yeast Extract, Natural Flavors, Sugar, Flavor, Chicken, Corn Syrup Solids, Maltodextrin, Gum Arabic, Silicon Dioxide, Lactic Acid, Sunflower Oil, Canola Oil, Dextrose, Spice, Medium Chain Triglycerides, Grill Flavor [From Canola Oil], Citric Acid), Modified Food Starch, Sodium Phosphates.  Breaded With:  Wheat Flour, Water, Sugar, Salt, Modified Corn Starch, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate), Spice, Onion Powder, Garlic Powder, Autolyzed Yeast Extract, Natural Flavor, Lactic Acid, Extractives Of Turmeric, Extractives Of Paprika.  Breading Set In Vegetable Oil. Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT AND FISH. CONTAINS: WHEAT."
+ },
+ {
+  "ID": 71081,
+  "nome": "Saltine Crackers",
+  "descrizione": "Enriched Flour (Wheat Flour, Niacin, Reduced Iron, Vitamin B1 [Thiamine Mononitrate], Vitamin B2 [Riboflavin], Folic Acid), Soybean Oil (TBHQ for Freshness), Salt, Corn Syrup, Contains 2% or Less of Baking Soda, Yeast, Soy Lecithin. CONTAINS: WHEAT AND SOY."
+ },
+ {
+  "ID": 71083,
+  "nome": "Sweet Onion",
+  "descrizione": "Onion."
+ },
+ {
+  "ID": 71124,
+  "nome": "Ketchup",
+  "descrizione": "Tomato Concentrate from Red Ripe Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Salt, Natural Flavoring, Spices, Onion Powder."
+ },
+ {
+  "ID": 71125,
+  "nome": "Sweet and Sour Sauce",
+  "descrizione": "High Fructose Corn Syrup, Water, Distilled Vinegar, Pineapple Juice Concentrate, Food-Starch Modified, Salt, Potassium Sorbate and Sodium Benzoate (Preservatives), Dried Green and Red Bell Peppers, Citric Acid, Soybean Oil, Spices, Extractives of Paprika."
+ },
+ {
+  "ID": 71128,
+  "nome": "Honey Mustard Dipping Sauce",
+  "descrizione": "Water, Soybean Oil, High Fructose Corn Syrup, Dijon Mustard (Distilled Vinegar, Mustard Seed, Water, Salt, White Wine, Citric Acid, Tartaric Acid, Spices), Distilled Vinegar, Honey, Egg Yolks, Sugar, Food-Starch Modified, Salt, Xanthan Gum, Spices, Sodium Benzoate (Preservative), Natural Flavor, Paprika, Extractives of Turmeric, Extractives of Paprika, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG."
+ },
+ {
+  "ID": 71129,
+  "nome": "Creamy Sriracha Dipping Sauce",
+  "descrizione": "Soybean Oil, Water, Sriracha Sauce (Red Chili Peppers, Distilled Vinegar, Sugar, Garlic, Salt, Oleoresin Capsicum), Distilled Vinegar, Egg Yolks, Sugar, Salt, Dijon Mustard (Distilled Vinegar, Mustard Seed, Water, Salt, White Wine, Citric Acid, Tartaric Acid, Spices), Garlic, Food Starch-Modified, Lemon Juice Concentrate, Garlic Powder, Xanthan Gum, Spices, Natural Flavors, Potassium Sorbate and Sodium Benzoate (Preservatives), Onion Powder, Yeast Extract, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG."
+ },
+ {
+  "ID": 71130,
+  "nome": "Buttermilk Ranch Sauce",
+  "descrizione": "Soybean Oil, Water, Cultured Buttermilk (Nonfat Milk Solids, Culture), Corn Syrup, Distilled Vinegar, Egg Yolks, Sugar, Salt, Food Starch-Modified, Dried Torula Yeast, Lactic Acid, Garlic Powder, Disodium Inosinate and Disodium Guanylate, Polysorbate 60, Potassium Sorbate and Sodium Benzoate (Preservatives), Onion Powder, Xanthan Gum, Natural Flavor, Spice, Dried Parsley, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG, MILK."
+ },
+ {
+  "ID": 71132,
+  "nome": "Barbecue Sauce",
+  "descrizione": "Water, Sugar, Tomato Paste, Distilled Vinegar, Food-Starch Modified, Worcestershire Sauce (Distilled Vinegar, Corn Syrup, Water, Salt, Garlic Powder, Spices, Celery Seed, Tamarind, Natural Flavor), Molasses, Salt, Natural Smoke Flavor, Chili Powder (Chili Pepper, Spices, Salt, Garlic Powder), Sodium Benzoate and Potassium Sorbate (Preservatives), Spices, Natural Flavor, Mustard Flour, Paprika, Onion Powder, Ground Turmeric, Granulated Garlic."
+ },
+ {
+  "ID": 71136,
+  "nome": "Artificial Sweetener",
+  "descrizione": "Nutritive Dextrose, Saccharin, Cream of Tartar, Calcium Silicate (anti-caking agent)."
+ },
+ {
+  "ID": 71137,
+  "nome": "Sugar",
+  "descrizione": "Sugar."
+ },
+ {
+  "ID": 71138,
+  "nome": "Artificial Sweetener",
+  "descrizione": "Dextrose with Maltodextrin, Sucralose."
+ },
+ {
+  "ID": 71140,
+  "nome": "Ice Cubes",
+  "descrizione": "Water."
+ },
+ {
+  "ID": 71141,
+  "nome": "Artificial Sweetener",
+  "descrizione": "Dextrose with Maltodextrin, Aspartame.  Phenylketonurics: contains phenylalanine."
+ },
+ {
+  "ID": 71143,
+  "nome": "Coffee Creamer",
+  "descrizione": "Milk, Cream, Disodium Phosphate and Sodium Citrate. CONTAINS: MILK."
+ },
+ {
+  "ID": 71147,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite). "
+ },
+ {
+  "ID": 71149,
+  "nome": "Caesar Dressing",
+  "descrizione": "Water, Soybean Oil, Red Wine Vinegar, Parmesan Cheese (Part-Skim Milk, Cheese Culture, Salt, Enzymes), Romano Cheese (Cultured Milk, Salt, Enzymes), Extra Virgin Olive Oil, Sugar, Egg Yolk, Distilled Vinegar, Salt, Dehydrated Garlic, Spice, Xanthan Gum, Mustard Seed, Natural Flavor, Anchovies. CONTAINS: ANCHOVIES, EGG, MILK."
+ },
+ {
+  "ID": 71150,
+  "nome": "Caesar Dressing",
+  "descrizione": "Water, Soybean Oil, Red Wine Vinegar, Parmesan Cheese (Part-Skim Milk, Cheese Culture, Salt, Enzymes), Romano Cheese (Cultured Milk, Salt, Enzymes), Extra Virgin Olive Oil, Sugar, Egg Yolk, Distilled Vinegar, Salt, Dehydrated Garlic, Spice, Xanthan Gum, Mustard Seed, Natural Flavor, Anchovies. CONTAINS: ANCHOVIES, EGG, MILK."
+ },
+ {
+  "ID": 71151,
+  "nome": "Hamburger Patties",
+  "descrizione": "Ground Beef, Salt. HAMBURGER PATTIES ARE COOKED ON THE SAME GRILL AS AND MAY COME IN CONTACT WITH INGREDIENTS THAT CONTAIN MILK AND SOY."
+ },
+ {
+  "ID": 71152,
+  "nome": "Hamburger Patties",
+  "descrizione": "Ground Beef, Salt. HAMBURGER PATTIES ARE COOKED ON THE SAME GRILL AS AND MAY COME IN CONTACT WITH INGREDIENTS THAT CONTAIN MILK AND SOY."
+ },
+ {
+  "ID": 71154,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite). "
+ },
+ {
+  "ID": 71156,
+  "nome": "Jr. Hamburger Patties",
+  "descrizione": "Ground Beef, Salt. HAMBURGER PATTIES ARE COOKED ON THE SAME GRILL AS AND MAY COME IN CONTACT WITH INGREDIENTS THAT CONTAIN MILK AND SOY."
+ },
+ {
+  "ID": 71157,
+  "nome": "Spicy Chicken Nugget",
+  "descrizione": "Chicken Breast with Rib Meat, Water, Seasoning [Salt, Natural Flavors (including Extractives of Celery Seed), Spices], Sodium Phosphates. Breaded with: Wheat Flour, Water, Modified Corn Starch, Salt, Wheat Gluten, Spice, Gum Arabic, Extractives of Paprika, Yellow Corn Flour, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate), Yeast, Natural Flavors, Sugar.  Breading Set in Vegetable Oil. Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: WHEAT."
+ },
+ {
+  "ID": 71158,
+  "nome": "Spicy Chicken Nugget",
+  "descrizione": "Chicken Breast with Rib Meat, Water, Seasoning [Salt, Natural Flavors (including Extractives of Celery Seed), Spices], Sodium Phosphates. Breaded with: Wheat Flour, Water, Modified Corn Starch, Salt, Wheat Gluten, Spice, Gum Arabic, Extractives of Paprika, Yellow Corn Flour, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate), Yeast, Natural Flavors, Sugar.  Breading Set in Vegetable Oil. Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: WHEAT."
+ },
+ {
+  "ID": 71159,
+  "nome": "Spicy Chicken Nugget",
+  "descrizione": "Chicken Breast with Rib Meat, Water, Seasoning [Salt, Natural Flavors (including Extractives of Celery Seed), Spices], Sodium Phosphates. Breaded with: Wheat Flour, Water, Modified Corn Starch, Salt, Wheat Gluten, Spice, Gum Arabic, Extractives of Paprika, Yellow Corn Flour, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate), Yeast, Natural Flavors, Sugar.  Breading Set in Vegetable Oil. Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: WHEAT"
+ },
+ {
+  "ID": 71160,
+  "nome": "10 Piece Chicken Nuggets",
+  "descrizione": "Chicken Nugget (Chicken Breast With Rib Meat, Water, Sodium Phosphates, Salt. Battered And Breaded With: Wheat Flour, Water, Bleached Wheat Flour, Salt, Modified Corn Starch, Spices, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate, Sodium Aluminum Phosphate), Dextrose, Yellow Corn Flour, Garlic Powder, Citric Acid, Yeast, Spice Extractives, And Xanthan Gum. Breading Set In Soybean Or Vegetable Oil. Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]).COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: WHEAT."
+ },
+ {
+  "ID": 71161,
+  "nome": "6 piece Chicken Nuggets",
+  "descrizione": "Chicken Nugget (Chicken Breast With Rib Meat, Water, Sodium Phosphates, Salt. Battered And Breaded With: Wheat Flour, Water, Bleached Wheat Flour, Salt, Modified Corn Starch, Spices, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate, Sodium Aluminum Phosphate), Dextrose, Yellow Corn Flour, Garlic Powder, Citric Acid, Yeast, Spice Extractives, And Xanthan Gum. Breading Set In Soybean Or Vegetable Oil. Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: WHEAT."
+ },
+ {
+  "ID": 71162,
+  "nome": "4 piece Chicken Nuggets",
+  "descrizione": "Chicken Nugget (Chicken Breast With Rib Meat, Water, Sodium Phosphates, Salt. Battered And Breaded With: Wheat Flour, Water, Bleached Wheat Flour, Salt, Modified Corn Starch, Spices, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate, Sodium Aluminum Phosphate), Dextrose, Yellow Corn Flour, Garlic Powder, Citric Acid, Yeast, Spice Extractives, And Xanthan Gum. Breading Set In Soybean Or Vegetable Oil. Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]).COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: WHEAT."
+ },
+ {
+  "ID": 71163,
+  "nome": "Salad Blend",
+  "descrizione": "Romaine Lettuce, Cherry Tomatoes, Three Cheese Italian Blend (Parmesan, Asiago And Romano Cheese [Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Powdered Cellulose [To Prevent Caking]). CONTAINS: MILK."
+ },
+ {
+  "ID": 71164,
+  "nome": "Spicy Caesar Salad Blend",
+  "descrizione": "Romaine Lettuce, Cherry Tomatoes, Three Cheese Italian Blend (Parmesan, Asiago And Romano Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Powdered Cellulose (To Prevent Caking). CONTAINS: MILK."
+ },
+ {
+  "ID": 71165,
+  "nome": "Salad Blend",
+  "descrizione": "Iceberg Lettuce, Apple Chunks (Apples, Calcium Ascorbate [To Maintain Freshness and Color]), Feta Cheese Crumbles (Pasteurized Milk, Salt, Cheese Culture, Enzymes, Potato Starch [Added to Prevent Caking]. CONTAINS: MILK.), Romaine Lettuce, Spring Mix, Dried Cranberries (Cranberries, Sugar, Sunflower Oil)."
+ },
+ {
+  "ID": 71166,
+  "nome": "Salad Blend",
+  "descrizione": "Iceberg Lettuce, Apple Chunks (Apples, Calcium Ascorbate [To Maintain Freshness and Color]), Feta Cheese Crumbles (Pasteurized Milk, Salt, Cheese Culture, Enzymes, Potato Starch [Added to Prevent Caking]. CONTAINS: MILK.), Romaine Lettuce, Spring Mix, Dried Cranberries (Cranberries, Sugar, Sunflower Oil).\r\n"
+ },
+ {
+  "ID": 71167,
+  "nome": "Salad Blend",
+  "descrizione": "Romaine Lettuce, Strawberries, Spring Mix, Tuscan Cheese Blend (Fontina, Fresh Asiago and Parmesan Cheese [Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Powdered Cellulose [To Prevent Caking]. CONTAINS: MILK)."
+ },
+ {
+  "ID": 71168,
+  "nome": "Salad Blend",
+  "descrizione": "Romaine Lettuce, Strawberries, Tuscan Cheese Blend (Fontina, Fresh Asiago and Parmesan Cheese [Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Powdered Cellulose [To Prevent Caking]. CONTAINS: MILK), Spring Mix."
+ },
+ {
+  "ID": 71171,
+  "nome": "Salad Blend",
+  "descrizione": "Romaine Lettuce, Apple Chunks (Apples, Calcium Ascorbate [To Maintain Freshness And Color]), Spring Mix, Dried Cranberries (Cranberries, Sugar, Sunflower Oil)."
+ },
+ {
+  "ID": 71172,
+  "nome": "Salad Blend ",
+  "descrizione": "Romaine Lettuce, Apple Chunks (Apples, Calcium Ascorbate [To Maintain Freshness And Color]), Spring Mix, Dried Cranberries (Cranberries, Sugar, Sunflower Oil)."
+ },
+ {
+  "ID": 71175,
+  "nome": "Caesar Side Salad Blend",
+  "descrizione": "Romaine Lettuce, Cherry Tomatoes, Three Cheese Italian Blend (Parmesan, Asiago And Romano Cheese [Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Powdered Cellulose [To Prevent Caking]. CONTAINS: MILK."
+ },
+ {
+  "ID": 71176,
+  "nome": "Shredded Cheddar Cheese",
+  "descrizione": "Cheddar cheese (pasteurized milk, cheese culture, salt, enzymes, annatto (vegetable color), potato starch and powdered cellulose (to prevent caking), natamycin (natural mold inhibitor).  CONTAINS: MILK"
+ },
+ {
+  "ID": 71177,
+  "nome": "Salad Blend",
+  "descrizione": "Iceberg Lettuce, Romaine Lettuce, Spring Mix (Baby Lettuces [Red & Green\r\nRomaine, Red & Green Oak, Red & Green Leaf, Lolla Rosa, Tango], Spinach, Mizuna Arugula, Tatsoi, Red Chard, Green Chard), Grape Tomatoes."
+ },
+ {
+  "ID": 71178,
+  "nome": "Potato ",
+  "descrizione": "Potato. "
+ },
+ {
+  "ID": 71179,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon cured with Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite. "
+ },
+ {
+  "ID": 71180,
+  "nome": "Natural-Cut Fries",
+  "descrizione": "Potatoes, Vegetable Oil (contains one or more of the following oils:  canola, soybean, cottonseed, sunflower, corn), Dextrose, Sodium Acid Pyrophosphate (to maintain natural color).  Cooked in Vegetable Oil (soybean oil, corn oil, cottonseed oil, hydrogenated soybean oil, natural flavor [vegetable], citric acid [preservative], dimethylpolysiloxane [anti-foaming agent]).  Cooked in the same oil as menu items that contain Wheat, Egg, and Fish (where available).  Seasoned with Sea Salt."
+ },
+ {
+  "ID": 71181,
+  "nome": "French Fries",
+  "descrizione": "Potatoes, Vegetable Oil (Contains One Or More Of The Following Oils:  Canola, Soybean, Cottonseed, Sunflower, Corn), Dextrose, Sodium Acid Pyrophosphate (To Maintain Natural Color).  Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). Seasoned With Sea Salt. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH."
+ },
+ {
+  "ID": 71182,
+  "nome": "French Fries",
+  "descrizione": "Potatoes, Vegetable Oil (Contains One Or More Of The Following Oils:  Canola, Soybean, Cottonseed, Sunflower, Corn), Dextrose, Sodium Acid Pyrophosphate (To Maintain Natural Color).  Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). Seasoned With Sea Salt. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH."
+ },
+ {
+  "ID": 71183,
+  "nome": "French Fries",
+  "descrizione": "Potatoes, Vegetable Oil (Contains One Or More Of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn), Dextrose, Sodium Acid Pyrophosphate (To Maintain Natural Color).  Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). Seasoned With Sea Salt. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH."
+ },
+ {
+  "ID": 71184,
+  "nome": "French Fries",
+  "descrizione": "Potatoes, Vegetable Oil (Contains One Or More Of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn), Dextrose, Sodium Acid Pyrophosphate (To Maintain Natural Color).  Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]).Seasoned With Sea Salt. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH."
+ },
+ {
+  "ID": 71185,
+  "nome": "French Fries",
+  "descrizione": "Potatoes, Vegetable Oil (Contains One Or More Of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn), Dextrose, Sodium Acid Pyrophosphate (To Maintain Natural Color).  Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). Seasoned With Sea Salt. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH."
+ },
+ {
+  "ID": 71186,
+  "nome": "Chili",
+  "descrizione": "Chili Base (Chili Sauce [Water, Tomato Paste, Tomatoes (Tomatoes, Tomato Juice, Calcium Chloride), Sugar, Modified Corn Starch, Salt, Chili Pepper, Spices, Flavor Enhancer (Dextrose, Salt, Yeast Extract, Modified Corn Starch), Citric Acid, Garlic Powder, Disodium Inosinate and Disodium Guanylate, Onion Powder, Xanthan Gum], Onions, Celery, Green Peppers), Water, Ground Beef (Beef, Salt), Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans), Soy Lecithin. CONTAINS: MILK AND SOY. "
+ },
+ {
+  "ID": 71187,
+  "nome": "Chili",
+  "descrizione": "Chili Base (Chili Sauce [Water, Tomato Paste, Tomatoes (Tomatoes, Tomato Juice, Calcium Chloride), Sugar, Modified Corn Starch, Salt, Chili Pepper, Spices, Flavor Enhancer (Dextrose, Salt, Yeast Extract, Modified Corn Starch), Citric Acid, Garlic Powder, Disodium Inosinate and Disodium Guanylate, Onion Powder, Xanthan Gum], Onions, Celery, Green Peppers), Water, Ground Beef (Beef, Salt), Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans), Soy Lecithin. CONTAINS: MILK AND SOY. "
+ },
+ {
+  "ID": 71192,
+  "nome": "No Sauce",
+  "descrizione": "No Sauce. "
+ },
+ {
+  "ID": 71193,
+  "nome": "No Dressing",
+  "descrizione": "-"
+ },
+ {
+  "ID": 71194,
+  "nome": "No Dressing",
+  "descrizione": "-"
+ },
+ {
+  "ID": 71507,
+  "nome": "Grilled Chicken Breast",
+  "descrizione": "Chicken Breast, Water, Seasoning (Salt, Natural Flavors, Corn Maltodextrin, Dextrose, Spices, Dehydrated Garlic Powder, Dehydrated Onion Powder, Paprika, Gum Arabic, Yeast Extract, Canola Oil, Sodium Citrate, Sugar), Potato Starch, Carrageenan, Xanthan Gum, Soy Lecithin. CONTAINS: SOY. GRILLED, HOMESTYLE, AND SPICY CHICKEN BREASTS ARE CUT ON A COMMON CUTTING BOARD, WHICH RESULTS IN CROSS-CONTACT WITH WHEAT AND SOY ALLERGENS."
+ },
+ {
+  "ID": 71508,
+  "nome": "Homestyle Chicken Breast",
+  "descrizione": "Chicken Breast, Water, Seasoning (Salt, Autolyzed Yeast Extract, Natural Flavors, Sugar, Flavor, Chicken, Corn Syrup Solids, Maltodextrin, Gum Arabic, Silicon Dioxide, Lactic Acid, Sunflower Oil, Canola Oil, Dextrose, Spice, Medium Chain Triglycerides, Grill Flavor [From Canola Oil], Citric Acid), Modified Food Starch, Sodium Phosphates.  Breaded With:  Wheat Flour, Water, Sugar, Salt, Modified Corn Starch, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate), Spice, Onion Powder, Garlic Powder, Autolyzed Yeast Extract, Natural Flavor, Lactic Acid, Extractives Of Turmeric, Extractives Of Paprika.  Breading Set In Vegetable Oil. Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: WHEAT."
+ },
+ {
+  "ID": 71526,
+  "nome": "Mayonnaise",
+  "descrizione": "Soybean Oil, Water, Egg Yolks, Corn Syrup, Distilled Vinegar, Salt, Mustard Seed, Calcium Disodium EDTA (To Protect Flavor). CONTAINS: EGG. "
+ },
+ {
+  "ID": 71527,
+  "nome": "Mustard",
+  "descrizione": "Water, Distilled Vinegar, Mustard Seed, Salt, Turmeric (Color), Paprika, Spice."
+ },
+ {
+  "ID": 71529,
+  "nome": "Smoky Honey Mustard Sauce",
+  "descrizione": "Soybean Oil, Dijon Mustard (Water, Vinegar, Mustard Seed, Salt, White Wine, Fruit Pectin, Tartaric Acid, Citric Acid, Sugar, Spice), Water, Sugar, Honey, Tomato Paste, Brown Sugar, Apple Cider Vinegar, Egg Yolk, Distilled Vinegar, Salt, Mustard Seed, Corn Syrup, Dehydrated Garlic, Natural Smoke Flavor, Xanthan Gum, Dehydrated Onion, Oleoresin Rosemary, Soy Lecithin, Natural Flavor, Spice, Tamarind, Oleoresin Turmeric. CONTAINS: EGG, SOY"
+ },
+ {
+  "ID": 71530,
+  "nome": "Ketchup",
+  "descrizione": "Tomato Concentrate from Red Ripe Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Salt, Natural Flavoring, Spices, Onion Powder. CONTAINS EGG."
+ },
+ {
+  "ID": 71539,
+  "nome": "American Cheese Slice",
+  "descrizione": "Milk, Water, Cream, Sodium Citrate, Salt, Contains Less than 2%: Annatto (Color), Apocarotenal and Beta Carotene (Color), Cheese Culture, Citric Acid, Enzymes, Lactic Acid, Oleoresin Paprika (Color), Sorbic Acid (Preservative), Soy Lecithin, and Sunflower Lecithin. CONTAINS: MILK, SOY."
+ },
+ {
+  "ID": 71543,
+  "nome": "French Fries",
+  "descrizione": "Potatoes, Vegetable Oil (Contains One Or More Of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn), Dextrose, Sodium Acid Pyrophosphate (To Maintain Natural Color).  Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). Seasoned With Sea Salt. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH."
+ },
+ {
+  "ID": 71544,
+  "nome": "Shredded Cheddar Cheese",
+  "descrizione": "Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto [Vegetable Color]), Anti-Caking Blend (Potato Starch, Powdered Cellulose, Corn Starch, Calcium Sulfate), Natamycin (A Natural Mold Inhibitor). CONTAINS: MILK."
+ },
+ {
+  "ID": 71545,
+  "nome": "No Sauce",
+  "descrizione": "No Sauce. "
+ },
+ {
+  "ID": 71551,
+  "nome": "Champagne Vinaigrette",
+  "descrizione": "Water, Sugar, Soybean Oil, Champagne Vinegar, Distilled Vinegar, Shallots, Extra Virgin Olive Oil, Onion Juice, Salt, Xanthan Gum, Dehydrated Garlic, Dehydrated Onion, Natural Flavor, Spice."
+ },
+ {
+  "ID": 71552,
+  "nome": "Champagne Vinaigrette",
+  "descrizione": "Water, Sugar, Soybean Oil, Champagne Vinegar, Distilled Vinegar, Shallots, Extra Virgin Olive Oil, Onion Juice, Salt, Xanthan Gum, Dehydrated Garlic, Dehydrated Onion, Natural Flavor, Spice."
+ },
+ {
+  "ID": 71553,
+  "nome": "Salad Blend",
+  "descrizione": "Romaine Lettuce, Strawberries, Tuscan Cheese Blend (Fontina, Fresh Asiago and Parmesan Cheese [Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Powdered Cellulose [To Prevent Caking]. CONTAINS: MILK), Spring Mix."
+ },
+ {
+  "ID": 71554,
+  "nome": "Salad Blend",
+  "descrizione": "Romaine Lettuce, Strawberries, Spring Mix, Tuscan Cheese Blend (Fontina, Fresh Asiago and Parmesan Cheese [Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Powdered Cellulose [To Prevent Caking]. CONTAINS: MILK)."
+ },
+ {
+  "ID": 71555,
+  "nome": "Grilled Chicken Breast",
+  "descrizione": "Chicken Breast, Water, Seasoning (Salt, Natural Flavors, Corn Maltodextrin, Dextrose, Spices, Dehydrated Garlic Powder, Dehydrated Onion Powder, Paprika, Gum Arabic, Yeast Extract, Canola Oil, Sodium Citrate, Sugar), Potato Starch, Carrageenan, Xanthan Gum, Soy Lecithin. CONTAINS: SOY. GRILLED, HOMESTYLE, AND SPICY CHICKEN BREASTS ARE CUT ON A COMMON CUTTING BOARD, WHICH RESULTS IN CROSS-CONTACT WITH WHEAT AND SOY ALLERGENS."
+ },
+ {
+  "ID": 71557,
+  "nome": "American Cheese Slice",
+  "descrizione": "Milk, Water, Cream, Sodium Citrate, Salt, Contains Less than 2%: Annatto (Color), Apocarotenal and Beta Carotene (Color), Cheese Culture, Citric Acid, Enzymes, Lactic Acid, Oleoresin Paprika (Color), Sorbic Acid (Preservative), Soy Lecithin, and Sunflower Lecithin. CONTAINS: MILK, SOY."
+ },
+ {
+  "ID": 71565,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite). "
+ },
+ {
+  "ID": 71566,
+  "nome": "Buttery Spread",
+  "descrizione": "Water, Liquid And Hydrogenated Soybean Oil, Hydrogenated Coconut Oil, Butter (Cream, Salt), Salt, Contains Less Than 2% Of Natural Flavors (Includes Milk), Vegetable Mono & Diglycerides, Pectin, Cream*, Soy Lecithin, Sorbic Acid, Buttermilk Solids, Beta Carotene (Color), Vitamin A Palmitate Added. *Dehydrated. CONTAINS: MILK, SOY"
+ },
+ {
+  "ID": 71567,
+  "nome": "Lettuce",
+  "descrizione": "Lettuce"
+ },
+ {
+  "ID": 71568,
+  "nome": "Spring Mix",
+  "descrizione": "Spring Mix"
+ },
+ {
+  "ID": 71569,
+  "nome": "Sweet Onion",
+  "descrizione": "Onion."
+ },
+ {
+  "ID": 71570,
+  "nome": "Crinkle Cut Pickles",
+  "descrizione": "Cucumber, Water, Distilled Vinegar, Salt, Calcium Chloride, Sodium Benzoate (Preservative), Lactic Acid, Natural Flavors, Polysorbate 80 and Turmeric."
+ },
+ {
+  "ID": 71571,
+  "nome": "Tomato",
+  "descrizione": "Tomato. "
+ },
+ {
+  "ID": 71593,
+  "nome": "Chili",
+  "descrizione": "Chili Base (Chili Sauce [Water, Tomato Paste, Tomatoes (Tomatoes, Tomato Juice, Calcium Chloride), Sugar, Modified Corn Starch, Salt, Chili Pepper, Spices, Flavor Enhancer (Dextrose, Salt, Yeast Extract, Modified Corn Starch), Citric Acid, Garlic Powder, Disodium Inosinate and Disodium Guanylate, Onion Powder, Xanthan Gum], Onions, Celery, Green Peppers), Water, Ground Beef (Beef, Salt), Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans), Soy Lecithin. CONTAINS: MILK AND SOY. "
+ },
+ {
+  "ID": 71594,
+  "nome": "Salad Blend",
+  "descrizione": "Romaine Lettuce, Tomatoes, Cheddar Cheese (Cheddar Cheese [Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (Vegetable Color)], Anti-Caking Blend [Potato Starch, Powdered Cellulose, Corn Starch, Calcium Sulfate], Natamycin [A Natural Mold Inhibitor]. CONTAINS: MILK.)"
+ },
+ {
+  "ID": 71595,
+  "nome": "Salad Blend",
+  "descrizione": "Romaine Lettuce, Tomatoes, Cheddar Cheese (Cheddar Cheese [Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (Vegetable Color)], Anti-Caking Blend [Potato Starch, Powdered Cellulose, Corn Starch, Calcium Sulfate], Natamycin [A Natural Mold Inhibitor]). CONTAINS: MILK."
+ },
+ {
+  "ID": 71596,
+  "nome": "Shredded Cheddar Cheese",
+  "descrizione": "Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (Color), Potato Starch And Powdered Cellulose (Prevent Caking), Natamycin (Natural Mold Inhibitor). CONTAINS: MILK."
+ },
+ {
+  "ID": 71597,
+  "nome": "Chili",
+  "descrizione": "Chili Base (Chili Sauce [Water, Tomato Paste, Tomatoes (Tomatoes, Tomato Juice, Calcium Chloride), Sugar, Modified Corn Starch, Salt, Chili Pepper, Spices, Flavor Enhancer (Dextrose, Salt, Yeast Extract, Modified Corn Starch), Citric Acid, Garlic Powder, Disodium Inosinate and Disodium Guanylate, Onion Powder, Xanthan Gum], Onions, Celery, Green Peppers), Water, Ground Beef (Beef, Salt), Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans), Soy Lecithin. CONTAINS: MILK AND SOY. "
+ },
+ {
+  "ID": 71600,
+  "nome": "Muenster Cheese",
+  "descrizione": "Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (Vegetable Color). CONTAINS: MILK."
+ },
+ {
+  "ID": 71609,
+  "nome": "Lettuce",
+  "descrizione": "Lettuce"
+ },
+ {
+  "ID": 71610,
+  "nome": "Sweet Onion",
+  "descrizione": "Onion."
+ },
+ {
+  "ID": 71611,
+  "nome": "Crinkle Cut Pickles",
+  "descrizione": "Cucumber, Water, Distilled Vinegar, Salt, Calcium Chloride, Sodium Benzoate (Preservative), Lactic Acid, Natural Flavors, Polysorbate 80 and Turmeric."
+ },
+ {
+  "ID": 71612,
+  "nome": "Tomato",
+  "descrizione": "Tomato. "
+ },
+ {
+  "ID": 71613,
+  "nome": "Lettuce",
+  "descrizione": "Lettuce. "
+ },
+ {
+  "ID": 71614,
+  "nome": "Ranch Sauce",
+  "descrizione": "Soybean Oil, Buttermilk, Water, Distilled Vinegar, Egg Yolk, Parmesan Cheese (Part-Skim Milk, Cheese Culture, Salt, Enzymes), Sugar, Swiss Cheese [(Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Water, Butter (Cream, Salt), Whey Salt], Buttermilk Powder, Garlic (Including Dehydrated), Seasoning [Salt, Onion* and Garlic*, Sour Cream Solids (Cream, Nonfat Milk, Cultures), Buttermilk Solids, Sugar, Spice, Whey Solids, Lactic and Citric Acids, Parsley], Salt, Xanthan Gum, Onion*, Parmesan Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Egg Whites, Natural Flavor, Spice, Dry Skim Milk, Citric Acid, Oleoresin Rosemary Sodium Phosphate, Lactic Acid. *Dehydrated.  CONTAINS: EGG, MILK."
+ },
+ {
+  "ID": 71615,
+  "nome": "Avocado",
+  "descrizione": "Hass Avocados, Lime Juice, Salt. "
+ },
+ {
+  "ID": 71616,
+  "nome": "Salad Blend",
+  "descrizione": "Romaine Lettuce, Tomatoes, Spring Mix, Shredded Pepper Jack Cheese (Cultured Pasteurized Milk, Jalapeno Peppers, Salt, Enzymes, Potato Starch and Powdered Cellulose [To Prevent Caking], Natamycin [Natural Mold Inhibitor]). CONTAINS: MILK."
+ },
+ {
+  "ID": 71617,
+  "nome": "Salad Blend",
+  "descrizione": "Romaine Lettuce, Tomatoes, Spring Mix, Shredded Pepper Jack Cheese (Cultured Pasteurized Milk, Jalapeno Peppers, Salt, Enzymes, Potato Starch and Powdered Cellulose [To Prevent Caking], Natamycin [Natural Mold Inhibitor]). CONTAINS: MILK."
+ },
+ {
+  "ID": 71619,
+  "nome": "Avocado",
+  "descrizione": "Hass Avocados, Lime Juice, Salt. "
+ },
+ {
+  "ID": 71620,
+  "nome": "Spicy Chicken Breast",
+  "descrizione": "Chicken Breast Fillets with Rib Meat, Water, Seasoning [Salt, Sodium Phosphates, Modified Potato Starch, Spice (Including Celery Seed and Mustard), Gum Arabic, Spice Extractives, Paprika, Extractives of Paprika, and Extractives of Turmeric].  Breaded With:  Wheat Flour, Water, Modified Corn Starch, Salt, Lentil Flour, Spice, Wheat Gluten, Yellow Corn Flour, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate), Spice Extractives and Extractives of Paprika.  Breading set in Vegetable Oil. Cooked in Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One or More of the Following: Canola, Corn, or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). CONTAINS: WHEAT. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK,  AND FISH. GRILLED, HOMESTYLE, AND SPICY CHICKEN BREASTS ARE CUT ON A COMMON CUTTING BOARD, WHICH RESULTS IN CROSS-CONTACT WITH WHEAT AND SOY ALLERGENS."
+ },
+ {
+  "ID": 71624,
+  "nome": "Salad Blend",
+  "descrizione": "Iceberg Lettuce, Tomato, Carrot, Shredded Pepper Jack Cheese (Cultured Pasteurized Milk, Jalapeno Peppers, Salt, Enzymes, Potato Starch and Powdered Cellulose [To Prevent Caking], Natamycin [Natural Mold Inhibitor]. CONTAINS: MILK), Romaine Lettuce, Spring Mix."
+ },
+ {
+  "ID": 71625,
+  "nome": "Salad Blend",
+  "descrizione": "Iceberg Lettuce, Tomato, Romaine Lettuce, Spring Mix, Carrots, Shredded Pepper Jack Cheese (Cultured Pasteurized Milk, Jalape\u00f1o Peppers, Salt, Enzymes, Potato Starch and Powdered Cellulose [To Prevent Caking], Natamycin [Natural Mold Inhibitor]. CONTAINS: MILK.)"
+ },
+ {
+  "ID": 71627,
+  "nome": "Signature Salsa",
+  "descrizione": "Tomato Blend (Roasted Tomato Puree, Tomatoes [Tomatoes, Tomato Juice, Citric Acid, Calcium Chloride], Tomato Paste), Water, Onion, Distilled Vinegar, Sugar, Salt, Jalapeno Pepper, Roasted Garlic, Cilantro, Lime Juice Concentrate, Garlic*, Ancho Chili Pepper*, Spice, Citric Acid, Natural Flavor. *Dehydrated"
+ },
+ {
+  "ID": 71628,
+  "nome": "Taco Chips",
+  "descrizione": "Corn, Vegetable Oil (Contains One or More of the Following: Canola, Corn, Cottonseed, Safflower, Soybean or Sunflower Oil), Salt."
+ },
+ {
+  "ID": 71632,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite). "
+ },
+ {
+  "ID": 71634,
+  "nome": "Onion Tanglers",
+  "descrizione": "Onions, Vegetable Oil (Soybean And/Or Canola), Bleached Enriched Wheat Flour (Wheat Flour, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid), Yellow Corn Flour, Contains 2% or less of Calcium Lactate, Citric Acid, Cultured Buttermilk, Dextrose, Dried Garlic, Enzyme Modified Butter, Guar Gum, Lactic Acid, Maltodextrin, Modified Corn Starch, Natural Flavor, Onion Powder, Salt, Sorbitol, Water, Whey. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: MILK, WHEAT"
+ },
+ {
+  "ID": 71636,
+  "nome": "Strawberry Mango Base Blend, Full",
+  "descrizione": "Iceberg Lettuce, Spring Mix (Baby Lettuces (Red & Green Romaine, Red & Green Oak, Red & Green Leaf, Lolla Rosa, Tango), Spinach, Mizuna, Arugula, Tatsoi, Red Chard, Green Chard), Romaine Lettuce.Strawberries, Mangoes (Mangoes, Syrup (Water, Sugar, Citric Acid, Calcium Lactate, Ascorbic Acid (Vitamin C) Sodium Benzoate & Potassium Sorbate (Preservatives)), Feta Cheese Crumbles (Pasteurized Milk, Salt, Cheese Culture, Enzymes), Potato Starch (Added To Prevent Caking). CONTAINS: MILK."
+ },
+ {
+  "ID": 71637,
+  "nome": "Strawberry Mango Salad Base Blend, Half",
+  "descrizione": " Iceberg Lettuce, Spring Mix (Baby Lettuces (Red & Green Romaine, Red & Green Oak, Red & Green Leaf, Lolla Rosa, Tango), Spinach, Mizuna, Arugula, Tatsoi, Red Chard, Green Chard), Romaine Lettuce.Strawberries, Mangoes (Mangoes, Syrup (Water, Sugar, Citric Acid, Calcium Lactate, Ascorbic Acid (Vitamin C) Sodium Benzoate & Potassium Sorbate (Preservatives)), Feta Cheese Crumbles (Pasteurized Milk, Salt, Cheese Culture, Enzymes), Potato Starch (Added To Prevent Caking). CONTAINS: MILK. "
+ },
+ {
+  "ID": 71652,
+  "nome": "Grilled Chicken Breast",
+  "descrizione": "Chicken Breast, Water, Seasoning (Salt, Natural Flavors, Corn Maltodextrin, Dextrose, Spices, Dehydrated Garlic Powder, Dehydrated Onion Powder, Paprika, Gum Arabic, Yeast Extract, Canola Oil, Sodium Citrate, Sugar), Potato Starch, Carrageenan, Xanthan Gum, Soy Lecithin. CONTAINS: SOY. GRILLED, HOMESTYLE, AND SPICY CHICKEN BREASTS ARE CUT ON A COMMON CUTTING BOARD, WHICH RESULTS IN CROSS-CONTACT WITH WHEAT AND SOY ALLERGENS."
+ },
+ {
+  "ID": 71653,
+  "nome": "Chicken Nuggets",
+  "descrizione": "Chicken Breast With Rib Meat, Water, Sodium Phosphates, Salt. Battered And Breaded With: Wheat Flour, Water, Bleached Wheat Flour, Salt, Modified Corn Starch, Spices, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate, Sodium Aluminum Phosphate), Dextrose, Yellow Corn Flour, Garlic Powder, Citric Acid, Yeast, Spice Extractives, And Xanthan Gum. Breading Set In Soybean Or Vegetable Oil. Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: WHEAT."
+ },
+ {
+  "ID": 71654,
+  "nome": "Chicken Tenders",
+  "descrizione": "Chicken Breast Tenders, With Rib Meat, Water, Food Starch, Seasoning [Yeast Extract, Citrus Extract (Lemon, Lime and Orange)], Salt. Breaded With Wheat Flour, Water, Salt, Rice Flour, Modified Corn Starch, Sugar, Spices, Leavening (Sodium Acid Pyrophosphate, Sodium Aluminum Phosphate, Sodium Bicarbonate), Dextrose, Onion Powder, Garlic Powder, Chicken Broth, Yeast Extract, Natural Flavor and Extractives of Paprika. Breading Set In Vegetable Oil. Cooked in Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of the Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])  COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: WHEAT\t"
+ },
+ {
+  "ID": 71655,
+  "nome": "Spicy Chicken Nuggets",
+  "descrizione": "Chicken Breast with Rib Meat, Water, Seasoning [Salt, Natural Flavors (including Extractives of Celery Seed), Spices], Sodium Phosphates. Breaded with: Wheat Flour, Water, Modified Corn Starch, Salt, Wheat Gluten, Spice, Gum Arabic, Extractives of Paprika, Yellow Corn Flour, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate), Yeast, Natural Flavors, Sugar.  Breading Set in Vegetable Oil. Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: WHEAT."
+ },
+ {
+  "ID": 71658,
+  "nome": "Side of S\u2019Awesome\u00ae Sauce",
+  "descrizione": "Soybean Oil, Water, Tomato Paste, Sugar, Corn Syrup, Distilled Vinegar, Egg Yolks, Hot Sauce (Peppers, Distilled Vinegar, Salt), Worcestershire Sauce (Distilled Vinegar, Corn Syrup, Water, Salt, Garlic Powder, Spices, Celery Seed, Tamarind, Natural Flavor), Salt, Spices, Ground Mustard Seed, Paprika, Apple Cider Vinegar, Onion Powder, Garlic Powder, Potassium Sorbate and Sodium Benzoate (Preservatives), Natural Smoke Flavors, Dried Chili Pepper, Xanthan Gum, Citric Acid, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG."
+ },
+ {
+  "ID": 71662,
+  "nome": "Salt",
+  "descrizione": "Sea Salt."
+ },
+ {
+  "ID": 71663,
+  "nome": "Peach Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, White Peach Syrup (Water, Sugar, Peach Puree Concentrate, Citric Acid, Pectin, Xanthan Gum, Potassium Sorbate [Preservative], Natural Flavor, Beta Carotene [For Color])."
+ },
+ {
+  "ID": 71664,
+  "nome": "Lemonade",
+  "descrizione": "Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors. "
+ },
+ {
+  "ID": 71665,
+  "nome": "Lemonade",
+  "descrizione": "Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors. "
+ },
+ {
+  "ID": 71666,
+  "nome": "Lemonade",
+  "descrizione": "Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors. "
+ },
+ {
+  "ID": 71667,
+  "nome": "Peach Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, White Peach Syrup (Water, Sugar, Peach Puree Concentrate, Citric Acid, Pectin, Xanthan Gum, Potassium Sorbate [Preservative], Natural Flavor, Beta Carotene [For Color])."
+ },
+ {
+  "ID": 71668,
+  "nome": "Tropical Green Tea",
+  "descrizione": "Organic cane sugar, fair trade organic green tea leaves, natural flavors. "
+ },
+ {
+  "ID": 71669,
+  "nome": "Tropical Green Tea",
+  "descrizione": "Organic Cane Sugar, Fair Trade Organic Green Tea Leaves, Natural Flavors."
+ },
+ {
+  "ID": 71670,
+  "nome": "Tropical Green Tea",
+  "descrizione": "Organic Cane Sugar, Fair Trade Organic Green Tea Leaves, Natural Flavors."
+ },
+ {
+  "ID": 71675,
+  "nome": "Tropical Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, Tropical Strawberry Syrup (Water, Sugar, Strawberry Puree Concentrate, Fruit and Vegetable Juice [For Color], Pectin, Citric Acid, Xanthan Gum, Natural Flavor, Potassium Sorbate [Preservative])"
+ },
+ {
+  "ID": 71676,
+  "nome": "Wildberry Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, Wildberry Puree (Sugar, Strawberries, Water, Corn Syrup, Blackberry Puree, Blueberry Puree, Raspberry Puree, Natural Flavor, Salt, Citric Acid, Fruit and Vegetable Juice [Added for Color], Potassium Sorbate [Preservative], Xanthan Gum)"
+ },
+ {
+  "ID": 71677,
+  "nome": "Wildberry Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, Wildberry Puree (Sugar, Strawberries, Water, Corn Syrup, Blackberry Puree, Blueberry Puree, Raspberry Puree, Natural Flavor, Salt, Citric Acid, Fruit and Vegetable Juice [Added for Color], Potassium Sorbate [Preservative], Xanthan Gum)"
+ },
+ {
+  "ID": 71678,
+  "nome": "Pear Berry Fruit Tea",
+  "descrizione": "Tropical Green Tea (Organic Cane Sugar, Fair Trade Organic Green Tea Leaves, Natural Flavors), Ice, Pear Blackberry Ginger Concentrate (Water, Pear Juice Concentrate, Sugar, Blackberry Puree, Apple Puree Concentrate, Less than 1%: Malic and Citric Acids [Provide Tartness], Natural Flavors, Vitamin C [Ascorbic Acid], Ginger Extract)"
+ },
+ {
+  "ID": 71679,
+  "nome": "Pear Berry Fruit Tea",
+  "descrizione": "Tropical Green Tea (Organic Cane Sugar, Fair Trade Organic Green Tea Leaves, Natural Flavors), Ice, Pear Blackberry Ginger Concentrate (Water, Pear Juice Concentrate, Sugar, Blackberry Puree, Apple Puree Concentrate, Less than 1%: Malic and Citric Acids [Provide Tartness], Natural Flavors, Vitamin C [Ascorbic Acid], Ginger Extract)"
+ },
+ {
+  "ID": 71680,
+  "nome": "Strawberry Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, Strawberry Puree (Sugar, Strawberries [Strawberries, Sugar], Water, Natural Flavor, Modified Cornstarch, Citric Acid, Dehydrated Strawberry Seeds, Pectin, Fruit and Vegetable Juice [Added for Color], Potassium Sorbate [Preservative], Dextrose). "
+ },
+ {
+  "ID": 71681,
+  "nome": "Strawberry Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, Strawberry Puree (Sugar, Strawberries [Strawberries, Sugar], Water, Natural Flavor, Modified Cornstarch, Citric Acid, Dehydrated Strawberry Seeds, Pectin, Fruit and Vegetable Juice [Added for Color], Potassium Sorbate [Preservative], Dextrose)."
+ },
+ {
+  "ID": 71682,
+  "nome": "Strawberry Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, Strawberry Puree (Sugar, Strawberries [Strawberries, Sugar], Water, Natural Flavor, Modified Cornstarch, Citric Acid, Dehydrated Strawberry Seeds, Pectin, Fruit and Vegetable Juice [Added for Color], Potassium Sorbate [Preservative], Dextrose).\r\n"
+ },
+ {
+  "ID": 71683,
+  "nome": "Pear Berry Fruit Tea",
+  "descrizione": "Tropical Green Tea (Organic Cane Sugar, Fair Trade Organic Green Tea Leaves, Natural Flavors), Ice, Pear Blackberry Ginger Concentrate (Water, Pear Juice Concentrate, Sugar, Blackberry Puree, Apple Puree Concentrate, Less than 1%: Malic and Citric Acids [Provide Tartness], Natural Flavors, Vitamin C [Ascorbic Acid], Ginger Extract)"
+ },
+ {
+  "ID": 71684,
+  "nome": "Small Strawberry Tea",
+  "descrizione": "Unsweetened Brewed Tea, Strawberry Puree (strawberries, high fructose corn syrup, sugar, water, natural flavor, modified corn starch, citric acid, pectin, potassium sorbate [preservative], grape juice concentrate, carmine color)."
+ },
+ {
+  "ID": 71685,
+  "nome": "Medium Strawberry Tea",
+  "descrizione": "Unsweetened Brewed Tea, Strawberry Puree (strawberries, high fructose corn syrup, sugar, water, natural flavor, modified corn starch, citric acid, pectin, potassium sorbate [preservative], grape juice concentrate, carmine color)."
+ },
+ {
+  "ID": 71686,
+  "nome": "Large Strawberry Tea",
+  "descrizione": "Unsweetened Brewed Tea, Strawberry Puree (strawberries, high fructose corn syrup, sugar, water, natural flavor, modified corn starch, citric acid, pectin, potassium sorbate [preservative], grape juice concentrate, carmine color)."
+ },
+ {
+  "ID": 71687,
+  "nome": "Strawberry Sweet Tea",
+  "descrizione": "Tea, Water, Sugar, Strawberry Puree (strawberries, high fructose corn syrup, sugar, water, natural flavor, modified corn starch, citric acid, pectin, potassium sorbate [preservative], grape juice concentrate, carmine color)."
+ },
+ {
+  "ID": 71688,
+  "nome": "Strawberry Sweet Tea",
+  "descrizione": "Tea, Water, Sugar, Strawberry Puree (strawberries, high fructose corn syrup, sugar, water, natural flavor, modified corn starch, citric acid, pectin, potassium sorbate [preservative], grape juice concentrate, carmine color)."
+ },
+ {
+  "ID": 71689,
+  "nome": "Strawberry Sweet Tea",
+  "descrizione": "Tea, Water, Sugar, Strawberry Puree (strawberries, high fructose corn syrup, sugar, water, natural flavor, modified corn starch, citric acid, pectin, potassium sorbate [preservative], grape juice concentrate, carmine color)."
+ },
+ {
+  "ID": 71690,
+  "nome": "Strawberry Sweet Tea",
+  "descrizione": "Tea, Water, Sugar, Strawberry Puree (strawberries, high fructose corn syrup, sugar, water, natural flavor, modified corn starch, citric acid, pectin, potassium sorbate [preservative], grape juice concentrate, carmine color)."
+ },
+ {
+  "ID": 71691,
+  "nome": "Side of S\u2019Awesome\u00ae Sauce",
+  "descrizione": "Soybean Oil, Water, Tomato Paste, Sugar, Corn Syrup, Distilled Vinegar, Egg Yolks, Hot Sauce (Peppers, Distilled Vinegar, Salt), Worcestershire Sauce (Distilled Vinegar, Corn Syrup, Water, Salt, Garlic Powder, Spices, Celery Seed, Tamarind, Natural Flavor), Salt, Spices, Ground Mustard Seed, Paprika, Apple Cider Vinegar, Onion Powder, Garlic Powder, Potassium Sorbate and Sodium Benzoate (Preservatives), Natural Smoke Flavors, Dried Chili Pepper, Xanthan Gum, Citric Acid, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG."
+ },
+ {
+  "ID": 71695,
+  "nome": "Chili",
+  "descrizione": "Chili Base (Chili Sauce [Water, Tomato Paste, Tomatoes (Tomatoes, Tomato Juice, Calcium Chloride), Sugar, Modified Corn Starch, Salt, Chili Pepper, Spices, Flavor Enhancer (Dextrose, Salt, Yeast Extract, Modified Corn Starch), Citric Acid, Garlic Powder, Disodium Inosinate and Disodium Guanylate, Onion Powder, Xanthan Gum], Onions, Celery, Green Peppers), Water, Ground Beef (Beef, Salt), Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans), Soy Lecithin. CONTAINS: MILK AND SOY. "
+ },
+ {
+  "ID": 71696,
+  "nome": "Vanilla Frosty\u00ae",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Nonfat Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract (Color), Vitamin A Palmitate. CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY)."
+ },
+ {
+  "ID": 71697,
+  "nome": "Vanilla Frosty\u00ae",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Nonfat Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract (Color), Vitamin A Palmitate. CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY)."
+ },
+ {
+  "ID": 71698,
+  "nome": "Vanilla Frosty\u00ae",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Nonfat Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract (Color), Vitamin A Palmitate. CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY)."
+ },
+ {
+  "ID": 71699,
+  "nome": "Vanilla Frosty\u00ae",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Nonfat Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract (Color), Vitamin A Palmitate. CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY). "
+ },
+ {
+  "ID": 71700,
+  "nome": "Chocolate Frosty\u00ae",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Whey, Nonfat Dry Milk, Cocoa (Processed With Alkali), Guar Gum, Mono And Diglycerides, Cellulose Gum, Natural Vanilla Flavor, Carrageenan, Calcium Sulfate, Sodium Citrate, Dextrose, Vitamin A Palmitate. CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY)."
+ },
+ {
+  "ID": 71701,
+  "nome": "Chocolate Frosty\u00ae",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Whey, Nonfat Dry Milk, Cocoa (Processed With Alkali), Guar Gum, Mono And Diglycerides, Cellulose Gum, Natural Vanilla Flavor, Carrageenan, Calcium Sulfate, Sodium Citrate, Dextrose, Vitamin A Palmitate. CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY)."
+ },
+ {
+  "ID": 71702,
+  "nome": "Chocolate Frosty\u00ae",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Whey, Nonfat Dry Milk, Cocoa (Processed With Alkali), Guar Gum, Mono And Diglycerides, Cellulose Gum, Natural Vanilla Flavor, Carrageenan, Calcium Sulfate, Sodium Citrate, Dextrose, Vitamin A Palmitate. CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY)."
+ },
+ {
+  "ID": 71703,
+  "nome": "Chocolate Frosty\u00ae",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Whey, Nonfat Dry Milk, Cocoa (Processed with Alkali), Guar Gum, Mono and Diglycerides, Cellulose Gum, Natural Vanilla Flavor, Carrageenan, Calcium Sulfate, Sodium Citrate, Dextrose, Vitamin A Palmitate. CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA ONLY)."
+ },
+ {
+  "ID": 71704,
+  "nome": "6pc Chicken Tender",
+  "descrizione": "Chicken Breast Tenders, With Rib Meat, Water, Food Starch, Seasoning [Yeast Extract, Citrus Extract (Lemon, Lime and Orange)], Salt. Breaded With Wheat Flour, Water, Salt, Rice Flour, Modified Corn Starch, Sugar, Spices, Leavening (Sodium Acid Pyrophosphate, Sodium Aluminum Phosphate, Sodium Bicarbonate), Dextrose, Onion Powder, Garlic Powder, Chicken Broth, Yeast Extract, Natural Flavor and Extractives of Paprika. Breading Set In Vegetable Oil. Cooked in Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of the Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: WHEAT.\r\n"
+ },
+ {
+  "ID": 71708,
+  "nome": "French Fries",
+  "descrizione": "Potatoes, Modified Potato Starch, Vegetable Oil (Soybean and/or Canola), Rice Flour, Dextrin, Salt, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate), Dextrose, Sodium Acid Pyrophosphate, Xanthan Gum. Cooked in Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One or More of the Following Oils: Canola, Corn, or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). Seasoned with Sea Salt. \r\nCOOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT AND FISH."
+ },
+ {
+  "ID": 71709,
+  "nome": "French Fries",
+  "descrizione": "Potatoes, Modified Potato Starch, Vegetable Oil (Soybean and/or Canola), Rice Flour, Dextrin, Salt, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate), Dextrose, Sodium Acid Pyrophosphate, Xanthan Gum. Cooked in Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One or More of the Following Oils: Canola, Corn, or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). Seasoned with Sea Salt. \r\nCOOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT AND FISH."
+ },
+ {
+  "ID": 71710,
+  "nome": "French Fries",
+  "descrizione": "Potatoes, Modified Potato Starch, Vegetable Oil (Soybean and/or Canola), Rice Flour, Dextrin, Salt, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate), Dextrose, Sodium Acid Pyrophosphate, Xanthan Gum. Cooked in Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One or More of the Following Oils: Canola, Corn, or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). Seasoned with Sea Salt. \r\nCOOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT AND FISH."
+ },
+ {
+  "ID": 71711,
+  "nome": "French Fries",
+  "descrizione": "Potatoes, Modified Potato Starch, Vegetable Oil (Soybean and/or Canola), Rice Flour, Dextrin, Salt, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate), Dextrose, Sodium Acid Pyrophosphate, Xanthan Gum. Cooked in Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One or More of the Following Oils: Canola, Corn, or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). Seasoned with Sea Salt. \r\nCOOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT AND FISH."
+ },
+ {
+  "ID": 71712,
+  "nome": "Apple Bites",
+  "descrizione": "Apples, Calcium Ascorbate (To Maintain Freshness And Color)"
+ },
+ {
+  "ID": 71714,
+  "nome": "Double Chocolate Chip Cookie",
+  "descrizione": "Whole Wheat Flour, Sugar, Palm Oil, Semi-Sweet Chocolate Chunks (Sugar, Unsweetened Chocolate, Cocoa Butter, Soy Lecithin, Natural Flavor), Semi-Sweet Chocolate Chips (Sugar, Unsweetened Chocolate, Cocoa Butter, Soy Lecithin, Natural Flavor), Eggs, Cocoa (Processed with Alkali), Margarine (Palm Oil, Water, Contains 2% or Less of: Salt, Natural Flavor [Contains Milk], Citric Acid, Vitamin A Palmitate Added, Beta Carotene [Color]), Corn Syrup, Water, Contains 2% or Less of: Molasses, Butter (Cream [Milk], Salt), Modified Corn Starch, Baking Soda, Salt, Natural Flavors. CONTAINS: EGGS, MILK, SOY, WHEAT."
+ },
+ {
+  "ID": 71715,
+  "nome": "Chocolate Chunk Cookie",
+  "descrizione": "Enriched Bleached Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Sugar, Semi-Sweet Chocolate Chunks (Sugar, Unsweetened Chocolate, Cocoa Butter, Soy Lecithin, Natural Flavor), Palm Oil, Eggs, Contains 2% or Less of: Molasses, Butter (Cream [Milk], Lactic Acid), Baking Soda, Salt, Natural Flavor. CONTAINS: EGG, MILK, SOY, WHEAT."
+ },
+ {
+  "ID": 71716,
+  "nome": "Sugar Cookie",
+  "descrizione": "Enriched Bleached Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Sugar, Palm Oil, Eggs, Contains 2% or Less of: Butter (Cream [Milk], Lactic Acid), Baking Soda, Salt, Natural Flavors, Acetic Acid, Annatto Extract (Color). CONTAINS: WHEAT, EGGS, MILK."
+ },
+ {
+  "ID": 71717,
+  "nome": "Peach Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, White Peach Syrup (Water, Sugar, Peach Puree Concentrate, Citric Acid, Pectin, Xanthan Gum, Potassium Sorbate [Preservative], Natural Flavor, Beta Carotene [For Color])."
+ },
+ {
+  "ID": 71718,
+  "nome": "Peach Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, White Peach Syrup (Water, Sugar, Peach Puree Concentrate, Citric Acid, Pectin, Xanthan Gum, Potassium Sorbate [Preservative], Natural Flavor, Beta Carotene [For Color])."
+ },
+ {
+  "ID": 71719,
+  "nome": "Peach Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, White Peach Syrup (Water, Sugar, Peach Puree Concentrate, Citric Acid, Pectin, Xanthan Gum, Potassium Sorbate [Preservative], Natural Flavor, Beta Carotene [For Color])."
+ },
+ {
+  "ID": 71720,
+  "nome": "Tropical Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, Tropical Strawberry Syrup (Water, Sugar, Strawberry Puree Concentrate, Fruit and Vegetable Juice [for Color], Pectin, Citric Acid, Xanthan Gum, Natural Flavor, Potassium Sorbate [Preservative])."
+ },
+ {
+  "ID": 71721,
+  "nome": "Tropical Lemonade",
+  "descrizione": " Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, Tropical Strawberry Syrup (Water, Sugar, Strawberry Puree Concentrate, Fruit and Vegetable Juice [For Color], Pectin, Citric Acid, Xanthan Gum, Natural Flavor, Potassium Sorbate [Preservative])"
+ },
+ {
+  "ID": 71722,
+  "nome": "Tropical Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, Tropical Strawberry Syrup (Water, Sugar, Strawberry Puree Concentrate, Fruit and Vegetable Juice [For Color], Pectin, Citric Acid, Xanthan Gum, Natural Flavor, Potassium Sorbate [Preservative])."
+ },
+ {
+  "ID": 71723,
+  "nome": "Southwest Ranch Dressing",
+  "descrizione": "Buttermilk, Soybean Oil, Water, Apple Cider Vinegar, Lime Juice (Water, Lime Juice Concentrate, Lime Oil), Distilled Vinegar, Sugar, Extra Virgin Olive Oil, Garlic Juice, Egg Yolk, Red Chili Pepper, Salt, Chili Powder (Chili Pepper, Spices, Dehydrated Garlic), Dehydrated Chili Pepper, Dehydrated Garlic, Dehydrated Onion, Chipotle Peppers, Xanthan Gum, Spice, Natural Flavor (Including Smoke Flavor). CONTAINS:  EGG, MILK"
+ },
+ {
+  "ID": 71724,
+  "nome": "Southwest Ranch Dressing",
+  "descrizione": "Buttermilk, Soybean Oil, Water, Apple Cider Vinegar, Lime Juice (Water, Lime Juice Concentrate, Lime Oil), Distilled Vinegar, Sugar, Extra Virgin Olive Oil, Garlic Juice, Egg Yolk, Red Chili Pepper, Salt, Chili Powder (Chili Pepper, Spices, Dehydrated Garlic), Dehydrated Chili Pepper, Dehydrated Garlic, Dehydrated Onion, Chipotle Peppers, Xanthan Gum, Spice, Natural Flavor (Including Smoke Flavor). CONTAINS:  EGG, MILK"
+ },
+ {
+  "ID": 71726,
+  "nome": "Avocado",
+  "descrizione": "Hass Avocados, Lime Juice, Salt. "
+ },
+ {
+  "ID": 71727,
+  "nome": "Wildberry Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, Wildberry Puree (Sugar, Strawberries, Water, Corn Syrup, Blackberry Puree, Blueberry Puree, Raspberry Puree, Natural Flavor, Salt, Citric Acid, Fruit and Vegetable Juice [Added for Color], Potassium Sorbate [Preservative], Xanthan Gum)"
+ },
+ {
+  "ID": 71728,
+  "nome": "Wildberry Lemonade",
+  "descrizione": " Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, Wildberry Puree (Sugar, Strawberries, Water, Corn Syrup, Blackberry Puree, Blueberry Puree, Raspberry Puree, Natural Flavor, Salt, Citric Acid, Fruit and Vegetable Juice [Added for Color], Potassium Sorbate [Preservative], Xanthan Gum)"
+ },
+ {
+  "ID": 71729,
+  "nome": "Wildberry Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, Wildberry Puree (Sugar, Strawberries, Water, Corn Syrup, Blackberry Puree, Blueberry Puree, Raspberry Puree, Natural Flavor, Salt, Citric Acid, Fruit and Vegetable Juice [Added for Color], Potassium Sorbate [Preservative], Xanthan Gum)"
+ },
+ {
+  "ID": 71731,
+  "nome": "Chocolate Sauce",
+  "descrizione": "Sugar, Water, Invert Sugar, Cocoa Powder, Extracts of Oregano, Flaxseed and Plum (To Preserve Freshness), Unsweetened Chocolate, Vanilla Extract, Salt, Soy Lecithin. CONTAINS: SOY. MAY CONTAIN MILK. "
+ },
+ {
+  "ID": 71732,
+  "nome": "Chocolate Chunk Cookie",
+  "descrizione": "Enriched Bleached Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Sugar, Semi-Sweet Chocolate Chunks (Sugar, Unsweetened Chocolate, Cocoa Butter, Soy Lecithin, Natural Flavor), Palm Oil, Eggs, Contains 2% or Less of: Molasses, Butter (Cream [Milk], Lactic Acid), Baking Soda, Salt, Natural Flavor. CONTAINS: EGG, MILK, SOY, WHEAT."
+ },
+ {
+  "ID": 71736,
+  "nome": "Vanilla Frosty\u00ae",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Non-Fat Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract (Color), Vitamin A Palmitate.  CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY)."
+ },
+ {
+  "ID": 71737,
+  "nome": "Chocolate Frosty\u00ae",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Whey, Non-Fat Dry Milk, Cocoa (Processed with Alkali), Guar Gum, Mono and Diglycerides, Cellulose Gum, Natural Vanilla Flavor, Carrageenan, Calcium Sulfate, Sodium Citrate, Dextrose, Vitamin A Palmitate. CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY)"
+ },
+ {
+  "ID": 71740,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite). "
+ },
+ {
+  "ID": 71741,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite). "
+ },
+ {
+  "ID": 71754,
+  "nome": "",
+  "descrizione": ""
+ },
+ {
+  "ID": 71755,
+  "nome": "",
+  "descrizione": ""
+ },
+ {
+  "ID": 71756,
+  "nome": "",
+  "descrizione": ""
+ },
+ {
+  "ID": 71757,
+  "nome": "",
+  "descrizione": ""
+ },
+ {
+  "ID": 71758,
+  "nome": "",
+  "descrizione": ""
+ },
+ {
+  "ID": 71759,
+  "nome": "",
+  "descrizione": ""
+ },
+ {
+  "ID": 71763,
+  "nome": "Strawberries",
+  "descrizione": "Strawberries."
+ },
+ {
+  "ID": 71764,
+  "nome": "Blueberries",
+  "descrizione": "Blueberries"
+ },
+ {
+  "ID": 71772,
+  "nome": "Sweet and Smoky BBQ Sauce",
+  "descrizione": "Water, Corn Syrup, Tomato Paste, Brown Sugar, Sugar, Distilled Vinegar, Salt, Natural Smoke Flavor, Modified Corn Starch, Mustard Seed, Chili Pepper, Spice, Dehydrated Garlic, Potassium Sorbate (Preservative), Dehydrated Red Pepper, Dehydrated Jalapeno Pepper, Natural Flavor, Tamarind, Dehydrated Onion, Turmeric."
+ },
+ {
+  "ID": 71780,
+  "nome": "Breakfast Chicken Fillet",
+  "descrizione": "Chicken Breast Fillets with Rib Meat, Water, Seasoning (Sea Salt, Sugar, Yeast Extract, Natural Flavors, Chicken Meat, Corn Syrup Solids, Modified Corn Starch, Spice, Corn Maltodextrin, Medium Chain Triglycerides, Gum Arabic), Modified Food Starch, Sodium Phosphates.  Breaded with:  Wheat Flour, Water, Sugar, Modified Corn Starch, Sea Salt, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate), Spice, and Extractives of Paprika.  Breading Set in Vegetable Oil.  Cooked in Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One or More of the Following:  Canola, Corn, or Cottonseed], Hydrogenated Soybean Oil, and Dimethylpolysiloxane [Anti-Foaming Agent]).CONTAINS: WHEAT. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. "
+ },
+ {
+  "ID": 71781,
+  "nome": "Sausage Patty",
+  "descrizione": "Pork, Water, Spices, Salt, Dextrose, Sugar. SAUSAGE PATTIES ARE COOKED ON THE SAME GRILL AS, AND MAY COME IN CONTACT WITH, INGREDIENTS THAT CONTAIN MILK AND SOY."
+ },
+ {
+  "ID": 71783,
+  "nome": "Egg",
+  "descrizione": "Egg, Soy Lecithin (Pan Spray), Salt. CONTAINS: EGG, SOY."
+ },
+ {
+  "ID": 71784,
+  "nome": "Maple Honey Butter Spread",
+  "descrizione": "Sugar, Canola Oil, Butter (Cream, Salt), Honey, Soybean Oil, Maple Syrup, Water, Contains less than 2% of: Cornstarch, Salt, Natural Flavor (Milk), Mono & Diglycerides, Vitamin A Palmitate, Vitamin D3. CONTAINS: MILK"
+ },
+ {
+  "ID": 71786,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite). "
+ },
+ {
+  "ID": 71787,
+  "nome": "Premium Bun",
+  "descrizione": "Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup and/or Sugar, Yeast, Soybean Oil, Contains less than 2% of each of the following: Ascorbic Acid (Vitamin C), Calcium Peroxide, Calcium Propionate (Added as a Preservative), Calcium Sulfate, Canola Oil, Citric Acid, Corn Starch, Dextrose, Enzymes, Maltodextrins, Modified Food Starch, Monocalcium Phosphate, Monoglycerides, Salt, Sodium Stearoyl Lactylate (SSL), Starch, Sunflower Oil, Vegetable Oil, Vegetable Proteins (Pea, Potato, Fava Bean), Wheat Dextrose, Wheat Flour, Wheat Gluten, Wheat Maltodextrins. CONTAINS: WHEAT. BUNS ARE TOASTED IN A COMMON TOASTER WITH PRODUCTS THAT CONTAIN WHEAT, EGG, SOY, AND MILK. "
+ },
+ {
+  "ID": 71788,
+  "nome": "Tropical Lemonade",
+  "descrizione": "Lemonade (Water, Sugar, Lemon Juice, Lemon Pulp, Lemon Juice Concentrate, Natural Flavors), Ice, Tropical Strawberry Syrup (Water, Sugar, Strawberry Puree Concentrate, Fruit and Vegetable Juice [For Color], Pectin, Citric Acid, Xanthan Gum, Natural Flavor, Potassium Sorbate [Preservative])."
+ },
+ {
+  "ID": 71789,
+  "nome": "Side of S\u2019Awesome\u00ae Sauce",
+  "descrizione": "Soybean Oil, Water, Tomato Paste, Sugar, Corn Syrup, Distilled Vinegar, Egg Yolks, Hot Sauce (Peppers, Distilled Vinegar, Salt), Worcestershire Sauce (Distilled Vinegar, Corn Syrup, Water, Salt, Garlic Powder, Spices, Celery Seed, Tamarind, Natural Flavor), Salt, Spices, Ground Mustard Seed, Paprika, Apple Cider Vinegar, Onion Powder, Garlic Powder, Potassium Sorbate and Sodium Benzoate (Preservatives), Natural Smoke Flavors, Dried Chili Pepper, Xanthan Gum, Citric Acid, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG."
+ },
+ {
+  "ID": 71795,
+  "nome": "Nestl\u00e9\u00ae Pure Life\u00ae Bottled Water",
+  "descrizione": "Purified Water, Calcium Chloride, Sodium Bicarbonate, Magnesium Sulfate. "
+ },
+ {
+  "ID": 71796,
+  "nome": "Pepsi, Kids: 12oz",
+  "descrizione": "CARBONATED WATER, HIGH FRUCTOSE CORN SYRUP, CARAMEL COLOR, SUGAR, PHOSPHORIC ACID, CAFFEINE, CITRIC ACID, NATURAL FLAVOR"
+ },
+ {
+  "ID": 71798,
+  "nome": "1% White Milk",
+  "descrizione": "Lowfat Milk, Vitamin A Palmitate And Vitamin D3. CONTAINS: MILK"
+ },
+ {
+  "ID": 71799,
+  "nome": "1% Chocolate Milk",
+  "descrizione": "Lowfat Milk, Sugar, Cocoa (Processed with Alkali), Contains less than 1% of: Cornstarch, Salt, Carrageenan, Natural Vanilla, Vitamin A Palmitate and Vitamin D3. CONTAINS: MILK"
+ },
+ {
+  "ID": 71800,
+  "nome": "Honest Kids\u00ae Super Fruit Punch",
+  "descrizione": "Filtered Water, Organic Apple Juice from Concentrate, Organic White Grape Juice from Concentrate, Organic Strawberry Juice from Concentrate, Organic Watermelon Juice from Concentrate, Natural Flavor, Vitamin C (Ascorbic Acid), Organic Natural Flavor, Citric Acid (Provides Tartness)."
+ },
+ {
+  "ID": 71801,
+  "nome": "Fanta\u00ae Orange",
+  "descrizione": "Carbonated Water, High Fructose Corn Syrup, Citric Acid, Natural Flavors, Modified Food Starch, Glycerol Ester Of Rosin, Yellow 6, Sucrose Acetate Isobutyrate, Citric Acid, Red 40."
+ },
+ {
+  "ID": 71802,
+  "nome": "Kids&#146; Coca Cola&reg;",
+  "descrizione": "Carbonated Water, High Fructose Corn Syrup, Caramel Color, Phosphoric Acid, Natural Flavors, Caffeine."
+ },
+ {
+  "ID": 71803,
+  "nome": "Kids&#146; Diet Coke&reg;",
+  "descrizione": "Carbonated Water, Caramel Color, Phosphoric Acid, Aspartame, Natural Flavors, Citric Acid, Acesulfame Potassium, Caffeine."
+ },
+ {
+  "ID": 71804,
+  "nome": "Kids&#146; Meal Coke Zero&reg;",
+  "descrizione": "Carbonated Water, Caramel Color, Phosphoric Acid, Aspartame, Natural Flavors, Potassium Citrate, Acesulfame Potassium, Caffeine."
+ },
+ {
+  "ID": 71805,
+  "nome": "Kids&#146; Meal Barq&#146;s&reg; Root Beer",
+  "descrizione": "Carbonated Water, High Fructose Corn Syrup, Caramel Color, Citric Acid, Artificial And Natural Flavors, Acacia."
+ },
+ {
+  "ID": 71806,
+  "nome": "Kids&#146; Meal Hi-C&reg; Flashin&#146; Fruit Punch",
+  "descrizione": "Water, High Fructose Corn Syrup, Citric Acid, Natural Flavors, Ascorbic Acid (Vitamin C), Red 40"
+ },
+ {
+  "ID": 71807,
+  "nome": "Kids&#146; Size Dr Pepper &reg;",
+  "descrizione": "High Fructose Corn Syrup, Water, Caramel Color, Phosphoric Acid, Caffeine, Sodium Benzoate (Preservative), Natural And Artifical Flavors, Dimethylpolysioloxane"
+ },
+ {
+  "ID": 71808,
+  "nome": "Kids&#146; Size Sprite&reg;",
+  "descrizione": "Carbonated Water, High Fructose Corn Syrup, Citric Acid, Natural Flavors, Potassium Citrate"
+ },
+ {
+  "ID": 71818,
+  "nome": "Sausage Gravy",
+  "descrizione": "Water, Gravy Mix (Modified Corn Starch, Palm Oil, Corn Syrup Solids, Wheat Flour, Sunflower Oil, Corn Maltodextrin, Salt, Sodium Caseinate [Milk], Dextrose, Spices, Dipotassium Phosphate, Yeast Extract, Not More than 2% Each of Silicon Dioxide and Sodium Aluminosilicate added as Anticaking Agents, Soy Lecithin, and Natural Flavors), Sausage (Pork, Water, Spices, Salt, Dextrose, Sugar). CONTAINS: MILK, SOY, WHEAT. "
+ },
+ {
+  "ID": 71821,
+  "nome": "Lettuce",
+  "descrizione": "Lettuce."
+ },
+ {
+  "ID": 71824,
+  "nome": "Cold Brew Iced Coffee",
+  "descrizione": "Water, Ice, Coffee Extract (Filtered Water, Coffee)"
+ },
+ {
+  "ID": 71825,
+  "nome": "Vanilla Frosty\u00ae-ccino",
+  "descrizione": "Ice, Vanilla Frosty\u00ae (Milk, Sugar, Corn Syrup, Cream, Non Fat Dry Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract [Color], Vitamin A Palmitate.  CONTAINS: MILK  [ALL OF UNITED STATES] AND SOY [ALASKA AND HAWAII ONLY]), Water, Coffee Extract (Filtered Water, Coffee)."
+ },
+ {
+  "ID": 71826,
+  "nome": "Chocolate Frosty\u00ae-ccino",
+  "descrizione": "Ice, Chocolate Frosty\u00ae (Milk, Sugar, Corn Syrup, Cream, Whey, Nonfat Dry Milk, Cocoa [Processed with Alkali], Guar Gum, Mono and Diglycerides, Cellulose Gum, Natural Vanilla Flavor, Carrageenan, Calcium Sulfate, Sodium Citrate, Dextrose, Vitamin A Palmitate. CONTAINS: MILK [ALL OF UNITED STATES] AND SOY [ALASKA AND HAWAII ONLY]), Water, Coffee Extract (Filtered Water, Coffee)."
+ },
+ {
+  "ID": 71827,
+  "nome": "Chocolate Frosty\u00ae-ccino",
+  "descrizione": "Ice, Water, Chocolate Frosty\u00ae (Milk, Sugar, Corn Syrup, Cream, Whey, Nonfat Dry Milk, Cocoa [Processed with Alkali], Guar Gum, Mono and Diglycerides, Cellulose Gum, Natural Vanilla Flavor, Carrageenan, Calcium Sulfate, Sodium Citrate, Dextrose, Vitamin A Palmitate.  CONTAINS: MILK  [ALL OF UNITED STATES] AND SOY [ALASKA AND HAWAII ONLY]), Coffee Extract (Filtered Water, Coffee)."
+ },
+ {
+  "ID": 71828,
+  "nome": "Vanilla Frosty\u00ae-ccino",
+  "descrizione": "Ice, Water, Vanilla Frosty\u00ae (Milk, Sugar, Corn Syrup, Cream, Non Fat Dry Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract [Color], Vitamin A Palmitate. CONTAINS: MILK [ALL OF UNITED STATES] AND SOY [ALASKA AND HAWAII ONLY]), Coffee Extract (Filtered Water, Coffee)."
+ },
+ {
+  "ID": 71829,
+  "nome": "Cold Brew Iced Coffee",
+  "descrizione": "Ice, Water, Coffee Extract (Filtered Water, Coffee)"
+ },
+ {
+  "ID": 71830,
+  "nome": "Seasoned Potatoes",
+  "descrizione": "Potatoes, Vegetable Oil (High Oleic Canola, Canola, Soybean, Cottonseed, and/or Sunflower), Modified Food Starch (Corn, Tapioca), Salt, Rice Flour, Corn Starch, Dextrin, Spices, Sugar, Garlic Powder, Onion Powder, Dextrose, Leavening (Disodium Dihydrogen Pyrophosphate, Sodium Bicarbonate, and/or Sodium Acid Pyrophosphate), Xanthan Gum, Annatto (Color). Cooked in Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One or More of the Following: Canola, Corn, or Cottonseed], Hydrogenated Soybean Oil, and Dimethylpolysiloxane [Anti-Foaming Agent]).  COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH."
+ },
+ {
+  "ID": 71831,
+  "nome": "Seasoned Potatoes",
+  "descrizione": "Potatoes, Vegetable Oil (High Oleic Canola, Canola, Soybean, Cottonseed, and/or Sunflower), Modified Food Starch (Corn, Tapioca), Salt, Rice Flour, Corn Starch, Dextrin, Spices, Sugar, Garlic Powder, Onion Powder, Dextrose, Leavening (Disodium Dihydrogen Pyrophosphate, Sodium Bicarbonate, and/or Sodium Acid Pyrophosphate), Xanthan Gum, Annatto (Color). Cooked in Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One or More of the Following: Canola, Corn, or Cottonseed], Hydrogenated Soybean Oil, and Dimethylpolysiloxane [Anti-Foaming Agent]).  COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH."
+ },
+ {
+  "ID": 71832,
+  "nome": "Seasoned Potatoes",
+  "descrizione": "Potatoes, Vegetable Oil (High Oleic Canola, Canola, Soybean, Cottonseed, and/or Sunflower), Modified Food Starch (Corn, Tapioca), Salt, Rice Flour, Corn Starch, Dextrin, Spices, Sugar, Garlic Powder, Onion Powder, Dextrose, Leavening (Disodium Dihydrogen Pyrophosphate, Sodium Bicarbonate, and/or Sodium Acid Pyrophosphate), Xanthan Gum, Annatto (Color). Cooked in Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One or More of the Following: Canola, Corn, or Cottonseed], Hydrogenated Soybean Oil, and Dimethylpolysiloxane [Anti-Foaming Agent]).  COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH."
+ },
+ {
+  "ID": 71836,
+  "nome": "Sausage, Egg, and Cheese Burrito",
+  "descrizione": "Pre-Cooked Scrambled Eggs (Whole Eggs, Skim Milk, Soybean Oil, Corn Starch, Salt, Xanthan Gum, Citric Acid), Fully Cooked Pork Sausage Crumbles (Pork, Water, Contains Less Than 2% Spices, Dextrose, Salt, Sugar), Flour Tortilla (Bleached Enriched Wheat Flour [Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid], Water, Blend of Vegetable Oils [Soybean Oil, Fully Hydrogenated Cottonseed Oil], Glycerine, Potato Starch with Monoglyceride, Contains 2% or less of the following: Baking Powder [Sodium Acid Pyrophosphate, Sodium Bicarbonate, Corn Starch, Monocalcium Phosphate], Salt, Sugar, Mono and Diglycerides, Calcium Propionate [Preservative], Fumaric Acid, and L-Cysteine [used as dough conditioner]), Process American Cheese Slice (Milk, Water, Cream, Sodium Citrate, Salt, Contains Less than 2%: Annatto [Color], Apocarotenal and Beta Carotene [Color], Cheese Culture, Citric Acid, Enzymes, Lactic Acid, Oleoresin Paprika [Color], Sorbic Acid [Preservative], Soy Lecithin, and Sunflower Lecithin). CONTAINS: EGG, MILK, SOY, WHEAT."
+ },
+ {
+  "ID": 71837,
+  "nome": "Oatmeal Bar",
+  "descrizione": "Oats, Enriched Bleached Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Sugar, Margarine (Palm Oil, Water, Soybean Oil, Contains 2% or Less of: Salt, Whey, Natural Flavor, Mono and Diglycerides, Soy Lecithin, Vitamin A Palmitate, Beta Carotene [Color]), Infused Cranberries (Cranberries, Sugar, Sunflower Oil), Infused Blueberries (Blueberries, Sugar, Natural Flavor, Citric Acid, Sunflower Oil), Molasses, Eggs, Chicory Root Fiber, Contains 2% or Less of: Invert Sugar, Soybean Oil, Baking Soda, Spices, Salt, Honey, Soy Lecithin, Natural Flavors. CONTAINS: EGG, MILK, SOY, WHEAT."
+ },
+ {
+  "ID": 71838,
+  "nome": "Chocolate Frosty\u00ae ",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Whey, Nonfat Dry Milk, Cocoa (Processed with Alkali), Guar Gum, Mono and Diglycerides, Cellulose Gum, Natural Vanilla Flavor, Carrageenan, Calcium Sulfate, Sodium Citrate, Dextrose, Vitamin A Palmitate.  CONTAINS:  MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY)"
+ },
+ {
+  "ID": 71839,
+  "nome": "Chocolate Frosty\u00ae",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Whey, Nonfat Dry Milk, Cocoa (Processed with Alkali), Guar Gum, Mono and Diglycerides, Cellulose Gum, Natural Vanilla Flavor, Carrageenan, Calcium Sulfate, Sodium Citrate, Dextrose, Vitamin A Palmitate. CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY)."
+ },
+ {
+  "ID": 71840,
+  "nome": "Chocolate Frosty\u00ae",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Whey, Nonfat Dry Milk, Cocoa (Processed with Alkali), Guar Gum, Mono and Diglycerides, Cellulose Gum, Natural Vanilla Flavor, Carrageenan, Calcium Sulfate, Sodium Citrate, Dextrose, Vitamin A Palmitate. CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY)."
+ },
+ {
+  "ID": 71841,
+  "nome": "Vanilla Frosty\u00ae ",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Non Fat Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract (Color), Vitamin A Palmitate.  CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY)."
+ },
+ {
+  "ID": 71842,
+  "nome": "Vanilla Frosty\u00ae",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Non Fat Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract (Color), Vitamin A Palmitate. CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY)."
+ },
+ {
+  "ID": 71843,
+  "nome": "Vanilla Frosty\u00ae",
+  "descrizione": "Milk, Sugar, Corn Syrup, Cream, Non Fat Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract (Color), Vitamin A Palmitate. CONTAINS: MILK (ALL OF UNITED STATES) AND SOY (ALASKA AND HAWAII ONLY)."
+ },
+ {
+  "ID": 71844,
+  "nome": "Coffee",
+  "descrizione": "Coffee. "
+ },
+ {
+  "ID": 71845,
+  "nome": "Coffee",
+  "descrizione": "Coffee. "
+ },
+ {
+  "ID": 71846,
+  "nome": "Decaffeinated Coffee",
+  "descrizione": "Decaffeinated Coffee. "
+ },
+ {
+  "ID": 71847,
+  "nome": "Decaffeinated Coffee",
+  "descrizione": "Decaffeinated Coffee"
+ },
+ {
+  "ID": 71848,
+  "nome": "Value Brewed Unsweetened Iced Tea",
+  "descrizione": "Tea, Ice. "
+ },
+ {
+  "ID": 71849,
+  "nome": "Tea.",
+  "descrizione": "Tea. "
+ },
+ {
+  "ID": 71850,
+  "nome": "Medium Brewed Unsweetened Iced Tea",
+  "descrizione": "Tea., Ice. "
+ },
+ {
+  "ID": 71851,
+  "nome": "Large Brewed Unsweetened Iced Tea",
+  "descrizione": "Tea, Ice. "
+ },
+ {
+  "ID": 71852,
+  "nome": "Brewed Sweetened Iced Tea",
+  "descrizione": "Tea, Ice, Sugar. "
+ },
+ {
+  "ID": 71853,
+  "nome": "Small Sweet Iced Tea",
+  "descrizione": "Tea, Water, Sugar."
+ },
+ {
+  "ID": 71854,
+  "nome": "Brewed Sweetened Iced Tea",
+  "descrizione": "Tea, Ice, Sugar. "
+ },
+ {
+  "ID": 71855,
+  "nome": "Brewed Sweetened Iced Tea",
+  "descrizione": "Tea, Ice, Sugar. "
+ },
+ {
+  "ID": 71856,
+  "nome": "Hot tea, 8 oz. Cup",
+  "descrizione": "Tea. "
+ },
+ {
+  "ID": 71858,
+  "nome": "Swiss Cheese Sauce",
+  "descrizione": "Water, Neufchatel Cheese (Milk, Cream, Cheese Culture, Salt, Carob Bean Gum), Cream, Milk, Seasoning (Corn Starch, Whey Protein Concentrate, Sea Salt, Sodium Citrate, Soy Lecithin, Yeast Extract, Xanthan Gum, Garlic Powder, Spice, Onion Powder), Swiss Cheese (Pasteurized Part-Skim Milk, Cheese Cultures, Salt, Enzymes),  Cheddar Cheese (Pasteurized Milk, Salt, Cultures, Enzymes), Butter (Cultured Cream, Salt), Sour Cream (Cultured Cream, Enzymes), Natural Flavor, Egg Yolks, Lemon Juice Concentrate, Fruit Juice (Color). CONTAINS: EGG, MILK, SOY."
+ },
+ {
+  "ID": 71859,
+  "nome": "Sausage Patty",
+  "descrizione": "Pork, Water, Spices, Salt, Dextrose, Sugar. SAUSAGE PATTIES ARE COOKED ON THE SAME GRILL AS, AND MAY COME IN CONTACT WITH, INGREDIENTS THAT CONTAIN MILK AND SOY."
+ },
+ {
+  "ID": 71860,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite). "
+ },
+ {
+  "ID": 71861,
+  "nome": "Breakfast Chicken Fillet",
+  "descrizione": "Chicken Breast Fillets with Rib Meat, Water, Seasoning (Sea Salt, Sugar, Yeast Extract, Natural Flavors, Chicken Meat, Corn Syrup Solids, Modified Corn Starch, Spice, Corn Maltodextrin, Medium Chain Triglycerides, Gum Arabic), Modified Food Starch, Sodium Phosphates.  Breaded with:  Wheat Flour, Water, Sugar, Modified Corn Starch, Sea Salt, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate), Spice, and Extractives of Paprika.  Breading Set in Vegetable Oil.  Cooked in Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One or More of the Following:  Canola, Corn, or Cottonseed], Hydrogenated Soybean Oil, and Dimethylpolysiloxane [Anti-Foaming Agent]).CONTAINS: WHEAT. COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. "
+ },
+ {
+  "ID": 71864,
+  "nome": "Simply Orange\u00ae Juice",
+  "descrizione": "100% Pure Squeezed Pasteurized Orange Juice."
+ },
+ {
+  "ID": 71865,
+  "nome": "Salad Blend",
+  "descrizione": "Romaine Lettuce, Italian Three Cheese Blend (Parmesan, Asiago And Romano Cheese [Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Powdered Cellulose [To Prevent Caking]). CONTAINS: MILK."
+ },
+ {
+  "ID": 71866,
+  "nome": "Salad Blend",
+  "descrizione": "Romaine Lettuce, Italian Three Cheese Blend (Parmesan, Asiago And Romano Cheese [Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Powdered Cellulose [To Prevent Caking]). CONTAINS: MILK."
+ },
+ {
+  "ID": 71877,
+  "nome": "Parmesan Crisps",
+  "descrizione": "Parmesan Cheese (Pasteurized Part Skimmed Milk, Cheese Cultures, Sea Salt, Enzymes).  CONTAINS:  MILK."
+ },
+ {
+  "ID": 71879,
+  "nome": "Roasted Pecans",
+  "descrizione": "Pecans, Sugar, Honey, Corn Starch, Calcium Stearate (Anti-Caking Agent), Soy Lecithin, Maltodextrin, Lactose (From Milk), Xanthan Gum, Soybean Oil, Sea Salt, Cayenne Pepper. CONTAINS: MILK, SOY, TREE NUTS (PECANS)"
+ },
+ {
+  "ID": 71881,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite). "
+ },
+ {
+  "ID": 71883,
+  "nome": "Parmesan Crisps",
+  "descrizione": "Parmesan Cheese (Pasteurized Part Skimmed Milk, Cheese Cultures, Sea Salt, Enzymes).  CONTAINS:  MILK."
+ },
+ {
+  "ID": 71884,
+  "nome": "Muenster Cheese",
+  "descrizione": "Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (Vegetable Color). CONTAINS: MILK."
+ },
+ {
+  "ID": 71885,
+  "nome": "Candied Almonds",
+  "descrizione": "Almonds, Sugar, Maltodextrin, Honey, Lactose (from Milk), Corn Starch, Calcium Stearate (Anti-Caking Agent), Soy Lecithin, Xanthan Gum, Soybean Oil. CONTAINS: ALMONDS, MILK, SOY."
+ },
+ {
+  "ID": 71886,
+  "nome": "Smoky Jalapeno Sauce",
+  "descrizione": "Soybean Oil, Water, Distilled Vinegar, Egg Yolk, Red Chili Pepper Puree, Salt, Garlic (Including Dehydrated), Sugar, Dehydrated Ancho Chili Pepper, Chipotle Peppers (Smoked Jalapeno Pepper), Lime Juice Concentrate, Xanthan Gum, Spice,  Beet Juice (Added for Color), Natural Flavor, Oleoresin Paprika, Dehydrated Onion, Natural Smoke Flavor, Corn Oil. CONTAINS: EGG."
+ },
+ {
+  "ID": 71887,
+  "nome": "Jalapeno Slices",
+  "descrizione": "Jalapeno Pepper, Water, Distilled Vinegar, Salt, Phosphoric Acid, Calcium Chloride, Natural Flavoring, Sodium Benzoate (Preservative), Sodium Metabisulfite (Preservative)."
+ },
+ {
+  "ID": 71888,
+  "nome": "Cheese Sauce",
+  "descrizione": "Water, Cheddar Cheese (Pasteurized Milk, Salt, Cultures, Enzymes), Milk, Modified Corn Starch, Butter (Cream, Salt), Canola Oil, Natural Flavor, Salt, Sodium Citrate, Whey Protein Concentrate, Tomato Concentrate, Xanthan Gum, Konjac, Annatto (Color), Citric Acid, Onion Juice Concentrate, Oleoresin Paprika (Paprika Extract, Sunflower Oil), Soy Lecithin. CONTAINS: MILK, SOY."
+ },
+ {
+  "ID": 71889,
+  "nome": "Smoky Jalapeno Sauce",
+  "descrizione": "Soybean Oil, Water, Distilled Vinegar, Egg Yolk, Red Chili Pepper Puree, Salt, Garlic (Including Dehydrated), Sugar, Dehydrated Ancho Chili Pepper, Chipotle Peppers (Smoked Jalapeno Pepper), Lime Juice Concentrate, Xanthan Gum, Spice,  Beet Juice (Added for Color), Natural Flavor, Oleoresin Paprika, Dehydrated Onion, Natural Smoke Flavor, Corn Oil. CONTAINS: EGG."
+ },
+ {
+  "ID": 72109,
+  "nome": "Birthday Cake Frosty",
+  "descrizione": "Vanilla Frosty (Milk, Sugar, Corn Syrup, Cream, Non Fat Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract [Color], Vitamin A Palmitate.  CONTAINS:  MILK [ALL OF UNITED STATES] AND SOY [ALASKA AND HAWAII ONLY]), Birthday Cake Flavor (Sugar, Water, Natural Flavor, Citric Acid, Potassium Sorbate [Preservative], Sodium Benzoate [Preservative])."
+ },
+ {
+  "ID": 72110,
+  "nome": "Birthday Cake Frosty",
+  "descrizione": "Vanilla Frosty (Milk, Sugar, Corn Syrup, Cream, Non Fat Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract [Color], Vitamin A Palmitate.  CONTAINS:  MILK [ALL OF UNITED STATES] AND SOY [ALASKA AND HAWAII ONLY]), Birthday Cake Flavor (Sugar, Water, Natural Flavor, Citric Acid, Potassium Sorbate [Preservative], Sodium Benzoate [Preservative])."
+ },
+ {
+  "ID": 72111,
+  "nome": "Birthday Cake Frosty",
+  "descrizione": "Vanilla Frosty (Milk, Sugar, Corn Syrup, Cream, Non Fat Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract [Color], Vitamin A Palmitate. CONTAINS: MILK [ALL OF UNITED STATES] AND SOY [ALASKA AND HAWAII ONLY]), Birthday Cake Flavor (Sugar, Water, Natural Flavor, Citric Acid, Potassium Sorbate [Preservative], Sodium Benzoate [Preservative])."
+ },
+ {
+  "ID": 72112,
+  "nome": "Birthday Cake Frosty",
+  "descrizione": "Vanilla Frosty (Milk, Sugar, Corn Syrup, Cream, Non Fat Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract [Color], Vitamin A Palmitate. CONTAINS: MILK [ALL OF UNITED STATES] AND SOY [ALASKA AND HAWAII ONLY]), Birthday Cake Flavor (Sugar, Water, Natural Flavor, Citric Acid, Potassium Sorbate [Preservative], Sodium Benzoate [Preservative])"
+ },
+ {
+  "ID": 72113,
+  "nome": "Birthday Cake Frosty",
+  "descrizione": "Vanilla Frosty (Milk, Sugar, Corn Syrup, Cream, Non Fat Milk, Whey, Contains Less than 1% of Guar Gum, Mono and Diglycerides, Cellulose Gum, Carrageenan, Calcium Sulfate, Sodium Citrate, Natural Flavor, Molasses, Annatto Extract [Color], Vitamin A Palmitate. CONTAINS: MILK [ALL OF UNITED STATES] AND SOY [ALASKA AND HAWAII ONLY]), Birthday Cake Flavor (Sugar, Water, Natural Flavor, Citric Acid, Potassium Sorbate [Preservative], Sodium Benzoate [Preservative])"
+ },
+ {
+  "ID": 72114,
+  "nome": "Jalapeno Slices",
+  "descrizione": "Jalapeno Pepper, Water, Distilled Vinegar, Salt, Phosphoric Acid, Calcium Chloride, Natural Flavoring, Sodium Benzoate (Preservative), Sodium Metabisulfite (Preservative)."
+ },
+ {
+  "ID": 72115,
+  "nome": "Spicy Chicken Nugget",
+  "descrizione": "Chicken Breast with Rib Meat, Water, Seasoning [Salt, Natural Flavors (including Extractives of Celery Seed), Spices], Sodium Phosphates. Breaded with: Wheat Flour, Water, Modified Corn Starch, Salt, Wheat Gluten, Spice, Gum Arabic, Extractives of Paprika, Yellow Corn Flour, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate), Yeast, Natural Flavors, Sugar.  Breading Set in Vegetable Oil. Cooked In Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]). COOKED IN THE SAME OIL AS MENU ITEMS THAT CONTAIN WHEAT, MILK, AND FISH. CONTAINS: WHEAT"
+ },
+ {
+  "ID": 72116,
+  "nome": "Sweet and Sour Sauce",
+  "descrizione": "High Fructose Corn Syrup, Water, Distilled Vinegar, Pineapple Juice Concentrate, Food-Starch Modified, Salt, Potassium Sorbate and Sodium Benzoate (Preservatives), Dried Green and Red Bell Peppers, Citric Acid, Soybean Oil, Spices, Extractives of Paprika."
+ },
+ {
+  "ID": 72117,
+  "nome": "Side of S\u2019Awesome\u00ae Sauce",
+  "descrizione": "Soybean Oil, Water, Tomato Paste, Sugar, Corn Syrup, Distilled Vinegar, Egg Yolks, Hot Sauce (Peppers, Distilled Vinegar, Salt), Worcestershire Sauce (Distilled Vinegar, Corn Syrup, Water, Salt, Garlic Powder, Spices, Celery Seed, Tamarind, Natural Flavor), Salt, Spices, Ground Mustard Seed, Paprika, Apple Cider Vinegar, Onion Powder, Garlic Powder, Potassium Sorbate and Sodium Benzoate (Preservatives), Natural Smoke Flavors, Dried Chili Pepper, Xanthan Gum, Citric Acid, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG."
+ },
+ {
+  "ID": 72118,
+  "nome": "Buttermilk Ranch Sauce",
+  "descrizione": "Soybean Oil, Water, Cultured Buttermilk (Nonfat Milk Solids, Culture), Corn Syrup, Distilled Vinegar, Egg Yolks, Sugar, Salt, Food Starch-Modified, Dried Torula Yeast, Lactic Acid, Garlic Powder, Disodium Inosinate and Disodium Guanylate, Polysorbate 60, Potassium Sorbate and Sodium Benzoate (Preservatives), Onion Powder, Xanthan Gum, Natural Flavor, Spice, Dried Parsley, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG, MILK."
+ },
+ {
+  "ID": 72119,
+  "nome": "No Sauce",
+  "descrizione": "No Sauce. "
+ },
+ {
+  "ID": 72120,
+  "nome": "Ketchup",
+  "descrizione": "Tomato Concentrate from Red Ripe Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Salt, Natural Flavoring, Spices, Onion Powder."
+ },
+ {
+  "ID": 72121,
+  "nome": "Honey Mustard Dipping Sauce",
+  "descrizione": "Water, Soybean Oil, High Fructose Corn Syrup, Dijon Mustard (Distilled Vinegar, Mustard Seed, Water, Salt, White Wine, Citric Acid, Tartaric Acid, Spices), Distilled Vinegar, Honey, Egg Yolks, Sugar, Food-Starch Modified, Salt, Xanthan Gum, Spices, Sodium Benzoate (Preservative), Natural Flavor, Paprika, Extractives of Turmeric, Extractives of Paprika, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG."
+ },
+ {
+  "ID": 72122,
+  "nome": "Creamy Sriracha Dipping Sauce",
+  "descrizione": "Soybean Oil, Water, Sriracha Sauce (Red Chili Peppers, Distilled Vinegar, Sugar, Garlic, Salt, Oleoresin Capsicum), Distilled Vinegar, Egg Yolks, Sugar, Salt, Dijon Mustard (Distilled Vinegar, Mustard Seed, Water, Salt, White Wine, Citric Acid, Tartaric Acid, Spices), Garlic, Food Starch-Modified, Lemon Juice Concentrate, Garlic Powder, Xanthan Gum, Spices, Natural Flavors, Potassium Sorbate and Sodium Benzoate (Preservatives), Onion Powder, Yeast Extract, Calcium Disodium EDTA (Protect Flavor). CONTAINS: EGG."
+ },
+ {
+  "ID": 72123,
+  "nome": "Barbecue Sauce",
+  "descrizione": "Water, Sugar, Tomato Paste, Distilled Vinegar, Food-Starch Modified, Worcestershire Sauce (Distilled Vinegar, Corn Syrup, Water, Salt, Garlic Powder, Spices, Celery Seed, Tamarind, Natural Flavor), Molasses, Salt, Natural Smoke Flavor, Chili Powder (Chili Pepper, Spices, Salt, Garlic Powder), Sodium Benzoate and Potassium Sorbate (Preservatives), Spices, Natural Flavor, Mustard Flour, Paprika, Onion Powder, Ground Turmeric, Granulated Garlic."
+ },
+ {
+  "ID": 72332,
+  "nome": "Swiss Cheese Sauce",
+  "descrizione": "Water, Neufchatel Cheese (Milk, Cream, Cheese Culture, Salt, Carob Bean Gum), Cream, Milk, Seasoning (Corn Starch, Whey Protein Concentrate, Sea Salt, Sodium Citrate, Soy Lecithin, Yeast Extract, Xanthan Gum, Garlic Powder, Spice, Onion Powder), Swiss Cheese (Pasteurized Part-Skim Milk, Cheese Cultures, Salt, Enzymes),  Cheddar Cheese (Pasteurized Milk, Salt, Cultures, Enzymes), Butter (Cultured Cream, Salt), Sour Cream (Cultured Cream, Enzymes), Natural Flavor, Egg Yolks, Lemon Juice Concentrate, Fruit Juice (Color). CONTAINS: EGG, MILK, SOY."
+ },
+ {
+  "ID": 72336,
+  "nome": "Salsa Picante",
+  "descrizione": "Tomato Puree [Water, Tomato Paste], Jalape\u00f1o Peppers, Distilled Vinegar, Onions, Contains 2% or Less of Dehydrated Onion, Iodized Salt, Green Bell Peppers, Garlic Puree, Ancho Pepper Puree, Acetic Acid [To Acidify], Dehydrated Garlic, Xanthan Gum, Potassium Sorbate and Sodium Benzoate [Preservatives], Citric Acid [To Acidify], Calcium Disodium EDTA (Added To Protect Flavor]. "
+ },
+ {
+  "ID": 72339,
+  "nome": "Croissant",
+  "descrizione": "Enriched Flour (Wheat Flour, Niacin, Reduced Iron, Ascorbic Acid, Thiamine Mononitrate, Riboflavin, Enzymes, Folic Acid), Water, Butter (Cream, Natural Flavor), Sugar, Food Modified Starch, Contains 2% or Less of Yeast, Milk, Sea Salt, Wheat Gluten, Xanthan Gum, Ascorbic Acid, Enzymes. CONTAINS: WHEAT, MILK. BUNS ARE TOASTED IN A COMMON TOASTER WITH PRODUCTS THAT CONTAIN WHEAT, EGG, SOY, AND MILK. "
+ },
+ {
+  "ID": 72340,
+  "nome": "Buttermilk Biscuit",
+  "descrizione": "Buttermilk Biscuit (Enriched Bleached Flour [Wheat Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid], Cultured Buttermilk [Skim Milk, Nonfat Dry Milk, Cultures Added], Water, Palm Oil, Contains less than 2%: Sugar, Salt, Baking Soda, Soybean Oil, Sodium Aluminum Phosphate, Modified Wheat Starch, Sodium Acid Pyrophosphate, Dextrose, Whey Protein Isolate, Natural Flavor), Biscuit Oil (Canola Oil, Hydrogenated Cottonseed Oil, Salt, Natural Flavor, Soy Lecithin, Beta Carotene [Color]). CONTAINS: WHEAT, MILK, SOY."
+ },
+ {
+  "ID": 72341,
+  "nome": "Breakfast Roll",
+  "descrizione": "Flour (Wheat, Malted Barley), Water, Durum Flour, Olive Oil, Milk Powder, Yeast, Potato Flour (Mono and Diglycerides, Sodium Acid Pyrophosphate, Citric Acid), Wheat Gluten, Cultured Wheat, Salt, Contains less than 2% of each of the following:  Ascorbic Acid, Enzymes, Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Maltodextrin, Vinegar, Enriched with (Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid). Topping: Semolina (Wheat Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid). CONTAINS: WHEAT, MILK. BUNS ARE TOASTED IN A COMMON TOASTER WITH PRODUCTS THAT CONTAIN WHEAT, EGG, SOY, AND MILK. "
+ },
+ {
+  "ID": 72344,
+  "nome": "Muenster Cheese Slice",
+  "descrizione": "Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (Vegetable Color). CONTAINS: MILK."
+ },
+ {
+  "ID": 72345,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon cured with Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite. "
+ },
+ {
+  "ID": 72346,
+  "nome": "Applewood Smoked Bacon",
+  "descrizione": "Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite). "
+ }
+]
